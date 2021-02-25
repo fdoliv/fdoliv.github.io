@@ -13,5 +13,5 @@ categories:
 On October 25, 2019:  I taught the Introduction to GNU / LINUX  - Commands and Scripts short course, offered by "Laboratório Multidisciplinar de Tecnologias Sociais (LMTS)" to students of computer science in Garanhuns-PE.
 
 
-![](https://pbs.twimg.com/media/EgiOUnOXcAIvNI-?format=jpg&name=large)
-![](https://pbs.twimg.com/media/EgiOUnOXcAIvNI-?format=jpg&name=large)
+![Public call](https://pbs.twimg.com/media/EgiOUnOXcAIvNI-?format=jpg&name=large)
+![Participants](https://pbs.twimg.com/media/EgiOUnaXkAQLNKn?format=jpg&name=large)
