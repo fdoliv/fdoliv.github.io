@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    <entry>
+      <title><![CDATA[Experimental Evaluation of Software Aging Effects in a Container-Based Virtualization Platform]]></title>
+      <url>/~fdo/papers/aging/container/2020/10/14/experimental-smc/</url>
+      <content type="text"><![CDATA[AbstractCloud-based architectures have grown in recent years, especially the interest in container-based solutions have sharply increased by enterprises worldwide. Containers are a form of lightweight virtualization that can be used to provide cloud services. Adopting this kind of technology in a bare- metal context is becoming strong because they can offer many benefits, like performance efficiency and costs reduction. Docker is a widespread platform for the creation and management of containers. As in any computational cloud service, Docker environments must deal with the intensive workload and may have a long-term life cycle, which might trigger some problems that compromise the system dependability. The software aging phenomenon is one of these likely problems. It is a process of cumulative errors or system misbehavior that leads to application failures and performance degradation throughout its runtime. This paper aims to monitor and evaluate software aging effects on the Docker platform in a cloud computing environment. We conducted two experimental studies with automated workloads to simulate containers’ life cycle and the intensive use of Docker features, while the system was monitored. The results show high resource consumption by the operating system’s network utility, in addition to memory fragmentation in the sub-processes of the Docker platform. Trends of increasing resident memory consumption were also observed in one of these scenarios.Details in this link.]]></content>
+      <categories>
+        
+          <category> Papers </category>
+        
+          <category> Aging </category>
+        
+          <category> container </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[How to download youtube live streams?]]></title>
+      <url>/~fdo/tutorial/youtube/2020/09/04/download-video-live/</url>
+      <content type="text"><![CDATA[Today I needed to download live stream videos from youtube (i.e., that are still live). To do this, I used the command-line utility Streamlink, which extracts streams from various services and pipes them into a video player of choice or a file.Install StreamlinkTo install Streamlink on Debian like systems, we need to execute on terminal:sudo apt install streamlinkStreamlink usageNow, to use the tool we need to run:streamlink --hls-live-restart -o &lt;output file name&gt; &lt;URL&gt; bestHere the --hls-live-restart parameter is to skip to the beginning of a live stream, or as far back as possible. The -o parameter is to set the output file, were is indicate in &lt;output file name&gt;. Replacing the &lt;URL&gt; with the video URL (e.g. from youtube),we indicate the source site of the video. Finally, the parameter best is to indicate the stream quality, it also can be 144p (worst), 240p, 360p, 480p, 720p (best).For example, we can download the NASA TV video stream from youtube. To do this is enouth run in terminal:streamlink --hls-live-restart -o nasa.mp4 https://youtu.be/21X5lGlDOfg best]]></content>
+      <categories>
+        
+          <category> Tutorial </category>
+        
+          <category> Youtube </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[Impactos da IoT na Avicultura: um Mapeamento Sistemático]]></title>
+      <url>/~fdo/iot/poultry/automation/papers/2019/11/14/iot-avicultura/</url>
+      <content type="text"><![CDATA[AbstractBrazil is today the largest exporter and the second largest producer worldwide of chicken meat. Despite such prominent position, the lack of data about the use of tools based on Internet of Things (IoT) at national poultry farming leads to the hypothesis that the most Brazilian poultry farmers still use conventional methods to the detriment of higher productivity. In this work, we mapped 17 publications from the international literature that show IoT-based solutions that pass through food safety, environmental production factors, traceability, and animal health. This way, we expect to contribute to a discussion between the computer and agribusiness scientific communities through a systematic review.ResumoO Brasil é hoje o maior exportador e o segundo maior produtor mundial de carne de frango. Apesar dessa posição de destaque, a ausência de dados sobre a utilização de ferramentas baseadas em ​Internet of Things (IoT) na indústria de avicultura nacional reforça a hipótese de que a maior parte dos avicultores brasileiros ainda usam métodos convencionais de operação em detrimento de uma maior produtividade. Nesse estudo, foram mapeados 17 trabalhos da literatura internacional que apresentam soluções baseadas em IoT que perpassam desde a segurança alimentar, fatores ambientais de produção, rastreabilidade e saúde dos animais. Espera-se, portanto, contribuir para discussão entre a comunidade científica da computação e do agronegócio por meio de uma revisão sistemática.Details in this link.]]></content>
+      <categories>
+        
+          <category> IoT </category>
+        
+          <category> Poultry </category>
+        
+          <category> Automation </category>
+        
+          <category> Papers </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[Introdução ao GNU/Linux - Comandos e Scripts]]></title>
+      <url>/~fdo/linux/infrastructure/ti/opensource/course/2019/10/26/course-linux/</url>
+      <content type="text"><![CDATA[On October 25, 2019:  I taught the Introduction to GNU / LINUX  - Commands and Scripts short course, offered by &quot;Laboratório Multidisciplinar de Tecnologias Sociais (LMTS)&quot; to students of computer science in Garanhuns-PE. pic.twitter.com/E5NDnnVLFH&mdash; Felipe ☣️ (@flpdias14) August 28, 2020]]></content>
+      <categories>
+        
+          <category> Linux </category>
+        
+          <category> Infrastructure </category>
+        
+          <category> TI </category>
+        
+          <category> OpenSource </category>
+        
+          <category> Course </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[Referências sobre REST APIs]]></title>
+      <url>/~fdo/api/rest/2019/05/20/referencias-sobre-apis/</url>
+      <content type="text"><![CDATA[  Best Practices for Designing a Pragmatic RESTful API (►) - Lista bem completa sobre boas práticas para a construção de APIs RESTful.  Webinar Design de APIs RESTful (►) - Webinar sobre projeto de APIs.  APIs do Jeito Certo (►) - Apresentação sobre boas práticas no desenvolvimento de APIs que aborda assuntos como documentação, autenticação e segurança.  Existe Vida Além do REST? (►) - Apresentação sobre APIs REST com discussão sobre a vantagem/desvantagem de se utilizar as diferentes abordagens na criação de APIs.]]></content>
+      <categories>
+        
+          <category> API </category>
+        
+          <category> REST </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[Software Aging Issues in Streaming Video Player]]></title>
+      <url>/~fdo/client-side/dependability/qos/papers/aging/2016/04/05/software-aging-video/</url>
+      <content type="text"><![CDATA[AbstractMany researchers around the world are working hard to improve cloud-based services focusing on server-side and communication aspects. This is especially true for services which demand high processing power and storage space on their server’s infrastructure, such as live video streaming on the web and video on demand. However, issues on client-side applications are often neglected or studied to a lower extent. In this context, this paper evaluates the occurrence of software aging in a web browser plug-in for video streaming. The case study is carried out by using an automated workload that simulates the user behavior accessing videos on YouTube. Time series were used to predict the resources utilization ahead of time, enabling the prevention of performance degradation and unexpected crashes. Finally, the prediction-based strategy is compared to the time-based strategy, showing the impact of both on system’s availability.Details in this link.]]></content>
+      <categories>
+        
+          <category> client-side </category>
+        
+          <category> dependability </category>
+        
+          <category> QoS </category>
+        
+          <category> Papers </category>
+        
+          <category> Aging </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[Performance Evaluation of Hypervisors for HPC Applications]]></title>
+      <url>/~fdo/hpc/kvm/virtualbox/virtualization/papers/2015/10/01/hpc-smc/</url>
+      <content type="text"><![CDATA[AbstractHigh Performance Computing (HPC) aggregates computing power in order to solve large and complex problems in different knowledge areas. Nowadays, HPC users can utilize virtualized infrastructures as a low-cost alternative to deploy their applications. However, virtualization brings some challenges for HPC, specially in regard to overhead caused by hypervisors. In this work, our main goal is to analyze the performance of two hypervisors (KVM and VirtualBox) under HPC activities, considering full virtualization, and paravirtualization approaches. We used the HPC Challenge Benchmark (HPCC) to evaluate processor, RAM, inter-process communication and network communication performance. Our results show KVM in paravirtualization mode has a similar performance of a native cluster.Details in this link.]]></content>
+      <categories>
+        
+          <category> HPC </category>
+        
+          <category> KVM </category>
+        
+          <category> VirtualBox </category>
+        
+          <category> Virtualization </category>
+        
+          <category> Papers </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[Utilização de hardware legado para o ensino de CAD]]></title>
+      <url>/~fdo/cad/virtualbox/infrastructure/ti/papers/2014/12/01/ensino-cad/</url>
+      <content type="text"><![CDATA[AbstractComputação de Alto Desempenho (CAD) é um tema atual e que demanda por uma infraestrutura adequada para seu ensino em cursos de graduação. Entretanto, nem todas as instituições de ensino têm recursos financeiros para proporcionar estruturas computacionais dedicadas exclusivamente ao ensino de tópicos de CAD. Neste trabalho, é apresentada uma infraestrutura para o auxílio no ensino de CAD construída com a utilização de computadores destinados ao descarte. O uso de tais computadores destinados originalmente ao descarte colaborou também na transmissão de princípios de TI Verde.Details in this link.]]></content>
+      <categories>
+        
+          <category> CAD </category>
+        
+          <category> VirtualBox </category>
+        
+          <category> Infrastructure </category>
+        
+          <category> TI </category>
+        
+          <category> Papers </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+</search>
