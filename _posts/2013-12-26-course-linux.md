@@ -10,4 +10,4 @@ categories:
 - Course
 ---
 
-{{% twitter https://twitter.com/F3D10L/status/1299445031787466752 align=center %}}
+{{ % twitter https://twitter.com/F3D10L/status/1299445031787466752 align=center % }}
