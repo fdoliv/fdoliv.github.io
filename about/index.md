@@ -4,7 +4,7 @@ type: about
 title: "Computer Scientist: Analyzing dependability and performability in distributed systems to improve the quality of service"
 permalink: /about/
 layout: page
-excerpt: Hello folks, I'm student of computer science from Pernambuco, Brazil. This blog is for documentation about my research journey,  programming, devops and related.
+excerpt: Hello folks, I'm student of computer science from Pernambuco, Brazil. This blog is for documentation about my research journey,  programming and related.
 comments: false
 ---
 
