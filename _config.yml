@@ -17,8 +17,8 @@ date_format: '%d/%m/%Y'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: www.cin.ufpe.br
-baseurl: /~fdo
+url: http://flpdias14.github.io/
+baseurl: /
 permalink: pretty
 
 # Pagination
