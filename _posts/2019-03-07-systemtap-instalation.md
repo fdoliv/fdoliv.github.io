@@ -8,8 +8,6 @@ categories:
 - TI
 ---
 
-
-
 Os passos desta instalação do [systemtap](https://sourceware.org/systemtap/){:target="_blank"} foram realizados no Debian 9, mas segundo a [documentação oficial](https://sourceware.org/systemtap/documentation.html){:target="_blank"}:
 
 >Systemtap works with official Debian kernel packages since the Squeeze release (with the exception of user space probes that are not supported yet, see Debian bug #691167). To use systemtap you need to manually install the linux-image-*-dbg and linux-header-* packages that match your running kernel. To simplify this task you can use the stap-prep command. Please always run this before reporting a bug.
