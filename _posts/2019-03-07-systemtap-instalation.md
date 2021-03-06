@@ -1,6 +1,5 @@
 ---
 title: Como instalar o systemtap no debian
-subtitle: How to install systemtap on debian
 date: 2019-03-07 23:30:09
 categories:
 - Systemtap
