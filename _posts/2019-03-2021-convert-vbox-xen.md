@@ -1,5 +1,5 @@
 ---
-title: How to export a VM Virtualbox  to a Xen virtual machine
+title: How to export a VM Virtualbox to a Xen virtual machine
 date: 2019-03-06 23:30:09
 categories:
 - VirtualBox
