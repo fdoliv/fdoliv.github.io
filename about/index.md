@@ -18,7 +18,7 @@ My skills include Linux systems administration, computer programming in C, R, Py
 My research interests are:
 
 - Cloud computing
-- Performance and Dependability Evaluation
+- Performance and [Dependability](https://en.wikipedia.org/wiki/Dependability){:target="_blank"} Evaluation
 - High Performance Computing
 - Virtualization techniques
 - Internet of Things
