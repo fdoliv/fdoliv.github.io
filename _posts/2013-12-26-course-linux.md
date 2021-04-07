@@ -14,6 +14,8 @@ On October 25, 2019:  I taught the Introduction to GNU / LINUX  - Commands and S
 
 
 ![Public call](https://pbs.twimg.com/media/EgiOUnOXcAIvNI-?format=jpg&name=large)
+
+
 ![Participants](https://pbs.twimg.com/media/EgiOUnaXkAQLNKn?format=jpg&name=large)
 
 Details in this [link](http://lmts.uag.ufrpe.br/br/noticia/lmts-promove-mais-um-minicurso-de-tecnologia-nesse-m%C3%AAs-de-outubro
