@@ -2,6 +2,7 @@
 
 $shadow: 0 13px 26px rgba(#000, .2), 0 3px 6px rgba(#000, .2);
 
+
 .posts-expand {
     text-align: justify;
 }
@@ -24,3 +25,32 @@ $shadow: 0 13px 26px rgba(#000, .2), 0 3px 6px rgba(#000, .2);
         display: block;
     }
   }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    a.btn {
+        padding: 2px 16px;
+        color: $read-more-color;
+        font-size: $read-more-font-size;
+        background: $read-more-bg-color;
+        border-radius: $read-more-border-radius;
+        line-height: 2;
+        margin: 0 4px 8px 4px;
+    
+    }
+    a.btn:hover {
+        @extend %btn-hover;
+      }
+  } 
