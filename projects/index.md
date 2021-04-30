@@ -39,3 +39,13 @@ comments: false
     <a href="https://github.com/flpdias14/vonafeira-core" class="btn" target="blank">Github</a>  
     </div>
 </div>
+
+<div class="card">
+  <img src="https://i.ibb.co/F5xpmxb/vonafeira-2.png" alt="Project" style="width:100%">
+  <div class="container">
+    <h4><b>Zoioz</b></h4>
+    <p>An automatized bash script to monitor resources of services running inside Docker Containers.</p>
+    <!-- <hr> -->
+    <a href="https://github.com/flpdias14/zoioz" class="btn" target="blank">Github</a>  
+    </div>
+</div>
