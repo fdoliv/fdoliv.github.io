@@ -39,7 +39,7 @@ comments: false
     <a href="https://github.com/flpdias14/vonafeira-core" class="btn" target="blank">Github</a>  
     </div>
 </div>
-
+<br/>
 <div class="card">
   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftech.osteel.me%2Fimages%2F2020%2F04%2F13%2Fdocker-01.jpg&f=1&nofb=1" alt="Project" style="width:100%">
   <div class="container">
