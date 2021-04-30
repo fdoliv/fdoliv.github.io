@@ -41,7 +41,7 @@ comments: false
 </div>
 
 <div class="card">
-  <img src="https://i.ibb.co/F5xpmxb/vonafeira-2.png" alt="Project" style="width:100%">
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftech.osteel.me%2Fimages%2F2020%2F04%2F13%2Fdocker-01.jpg&f=1&nofb=1" alt="Project" style="width:100%">
   <div class="container">
     <h4><b>Zoioz</b></h4>
     <p>An automatized bash script to monitor resources of services running inside Docker Containers.</p>
