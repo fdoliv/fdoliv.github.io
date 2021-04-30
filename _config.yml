@@ -127,6 +127,7 @@ menu:
   home: /
   #categories: /categories/
   about: /about/
+  projects: /projects/
   archives: /archives/
   # tags: /tags/
   #sitemap: /sitemap.xml
@@ -143,6 +144,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
+  projects: tasks
   categories: th
   schedule: calendar
   tags: tags
@@ -616,7 +618,7 @@ exturl: false
 use_motion: true
 
 # Fancybox
-fancybox: true
+fancybox: false
 
 # Progress bar in the top during page loading.
 pace: false
