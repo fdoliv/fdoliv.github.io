@@ -1,6 +1,26 @@
 // Custom styles.
 
+$shadow: 0 13px 26px rgba(#000, .2), 0 3px 6px rgba(#000, .2);
 
 .posts-expand {
     text-align: justify;
 }
+
+.img-profile {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    display: flex;
+    border-radius: 5%;
+    box-shadow: $shadow;
+}
+
+@media (max-width: 500px) {
+   
+    .img-profile {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }

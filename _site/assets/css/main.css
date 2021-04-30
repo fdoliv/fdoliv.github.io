@@ -558,7 +558,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 .links-of-author { margin-top: 20px; }
 
 .links-of-author a { display: inline-block; vertical-align: middle; margin-right: 10px; margin-bottom: 10px; border-bottom-color: #555; font-size: 13px; }
-.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #00a800; }
+.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #73ffff; }
 
 .links-of-blogroll { font-size: 13px; }
 
@@ -892,3 +892,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 @media (max-width: 767px) { .post-body { text-align: justify; } }
 
 .posts-expand { text-align: justify; }
+
+.img-profile { float: none; margin-left: auto; margin-right: auto; margin-bottom: 1.5em; display: flex; border-radius: 5%; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2); }
+
+@media (max-width: 500px) { .img-profile { margin: auto; float: none; display: block; } }
