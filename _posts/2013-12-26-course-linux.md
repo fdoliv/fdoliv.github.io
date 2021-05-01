@@ -1,22 +1,19 @@
 ---
-title: Introdução ao GNU/Linux - Comandos e Scripts
+title: "PocketStack: Uma Plataforma de Alta Disponibilidade para Nuvens Privadas"
 
-date: 2019-10-26 22:46:49
+date: 2015-04-08 22:46:49
 categories:
-- Linux
 - Infrastructure
 - TI
 - OpenSource
-- Course
+- Cloud computing
 ---
 
-On October 25, 2019:  I taught the Introduction to GNU / LINUX  - Commands and Scripts short course, offered by "[Laboratório Multidisciplinar de Tecnologias Sociais (LMTS)](http://lmts.uag.ufrpe.br){:target="_blank"}" to students of computer science in Garanhuns-PE.
+On April 08, 2015:  I participated in the WMoDCS 2015.1 with the presentation [PocketStack: Uma Plataforma de Alta Disponibilidade para Nuvens Privadas](https://www.modcs.org/wp-content/uploads/wmodcs/2015-1/Felipe-WMoDCS-2015-1.pdf){:target="_blank"}. in Recife-PE, Brazil.
 
 
-![Public call](https://pbs.twimg.com/media/EgiOUnOXcAIvNI-?format=jpg&name=large)
+![Presentation](/assets/images/wmodcs2015.png)
 
-
-![Participants](https://pbs.twimg.com/media/EgiOUnaXkAQLNKn?format=jpg&name=large)
 
 Details in this [link](http://lmts.uag.ufrpe.br/br/noticia/lmts-promove-mais-um-minicurso-de-tecnologia-nesse-m%C3%AAs-de-outubro
 ){:target="_blank"}.
