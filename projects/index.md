@@ -41,6 +41,17 @@ comments: false
 </div>
 <br/>
 <div class="card">
+  <img src="https://github.com/FagnerPulca/Bellapp/raw/master/belapp.jpeg" alt="Project" style="width:100%">
+  <div class="container">
+    <h4><b>Belapp</b></h4>
+    <p>O Belapp é um aplicativo que viabiliza a comunicação e agendamento entre o cliente e o profissional de beleza (que trabalha em salão ou autônomo) de forma simples, rápida, confiável e gratuita. Essa aplicação foi desenvolvida para a disciplina de Projeto de Desenvolvimento do curso de Bacharelado em Ciência da Computação da UFRPE-UAG.</p>
+    <!-- <hr> -->
+    <a href="https://github.com/FagnerPulca/Belapp/wiki" class="btn" target="blank">Read more</a>
+    <a href="https://github.com/FagnerPulca/Belapp" class="btn" target="blank">Github</a>  
+    </div>
+</div>
+<br/>
+<div class="card">
   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftech.osteel.me%2Fimages%2F2020%2F04%2F13%2Fdocker-01.jpg&f=1&nofb=1" alt="Project" style="width:100%">
   <div class="container">
     <h4><b>Zoioz</b></h4>
