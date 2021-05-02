@@ -15,5 +15,5 @@ On April 08, 2015:  I participated in the WMoDCS 2015.1 with the presentation [P
 ![Presentation](/assets/images/wmodcs2015.png)
 
 
-Details in this [link](
-){:target="_blank"}.
+<!-- Details in this [link](
+){:target="_blank"}. -->
