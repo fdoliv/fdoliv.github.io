@@ -60,7 +60,7 @@
   
     <entry>
       <title><![CDATA[Introdução ao GNU/Linux - Comandos e Scripts]]></title>
-      <url>/linux/infrastructure/ti/opensource/course/2019/10/26/course-linux/</url>
+      <url>/linux/infrastructure/ti/opensource/course/2019/10/26/course-linux-copy/</url>
       <content type="text"><![CDATA[On October 25, 2019:  I taught the Introduction to GNU / LINUX  - Commands and Scripts short course, offered by “Laboratório Multidisciplinar de Tecnologias Sociais (LMTS)” to students of computer science in Garanhuns-PE.Details in this link.]]></content>
       <categories>
         
@@ -178,6 +178,27 @@
           <category> Virtualization </category>
         
           <category> Papers </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[PocketStack: Uma Plataforma de Alta Disponibilidade para Nuvens Privadas]]></title>
+      <url>/infrastructure/ti/opensource/cloud%20computing/2015/04/08/course-linux/</url>
+      <content type="text"><![CDATA[On April 08, 2015:  I participated in the WMoDCS 2015.1 with the presentation PocketStack: Uma Plataforma de Alta Disponibilidade para Nuvens Privadas, at Recife-PE, Brazil.]]></content>
+      <categories>
+        
+          <category> Infrastructure </category>
+        
+          <category> TI </category>
+        
+          <category> OpenSource </category>
+        
+          <category> Cloud computing </category>
         
       </categories>
       <tags>

@@ -118,6 +118,9 @@
 <meta property="og:image" content="/assets/images/gc.jpg">
 <meta property="og:image" content="/assets/images/rbd.png">
 <meta property="og:image" content="https://i.ibb.co/F5xpmxb/vonafeira-2.png">
+<meta property="og:image" content="https://github.com/FagnerPulca/Bellapp/raw/master/belapp.jpeg">
+<meta property="og:image" content="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftech.osteel.me%2Fimages%2F2020%2F04%2F13%2Fdocker-01.jpg&f=1&nofb=1">
+<meta property="og:image" content="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-pJx6b8e1s30%2FUUruV_WLptI%2FAAAAAAAAETU%2F7wCt1uqjLyc%2Fs1600%2Fmemoryleak%2B1.png&f=1&nofb=1">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Projects">
 <meta name="twitter:description" content="Hello folks, I&apos;m student of computer science from Pernambuco, Brazil. This blog is for documentation about my research journey, programming and related.">
@@ -339,8 +342,18 @@
   
   
     <p><br /></p>
+<div class="myBtnContainer" id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn java" onclick="filterSelection('java')"> Java</button>
+  <button class="btn android" onclick="filterSelection('android')"> Android</button>
+  <button class="btn bash" onclick="filterSelection('bash')"> Bash</button>
+  <button class="btn php" onclick="filterSelection('php')"> PHP</button>
+  <button class="btn c-language" onclick="filterSelection('c-language')"> C</button>
+</div>
 
-<div class="card">
+<p><br /></p>
+
+<div class="card android java">
   <img src="/assets/images/gc.jpg" alt="Project" style="width:50%" />
   <div class="container">
     <h4><b>General do Campo</b></h4>
@@ -350,7 +363,7 @@
     </div>
 </div>
 <p><br /></p>
-<div class="card">
+<div class="card java">
   <img src="/assets/images/rbd.png" alt="Project" style="width:100%" />
   <div class="container">
     <h4><b>FaultSimM</b></h4>
@@ -360,7 +373,7 @@
     </div>
 </div>
 <p><br /></p>
-<div class="card">
+<div class="card php">
   <img src="https://i.ibb.co/F5xpmxb/vonafeira-2.png" alt="Project" style="width:100%" />
   <div class="container">
     <h4><b>Vô na Feira</b></h4>
@@ -368,6 +381,38 @@
     <!-- <hr> -->
     <a href="http://app.uag.ufrpe.br/vonafeira/login" class="btn" target="blank">Read more</a>
     <a href="https://github.com/flpdias14/vonafeira-core" class="btn" target="blank">Github</a>  
+    </div>
+</div>
+<p><br /></p>
+<div class="card android java">
+  <img src="https://github.com/FagnerPulca/Bellapp/raw/master/belapp.jpeg" alt="Project" style="width:100%" />
+  <div class="container">
+    <h4><b>Belapp</b></h4>
+    <p>Belapp is an android application that enables communication and scheduling between the client and the beauty professional (who works in a salon or freelance) in a simple, fast, reliable, and free. We developed this application for the discipline of Project Development of the Bachelor's Degree in Computer Science at UFRPE-UAG.</p>
+    <!-- <hr> -->
+    <a href="https://github.com/FagnerPulca/Belapp/wiki" class="btn" target="blank">Read more</a>
+    <a href="https://github.com/FagnerPulca/Belapp" class="btn" target="blank">Github</a>  
+    </div>
+</div>
+<p><br /></p>
+<div class="card bash">
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftech.osteel.me%2Fimages%2F2020%2F04%2F13%2Fdocker-01.jpg&amp;f=1&amp;nofb=1" alt="Project" style="width:100%" />
+  <div class="container">
+    <h4><b>Zoioz</b></h4>
+    <p>An automatized bash script to monitor resources of services running inside Docker Containers.</p>
+    <!-- <hr> -->
+    <a href="https://github.com/flpdias14/zoioz" class="btn" target="blank">Github</a>  
+    </div>
+</div>
+
+<p><br /></p>
+<div class="card c-language">
+  <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-pJx6b8e1s30%2FUUruV_WLptI%2FAAAAAAAAETU%2F7wCt1uqjLyc%2Fs1600%2Fmemoryleak%2B1.png&amp;f=1&amp;nofb=1" alt="Project" style="width:100%" />
+  <div class="container">
+    <h4><b>Memleak</b></h4>
+    <p>A C-based program to simulate memory leaks. Useful to simulate and test strategies to mitigate this issue.</p>
+    <!-- <hr> -->
+    <a href="https://github.com/flpdias14/memleak" class="btn" target="blank">Github</a>  
     </div>
 </div>
 
@@ -415,7 +460,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-count">11</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -426,7 +471,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/">
-                <span class="site-state-item-count">27</span>
+                <span class="site-state-item-count">28</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
