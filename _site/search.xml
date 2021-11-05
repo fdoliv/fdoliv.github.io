@@ -2,6 +2,65 @@
 <search>
   
     <entry>
+      <title><![CDATA[The Mercury Environment: A Modeling Tool for Performance and Dependability Evaluation]]></title>
+      <url>/papers/dependability/mercury/2021/07/07/mercury/</url>
+      <content type="text"><![CDATA[Abstract: It is important to be able to judge the performance or dependability metrics of a system and often we do so by using abstract models even when the system is in the conceptual phase. Evaluating a system by performing measurements can have a high temporal and/or financial cost, which may not be feasible. Mathematical models can provide estimates about system behavior and we need tools supporting different types of formalisms in order to compute desired metrics. The Mercury tool enables a range of models to be created and evaluated for supporting performance and dependability evaluations, such as reliability block diagrams (RBDs), dynamic RBDs (DRBDs), fault trees (FTs), stochastic Petri nets (SPNs), continuous and discrete-time Markov chains (CTMCs and DTMCs), as well as energy flow models (EFMs). In this paper, we introduce recent enhancements to Mercury, namely new SPN simulators, support to prioritized timed transitions, sensitivity analysis evaluation, several improvements to the usability of the tool, and support to DTMC and FT formalisms.Details in this link.]]></content>
+      <categories>
+        
+          <category> Papers </category>
+        
+          <category> Dependability </category>
+        
+          <category> Mercury </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[Software Aging in Container-based Virtualization: An Experimental Analysis on Docker Platform]]></title>
+      <url>/papers/aging/virtualization/docker/2021/06/26/swad-cisti2021/</url>
+      <content type="text"><![CDATA[Abstract: Lightweight virtualization, and specifically containers, has become widespread in the information technology industry to provide an efficient operational environment for the execution of scalable services on the Internet. Containers rely on a set of technologies different from the features that enable hardware virtualization (i.e., hypervisor-based virtual machines). However, both types of virtualized environments are employed to host applications that will be accessible anytime, anywhere. Thus, they are prone to software aging, which usually affects systems that run for long time intervals. Researchers have identified software aging effects in distinct types of cloud computing environments and hypervisors over recent years. However, a few works have dealt with this phenomenon in container-based platforms. This paper presents an experimental analysis of the software aging effects observed on Docker platforms while also evaluating the fitness of a time-series model to predict resource consumption’s progress caused by software aging. We employ a stress test workload tailored for the scenario of containers arranged in a cluster managed by Docker Swarm. The obtained results indicate an increasing usage of resident memory, virtual memory, and CPU usage, as the system undergoes subsequent scale-up and scale-down operations. The quadratic trend model was the best fitting approach for predicting resident and virtual memory usage, with less than 5% of prediction error. The experimental approach presented here may help systems administrators to detect evidence of software aging in container-based environments, and allowing then to choose a proper method and time for deploying rejuvenation actions to mitigate the dependability issues raised in similar scenarios described here.Details in this link.]]></content>
+      <categories>
+        
+          <category> Papers </category>
+        
+          <category> Aging </category>
+        
+          <category> Virtualization </category>
+        
+          <category> Docker </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[A Software Maintenance Methodology: An Approach Applied to Software Aging]]></title>
+      <url>/papers/aging/methodology/2021/05/15/swa-syscon21/</url>
+      <content type="text"><![CDATA[Abstract: The increasing use of computational systems has highlighted concerns about attributes that may influence the quality of service, such as performance, availability, reliability, and maintenance capacity. Failures in the software development process may impact these attributes. Flawed code and overall software misdesign may cause internal errors, leading to system malfunction. Some errors might be identified and fixed during the software testing process. However, other errors may manifest only during the production stage. This is the case of the software aging phenomenon, which is related to the progressive degradation that a software performance or reliability suffers during its operational life. This paper proposes a methodology for software maintenance that is tailored to identify, correct, and mitigate the software aging effects. If the source code can be modified and a new version deployed with minimal impact, thus data from aging detection is used for corrective maintenance, i.e., for fixing the bug the causes the aging effects. If the software cannot be fixed nor its version updated without long system interruption or other bad consequences, then our approach can mitigate the aging effects, in a preventive maintenance to avoid service outages. The proposed methodology is validated through both Stochastic Petri Net (SPN) models and experiments in a controlled environment. The model evaluation considering a hybrid maintenance routine (preventive and corrective) yielded an availability of 99.82%, representing an annual downtime of 15.9 hours. By contrast, the baseline scenario containing only reactive maintenance (i.e., repairing only after failure) had more than 1342 hours of annual downtime - 80 times higher than the proposed approach.Details in this link.]]></content>
+      <categories>
+        
+          <category> Papers </category>
+        
+          <category> Aging </category>
+        
+          <category> Methodology </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
       <title><![CDATA[Experimental Evaluation of Software Aging Effects in a Container-Based Virtualization Platform]]></title>
       <url>/papers/aging/container/2020/10/14/experimental-smc/</url>
       <content type="text"><![CDATA[Abstract: Cloud-based architectures have grown in recent years, especially the interest in container-based solutions have sharply increased by enterprises worldwide. Containers are a form of lightweight virtualization that can be used to provide cloud services. Adopting this kind of technology in a bare- metal context is becoming strong because they can offer many benefits, like performance efficiency and costs reduction. Docker is a widespread platform for the creation and management of containers. As in any computational cloud service, Docker environments must deal with the intensive workload and may have a long-term life cycle, which might trigger some problems that compromise the system dependability. The software aging phenomenon is one of these likely problems. It is a process of cumulative errors or system misbehavior that leads to application failures and performance degradation throughout its runtime. This paper aims to monitor and evaluate software aging effects on the Docker platform in a cloud computing environment. We conducted two experimental studies with automated workloads to simulate containers’ life cycle and the intensive use of Docker features, while the system was monitored. The results show high resource consumption by the operating system’s network utility, in addition to memory fragmentation in the sub-processes of the Docker platform. Trends of increasing resident memory consumption were also observed in one of these scenarios.Details in this link.]]></content>

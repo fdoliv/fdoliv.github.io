@@ -128,6 +128,7 @@ menu:
   #categories: /categories/
   about: /about/
   projects: /projects/
+  courses: /courses/
   archives: /archives/
   # tags: /tags/
   #sitemap: /sitemap.xml
@@ -145,6 +146,7 @@ menu_icons:
   home: home
   about: user
   projects: tasks
+  courses: bookmark
   categories: th
   schedule: calendar
   tags: tags
