@@ -27,7 +27,7 @@ comments: false
     <h4><b>Montagem e Manutenção de Computadores</b></h4>
     <p>Módulo I do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
     <!-- <hr> -->
-    <a href="/mmc" class="btn" target="blank">Aulas</a>  
+    <a href="/mmc" class="btn" >Aulas</a>  
     </div>
 </div>
 
@@ -38,7 +38,7 @@ comments: false
     <h4><b>Segurança de Dados e Informações</b></h4>
     <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
     <!-- <hr> -->
-    <a href="/sdi" class="btn" target="blank">Aulas</a>  
+    <a href="/sdi" class="btn" >Aulas</a>  
     </div>
 </div>
 <br/>
@@ -48,6 +48,6 @@ comments: false
     <h4><b>Administração de Sistema Operacional 2</b></h4>
     <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
     <!-- <hr> -->
-    <a href="/aso2" class="btn" target="blank">Aulas</a>  
+    <a href="/aso2" class="btn" >Aulas</a>  
     </div>
 </div>
