@@ -5,6 +5,7 @@ title: "Documentos e Integração de Dados"
 ref: courses
 permalink: /courses/did/
 comments: false
+excerpt: Disciplina Documentos e integração de Dados da Escola Técnica Estadual Governador Eduardo Campos, São bento do Una-PE.
 ---
 <br/>
 <br/>
