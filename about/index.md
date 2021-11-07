@@ -1,7 +1,7 @@
 ---
 layout: page
 type: about
-title: "Computer Scientist: Analyzing dependability and performability in distributed systems to improve the quality of service"
+title: "About"
 ref: about
 permalink: /about/
 layout: page
@@ -30,10 +30,10 @@ His research interests are:
 This blog is for documentation about his research journey,  programming, and related.
 
 
-
+<!--
 ##### May you need:
 
 - [CV - portuguese](http://lattes.cnpq.br/5171703682108065){:target="_blank"}
 - [CV - english](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4338903Z2&idiomaExibicao=2){:target="_blank"}
 - [Publications](https://scholar.google.com/citations?user=HQJPq-8AAAAJ&hl=en){:target="_blank"}
-
+-->
