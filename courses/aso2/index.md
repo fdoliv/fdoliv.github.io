@@ -14,3 +14,4 @@ comments: false
 | Data | Assunto | Aula |
 | --- | ------- | --- |
 | 05/11/2021 | Estrutura de Diretórios e FHS, páginas 40 à 52 | [aula 01]({{ site.url }}/assets/arquivos/aso2/aula01.pdf) |
+| 05/11/2021 | Manipulando arquivos e diretórios, páginas 53 à 62 | [aula 01]({{ site.url }}/assets/arquivos/aso2/aula02.pdf) |
