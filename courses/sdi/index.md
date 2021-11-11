@@ -13,5 +13,5 @@ comments: false
 
 | Data | Assunto | Aula |
 | --- | ------- | --- |
-| 03/11/2021 | Segurança de Acesso e Senhas | [aula 01]({{ site.url }}/assets/arquivos/sdi/aula01.pdf) |
-| 05/11/2021 | Controle de Acessso Físico  e Controles biométricos| [aula 02]({{ site.url }}/assets/arquivos/sdi/aula02.pdf), [atividade keepass]({{ site.url }}/assets/arquivos/sdi/atividade01.pdf)  |
+| 03/11/2021 | Segurança de Acesso e Senhas | [aula 01]({{ site.url }}/assets/arquivos/sdi/aula01.pdf){:target="_blank"} |
+| 05/11/2021 | Controle de Acessso Físico  e Controles biométricos| [aula 02]({{ site.url }}/assets/arquivos/sdi/aula02.pdf){:target="_blank"}, [atividade keepass]({{ site.url }}/assets/arquivos/sdi/atividade01.pdf){:target="_blank"}  |
