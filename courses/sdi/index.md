@@ -20,5 +20,4 @@ comments: false
 | 19/11/2021 | Detecção de Ataques usando Suricata IDS | [aula 05](https://fdoprof.com/tutorial/2021/11/19/suricata/){:target="_blank"} |
 | 22/11/2021 | Exercícios de Fixação | [atividade]({{ site.url }}/assets/arquivos/sdi/exercicio.pdf){:target="_blank"} |
 | 26/11/2021 | Redes sem Fio: introdução e ameaças | [aula 06]({{ site.url }}/assets/arquivos/sdi/aula06.pdf){:target="_blank"} |
-
-
+| 01/12/2021 | Redes sem Fio: ameaças externas | [aula 06]({{ site.url }}/assets/arquivos/sdi/aula07.pdf){:target="_blank"} |
