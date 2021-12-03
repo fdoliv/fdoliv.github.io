@@ -18,3 +18,4 @@ comments: false
 | 12/11/2021 | Manipulando arquivos e diretórios (finalização) | [aula 03]({{ site.url }}/assets/arquivos/aso2/aula03.pdf){:target="_blank"} |
 | 19/11/2021 | Gerenciamento de Usuários | [aula 04]({{ site.url }}/assets/arquivos/aso2/aula04.pdf){:target="_blank"} |
 | 23/11/2021 | Gerenciamento de Usuários: Permissões | [aula 05]({{ site.url }}/assets/arquivos/aso2/aula05.pdf){:target="_blank"} |
+| 26/11/2021 | Gerenciando o sistema operacional | [aula 06]({{ site.url }}/assets/arquivos/aso2/aula06.pdf){:target="_blank"} |
