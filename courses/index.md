@@ -12,6 +12,7 @@ comments: false
 <br/>
 
 # Subsequente (noite)
+<br/>
 <div class="card">
   <img src="/assets/images/dados.png" alt="Course" style="width:50%">
   <div class="container">
@@ -52,9 +53,9 @@ comments: false
     <a href="/courses/aso2" class="btn" >Aulas</a>  
     </div>
 </div>
-
+<br/>
 # Integrado 
-
+<br/>
 <div class="card">
   <img src="/assets/images/aso2.jpg" alt="Course" style="width:50%">
   <div class="container">
