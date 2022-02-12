@@ -11,6 +11,7 @@ comments: false
 
 <br/>
 
+# Subsequente (noite)
 <div class="card">
   <img src="/assets/images/dados.png" alt="Course" style="width:50%">
   <div class="container">
@@ -49,5 +50,27 @@ comments: false
     <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
     <!-- <hr> -->
     <a href="/courses/aso2" class="btn" >Aulas</a>  
+    </div>
+</div>
+
+# Integrado 
+
+<div class="card">
+  <img src="/assets/images/aso2.jpg" alt="Course" style="width:50%">
+  <div class="container">
+    <h4><b>Administração de Sistema Operacional 1</b></h4>
+    <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
+    <!-- <hr> -->
+    <a href="/courses/aso1" class="btn" >Aulas</a>  
+    </div>
+</div>
+
+<div class="card">
+  <img src="/assets/images/aso2.jpg" alt="Course" style="width:50%">
+  <div class="container">
+    <h4><b>Administração de Sistema Operacional 1</b></h4>
+    <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
+    <!-- <hr> -->
+    <a href="/courses/aso1" class="btn" >Aulas</a>  
     </div>
 </div>
