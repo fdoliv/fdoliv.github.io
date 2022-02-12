@@ -12,7 +12,5 @@ excerpt: Disciplina Documentos e integração de Dados da Escola Técnica Estadu
 
 | Data | Assunto | Aula |
 | --- | ------- | --- |
-| 04/11/2021 | Excel - Ambiente Excel | [aula 01]({{ site.url }}/assets/arquivos/did/aula01.pdf){:target="_blank"}, [atividade]({{ site.url }}/assets/arquivos/did/atividade01.pdf){:target="_blank"} |
-| 09/11/2021 | Excel - Cálculos básicos | [aula 02]({{ site.url }}/assets/arquivos/did/aula02.pdf){:target="_blank"}, [atividade]({{ site.url }}/assets/arquivos/did/atividade2.xlsx){:target="_blank"}|
-| 11/11/2021 | Excel - Cálculos básicos (Continuação) | [aula 03]({{ site.url }}/assets/arquivos/did/aula03.pdf){:target="_blank"}|
-| 18/11/2021 | Excel - Formatação de Planilhas | [aula 04]({{ site.url }}/assets/arquivos/did/aula04.pdf){:target="_blank"}|
+| 08/02/2022 | Informática básica para estudos online | [aula 01]({{ site.url }}/assets/arquivos/did/aula01.pdf){:target="_blank"}, [texto apoio]({{ site.url }}/assets/arquivos/did/texto01.pdf){:target="_blank"}, [videos extras](https://youtube.com/playlist?list=PLsJGhs3ZmfHL784xroiEzsSYDBdrtXKtP){:target="_blank"} |
+
