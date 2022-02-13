@@ -59,7 +59,7 @@ comments: false
 <div class="card">
   <img src="/assets/images/dt.jpg" alt="Course" style="width:50%">
   <div class="container">
-    <h4><b>Desing Thinking</b></h4>
+    <h4><b>Design Thinking</b></h4>
     <p>1º ano do Curso Ensino Médio Integrado em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
     <!-- <hr> -->
     <a href="/courses/dt" class="btn" >Aulas</a>  
