@@ -57,21 +57,23 @@ comments: false
 # Integrado 
 <br/>
 <div class="card">
-  <img src="/assets/images/aso2.jpg" alt="Course" style="width:50%">
+  <img src="/assets/images/dt.jpg" alt="Course" style="width:50%">
   <div class="container">
-    <h4><b>Administração de Sistema Operacional 1</b></h4>
-    <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
+    <h4><b>Desing Thinking</b></h4>
+    <p>1º ano do Curso Ensino Médio Integrado em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
     <!-- <hr> -->
-    <a href="/courses/aso1" class="btn" >Aulas</a>  
+    <a href="/courses/dt" class="btn" >Aulas</a>  
     </div>
 </div>
 
 <div class="card">
-  <img src="/assets/images/aso2.jpg" alt="Course" style="width:50%">
+  <img src="/assets/images/per.png" alt="Course" style="width:50%">
   <div class="container">
-    <h4><b>Administração de Sistema Operacional 1</b></h4>
-    <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
+    <h4><b>Projetos Estruturados de Redes</b></h4>
+    <p>3º ano do curso Ensino Médio Integrado em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
     <!-- <hr> -->
-    <a href="/courses/aso1" class="btn" >Aulas</a>  
+    <a href="/courses/per" class="btn" >Aulas</a>  
     </div>
 </div>
+
+
