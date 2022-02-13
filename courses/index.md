@@ -65,7 +65,7 @@ comments: false
     <a href="/courses/dt" class="btn" >Aulas</a>  
     </div>
 </div>
-
+<br/>
 <div class="card">
   <img src="/assets/images/per.png" alt="Course" style="width:50%">
   <div class="container">
