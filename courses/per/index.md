@@ -13,4 +13,4 @@ comments: false
 
 | Data | Assunto | Aula |
 | -- | ------------ | --- |
-| 08/02/2022 | Gestão de projetos - Introdução | [aula 01]({{ site.url }}/assets/arquivos/per/aula01-per.pdf){:target="_blank"} |
+| 08/02/2022 | Gestão de projetos - Introdução ao Projeto Estruturado de Redes| [aula 01]({{ site.url }}/assets/arquivos/per/aula01-per.pdf){:target="_blank"}, [videos extras](https://www.youtube.com/playlist?list=PLsJGhs3ZmfHJjJmMJqb7UQjBp9l7qJ844){:target="_blank"} |
