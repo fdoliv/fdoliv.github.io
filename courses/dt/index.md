@@ -11,6 +11,6 @@ comments: false
 
 <br/>
 
-| Aula | Assunto | Aula |
+| Aula | Assunto | Link |
 | -- | ------------ | --- |
 | 01 | Introdução | [aula 01]({{ site.url }}/assets/arquivos/mmc/aula01-dt.pdf){:target="_blank"} |
