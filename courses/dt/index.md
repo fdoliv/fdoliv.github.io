@@ -13,5 +13,5 @@ comments: false
 
 | Aula | Assunto | Link |
 | -- | ------------ | --- |
-| 01 | O que é Design Think? | [aula 01]({{ site.url }}/assets/arquivos/mmc/aula01-dt.pdf){:target="_blank"} |
-| 02 | Onde se aplica? | [aula 02]({{ site.url }}/assets/arquivos/mmc/aula02-dt.pdf){:target="_blank"} |
+| 01 | O que é Design Think? | [aula 01]({{ site.url }}/assets/arquivos/dt/aula01-dt.pdf){:target="_blank"} |
+| 02 | Onde se aplica? | [aula 02]({{ site.url }}/assets/arquivos/dt/aula02-dt.pdf){:target="_blank"} |
