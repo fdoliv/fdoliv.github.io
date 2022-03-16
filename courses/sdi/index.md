@@ -13,7 +13,7 @@ comments: false
 
 | Aula | Assunto | Link |
 | --- | ------- | --- |
-| 03/11/2021 | Segurança de Acesso e Senhas | [aula 01]({{ site.url }}/assets/arquivos/sdi/aula01.pdf){:target="_blank"} |
+| 03/11/2021 | Segurança de Acesso e Senhas | <a href="/courses/did" class="btn">  [aula 01]({{ site.url }}/assets/arquivos/sdi/aula01.pdf){:target="_blank"}</a>|
 | 21/02/2022 | Senhas e vulnerabilidades | [aula 02]({{ site.url }}/assets/arquivos/sdi/aula02.pdf){:target="_blank"} |
 | 22/02/2022 | Senhas e vulnerabilidades | [Descubra quanto tempo levaria para quebrar sua senha](https://www.security.org/how-secure-is-my-password/){:target="_blank"}, [Video dicas de senhas](https://www.security.org/how-secure-is-my-password/){:target="_blank"} |
 | 23/02/2022 | Pratica de gerenciamento de senhas | [Download Keepass](https://megalink.dl.sourceforge.net/project/keepass/KeePass%202.x/2.50/KeePass-2.50.zip){:target="_blank"}, [Video dicas de senhas](https://www.youtube.com/watch?v=NWlo_K4W_4g&ab_channel=RobertOtavio){:target="_blank"} |
