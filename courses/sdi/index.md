@@ -20,7 +20,6 @@ comments: false
 | 08/03/2022 à 14/03/2022 | Controle de Acesso físico e Controle biométrico | <a href="{{ site.url }}/assets/arquivos/sdi/aula03.pdf" target="blank" class="btn">aula 03</a> <a href="https://youtu.be/0XfwcZ6WOsU" target="blank" class="btn">O que é biometria?</a>
 | 15/03/2022 | Exemplos de controle biométrico |  <a href="{{ site.url }}/assets/arquivos/sdi/aula04.pdf" target="blank" class="btn">aula 04</a> <a href="https://youtu.be/0XfwcZ6WOsU" target="blank" class="btn">O que é biometria?</a> 
 | 16/03/2022 | Controle de acesso lógico |  <a href="{{ site.url }}/assets/arquivos/sdi/aula05.pdf" target="blank" class="btn">aula 05</a> <a href="https://www.telium.com.br/blog/entenda-as-diferencas-entre-controles-fisicos-e-controles-logicos-de-uma-vez-por-todas" target="blank" class="btn">Entenda as diferenças entre controles físicos e controles lógicos</a> 
-
 | 16/03/2022 | Atividade |  <a href="https://create.kahoot.it/share/atividade-de-sdi/71e40f01-6b9b-474a-9cab-349d24aabe07" target="blank" class="btn">Atividade Kahoot</a> 
 
 
