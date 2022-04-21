@@ -3,8 +3,8 @@ layout: page
 type: projects
 title: "Administração de Sistema Operacional 1"
 ref: courses
-permalink: /courses/aso1/
-excerpt: Disciplina Administração de Sistema Operacional 1 da Escola Técnica Estadual Governador Eduardo Campos, São bento do Una-PE.
+permalink: /courses/pi/
+excerpt: Disciplina Projeto Integrador da Escola Técnica Estadual Governador Eduardo Campos, São bento do Una-PE.
 comments: false
 ---
 <br/>
