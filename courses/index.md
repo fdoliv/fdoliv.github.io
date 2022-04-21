@@ -76,4 +76,13 @@ comments: false
     </div>
 </div>
 
-
+<br/>
+<div class="card">
+  <img src="/assets/images/pi.jpg" alt="Course" style="width:50%">
+  <div class="container">
+    <h4><b>Projeto Integrador</b></h4>
+    <p>2º e 3º anos do curso Ensino Médio Integrado em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
+    <!-- <hr> -->
+    <a href="/courses/pi" class="btn" >Aulas</a>  
+    </div>
+</div>
