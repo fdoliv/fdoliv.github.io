@@ -9,17 +9,13 @@ comments: false
 ---
 
 <br/>
-
+## Informações importantes
+Atenção para as informações que constam no roteiro simplificado (veja em **documentos importantes**).
 <br/>
 ## Datas Importantes
 * **06/05/2022 - Entrega 1ª AT**: Introdução.
 * **27/05/2022 - Entrega 2ª AT**: Final da Introdução. Inicio Justificativa e Motivação.
 * **23/06/2022 - Entrega 3ª AT**: Introdução, Justificativa e Objetivos.
-
-
-
-
-<br/>
 
 <br/>
 ## Documentos Importantes
