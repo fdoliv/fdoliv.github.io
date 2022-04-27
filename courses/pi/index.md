@@ -7,7 +7,12 @@ permalink: /courses/pi/
 excerpt: Disciplina Projeto Integrador da Escola Técnica Estadual Governador Eduardo Campos, São bento do Una-PE.
 comments: false
 ---
+
+<br/>
+
+<br/>
 # Datas Importantes
+**Dia 06/05/2022 - Entrega 1ª AT**: Introdução.
 
 
 <br/>
