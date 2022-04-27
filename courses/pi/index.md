@@ -19,6 +19,7 @@ Atenção para as informações que constam no roteiro simplificado (veja em **d
 
 <br/>
 ## Documentos Importantes
+
 | Documento | Link 1 | Link 2 |
 | -- | ------------ | --- |
 | Roteiro simplificado | <a href="{{ site.url }}/assets/arquivos/pi/06.-Roteiro-simplificado-PI-.docx" target="blank" class="btn">Baixar Roteiro</a> | <a href="https://docs.google.com/document/d/1DlbhpB2dwugLRgZM87c32CykG0fgRHc3/edit?usp=sharing&ouid=113635184550147046996&rtpof=true&sd=true" target="blank" class="btn">link para google docs</a> | 
