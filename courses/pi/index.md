@@ -12,13 +12,15 @@ comments: false
 ## Informações importantes
 Atenção para as informações que constam no roteiro simplificado (veja em **documentos importantes**).
 
-### INSTRUÇÕES DE ENVIO
+### Instruções de Envio
 
 Os arquivos deverão ser enviados para o e-mail **fdoprof@gmail.com** colocando a seguinte informação no assunto do e-mail:
 
 Assunto: Entrega AT_N XB #PI2022 GRUPO SERIE
 
-Onde AT_N você irá substituir pelo número da atividade (e.g. AT1, AT2, AT3 ou ATF), XB você irá substituir pelo bimestre atual (e.g. 1B, 2B, 3B ou 4B), GRUPO você irá substituir pelo seu grupo e SERIE você irá substituir por sua série. Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a atividade 1 irá enviar:
+Onde AT_N você irá substituir pelo número da atividade (e.g. AT1, AT2, AT3 ou ATF), XB você irá substituir pelo bimestre atual (e.g. 1B, 2B, 3B ou 4B), GRUPO você irá substituir pelo seu grupo e SERIE você irá substituir por sua série.
+
+Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a atividade 1 irá enviar:
 
 **Assunto: Entrega AT1 2B #PI2022 Grupo 8 3º ano C** 
 
