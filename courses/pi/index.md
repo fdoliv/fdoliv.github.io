@@ -24,6 +24,10 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 
 **Assunto: Entrega AT1 2B #PI2022 Grupo 8 3º ano C** 
 
+**Dica de segurança:** Ao realizar o envio da seu documento, realize também o envio para os demais participantes do seu grupo. Utilize o recurso **com cópia para (CC)** no mesmo envio que será realizado para o professor.
+
+
+
 <br/>
 ## Datas Importantes
 * **06/05/2022 - Entrega 1ª AT**: Introdução.
