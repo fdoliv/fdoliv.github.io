@@ -30,7 +30,7 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 
 <br/>
 ## Datas Importantes
-* **06/05/2022 - Entrega 1ª AT**: Introdução.
+* **<s>06/05/2022</s> 10/05/2022 - Entrega 1ª AT**: Introdução.
 * **27/05/2022 - Entrega 2ª AT**: Final da Introdução. Inicio Justificativa e Motivação.
 * **23/06/2022 - Entrega 3ª AT**: Introdução, Justificativa e Objetivos.
 
