@@ -44,3 +44,17 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 | Modelo PI 3º anos e III Módulos |  <a href="{{ site.url }}/assets/arquivos/pi/05.-Modelo-projeto-Integrador-3º-Anos-e-III-mods.docx" target="blank" class="btn">Baixar Modelo</a>| <a href="https://docs.google.com/document/d/1y0TXh57vRmn1oNd0T_R401l8iCQVvMu0/edit?usp=sharing&ouid=113635184550147046996&rtpof=true&sd=true" target="blank" class="btn">link para google docs</a> |
 | Definindo a introdução de um projeto / relatório / artigo  |  <a href="https://edisciplinas.usp.br/pluginfile.php/3192482/mod_resource/content/1/INTRODUCAO.PDF" target="blank" class="btn">Link</a>|  |
 
+<br/>
+## Grupos por Turma
+
+### 2º Redes B
+
+| Grupo | Tema |
+|---|:----:|
+| 1 | Criar um jogo de RPG. |
+| 2 | Criar uma planilha de controle de clientes para a torre de internet  |
+| 3 | Jogo Quiz |
+| 4 | Criar uma planilha para gestão de animais do aprisco. |
+| 5 | Planilha para organização dos livros da biblioteca |
+| 6 | Criar uma planilha para controle de valor nutricional de rações. |
+| 7 | Configuração de Roteadores domésticos |
