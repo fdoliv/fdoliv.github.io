@@ -47,8 +47,9 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 <br/>
 ## Grupos por Turma
 
-### 2º Redes B
+A lista de temas segue o padrão "Grupo. Tema".
 
+### 2º Redes B
 
 
 1. Criar um jogo de RPG. 
