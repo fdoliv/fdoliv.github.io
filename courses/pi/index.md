@@ -69,13 +69,13 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 | 4 | Elaboração de Computador de baixo custo para inclusão digital |
 | 5 | Implementar um controle de autenticação para utilização da internet da escola (proxy) |
 
+### 3º Redes B
 
-Grupos de PI 3ºA
-
-
-
-
-
-
-
-
+| Grupo | Tema |
+|---|:----:|
+| 1 | Ergonomia no uso de comutadores |
+| 2 | Automação de uma Casa |
+| 3 | Musae criative design |
+| 4 | Conte Sua História |
+| 5 | Grades curriculares na área da computação das faculdades |
+| 6 | Identificação de Ataques de negação de Serviço em páginas web |
