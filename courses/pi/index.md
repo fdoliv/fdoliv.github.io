@@ -43,7 +43,7 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 | Modelo Resumo Expandido 2º anos e II Módulos | <a href="{{ site.url }}/assets/arquivos/pi/Modelo-de-Resumo-Expandido-ETEGEC-2-Anos-e-II-Mods.docx" target="blank" class="btn">Baixar Modelo</a> | <a href="https://docs.google.com/document/d/17AU-lWG7vNFy-Dfudsoz2NWX9DtrCrlx/edit?usp=sharing&ouid=113635184550147046996&rtpof=true&sd=true" target="blank" class="btn">link para google docs</a> 
 | Modelo PI 3º anos e III Módulos |  <a href="{{ site.url }}/assets/arquivos/pi/05.-Modelo-projeto-Integrador-3º-Anos-e-III-mods.docx" target="blank" class="btn">Baixar Modelo</a>| <a href="https://docs.google.com/document/d/1y0TXh57vRmn1oNd0T_R401l8iCQVvMu0/edit?usp=sharing&ouid=113635184550147046996&rtpof=true&sd=true" target="blank" class="btn">link para google docs</a> |
 | Definindo a introdução de um projeto / relatório / artigo  |  <a href="https://edisciplinas.usp.br/pluginfile.php/3192482/mod_resource/content/1/INTRODUCAO.PDF" target="blank" class="btn">Link</a>|  |
-
+| Critérios avaliativos AT1 2º bimestre |  <a href="{{ site.url }}/assets/arquivos/pi/CA2BAT1PI2022.pdf" target="blank" class="btn">Baixar arquivo</a>| <a href="https://drive.google.com/file/d/17fgzPHUgfTKkzl0NDjxJqKvxPUQev9s-/view?usp=sharing" target="blank" class="btn">arquivo no drive</a> |
 <br/>
 ## Grupos por Turma
 
