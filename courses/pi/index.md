@@ -26,7 +26,7 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 
 **Dica de segurança:** Ao realizar o envio da seu documento, realize também o envio para os demais participantes do seu grupo. Utilize o recurso **com cópia para (CC)** no mesmo envio que será realizado para o professor.
 
-
+![]({{ site.url }}/assets/images/exemplo-envio.PNG)
 
 <br/>
 ## Datas Importantes
