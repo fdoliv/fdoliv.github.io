@@ -58,3 +58,24 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 | 5 | Planilha para organização dos livros da biblioteca |
 | 6 | Criar uma planilha para controle de valor nutricional de rações. |
 | 7 | Configuração de Roteadores domésticos |
+
+### 3º Redes A
+
+| Grupo | Tema |
+|---|:----:|
+| 1 | Criar um planilha de controle financeiro para o gestor da torre de internet |
+| 2 | GLPI  |
+| 3 | Implementação de um sistema AVA "moodle" para gerar questionários do enem SSA |
+| 4 | Elaboração de Computador de baixo custo para inclusão digital |
+| 5 | Implementar um controle de autenticação para utilização da internet da escola (proxy) |
+
+
+Grupos de PI 3ºA
+
+
+
+
+
+
+
+
