@@ -49,33 +49,31 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 
 ### 2º Redes B
 
-| Grupo | Tema |
-|---|:----:|
-| 1 | Criar um jogo de RPG. |
-| 2 | Criar uma planilha de controle de clientes para a torre de internet  |
-| 3 | Jogo Quiz |
-| 4 | Criar uma planilha para gestão de animais do aprisco. |
-| 5 | Planilha para organização dos livros da biblioteca |
-| 6 | Criar uma planilha para controle de valor nutricional de rações. |
-| 7 | Configuração de Roteadores domésticos |
+
+
+1. Criar um jogo de RPG. 
+2. Criar uma planilha de controle de clientes para a torre de internet  
+3. Jogo Quiz 
+4. Criar uma planilha para gestão de animais do aprisco. 
+5. Planilha para organização dos livros da biblioteca 
+6. Criar uma planilha para controle de valor nutricional de rações. 
+7. Configuração de Roteadores domésticos 
 
 ### 3º Redes A
 
-| Grupo | Tema |
-|---|:----:|
-| 1 | Criar um planilha de controle financeiro para o gestor da torre de internet |
-| 2 | GLPI  |
-| 3 | Implementação de um sistema AVA "moodle" para gerar questionários do enem SSA |
-| 4 | Elaboração de Computador de baixo custo para inclusão digital |
-| 5 | Implementar um controle de autenticação para utilização da internet da escola (proxy) |
+
+1. Criar um planilha de controle financeiro para o gestor da torre de internet 
+2. GLPI  
+3. Implementação de um sistema AVA "moodle" para gerar questionários do enem SSA 
+4. Elaboração de Computador de baixo custo para inclusão digital 
+5. Implementar um controle de autenticação para utilização da internet da escola (proxy) 
 
 ### 3º Redes B
 
-| Grupo | Tema |
-|---|:----:|
-| 1 | Ergonomia no uso de comutadores |
-| 2 | Automação de uma Casa |
-| 3 | Musae criative design |
-| 4 | Conte Sua História |
-| 5 | Grades curriculares na área da computação das faculdades |
-| 6 | Identificação de Ataques de negação de Serviço em páginas web |
+
+1. Ergonomia no uso de comutadores
+2. Automação de uma Casa
+3. Musae criative design 
+4. Conte Sua História 
+5. Grades curriculares na área da computação das faculdades 
+6. Identificação de Ataques de negação de Serviço em páginas web
