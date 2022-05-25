@@ -32,8 +32,8 @@ Exemplo de envio:
 <br/>
 ## Datas Importantes
 * **<span style="color:blue"><s>06/05/2022</s> <s>10/05/2022</s></span> - Entrega 1ª AT**: Introdução.
-* **<s>27/05/2022</s> 30/05/2022 - Entrega 2ª AT**: Final da Introdução. Inicio Justificativa e Motivação.
-* **23/06/2022 - Entrega 3ª AT**: Introdução, Justificativa e Objetivos.
+* **<span style="color:blue"><s>27/05/2022</s></span> <span style="color:red">30/05/2022</span> - Entrega 2ª AT**: Final da Introdução. Inicio Justificativa e Motivação.
+* **<span style="color:green">23/06/2022</span> - Entrega 3ª AT**: Introdução, Justificativa e Objetivos.
 
 <br/>
 ## Documentos Importantes
