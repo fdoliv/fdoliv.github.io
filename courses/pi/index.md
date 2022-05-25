@@ -31,7 +31,7 @@ Exemplo de envio:
 
 <br/>
 ## Datas Importantes
-* ** <font color=#00FFFF><s>06/05/2022</s> <s>10/05/2022</s> </font>- Entrega 1ª AT**: Introdução.
+* **<font color=#00FFFF><s>06/05/2022</s> <s>10/05/2022</s></font> - Entrega 1ª AT**: Introdução.
 * **<s>27/05/2022</s> 30/05/2022 - Entrega 2ª AT**: Final da Introdução. Inicio Justificativa e Motivação.
 * **23/06/2022 - Entrega 3ª AT**: Introdução, Justificativa e Objetivos.
 
