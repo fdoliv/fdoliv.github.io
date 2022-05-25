@@ -16,13 +16,13 @@ Atenção para as informações que constam no roteiro simplificado (veja em **d
 
 Os arquivos deverão ser enviados para o e-mail **fdoprof@gmail.com** colocando a seguinte informação no assunto do e-mail:
 
-Assunto: Entrega AT_N XB #PI2022 GRUPO SERIE
+Assunto: Entrega AT_N XB #PI2022SERIE GRUPO 
 
-Onde AT_N você irá substituir pelo número da atividade (e.g. AT1, AT2, AT3 ou ATF), XB você irá substituir pelo bimestre atual (e.g. 1B, 2B, 3B ou 4B), GRUPO você irá substituir pelo seu grupo e SERIE você irá substituir por sua série.
+Onde AT_N você irá substituir pelo número da atividade (e.g. AT1, AT2, AT3 ou ATF), XB você irá substituir pelo bimestre atual (e.g. 1B, 2B, 3B ou 4B), SERIE você irá substituir por sua série (2RB, 3RA ou 3RB) e  GRUPO você irá substituir pelo seu grupo.
 
 Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a atividade 1 irá enviar:
 
-**Assunto: Entrega AT1 2B #PI2022 Grupo 8 3º ano C** 
+**Assunto: Entrega AT1 2B #PI20223RC Grupo 8** 
 
 **Dica de segurança:** Ao realizar o envio da seu documento, realize também o envio para os demais participantes do seu grupo. Utilize o recurso **com cópia para (CC)** no mesmo envio que será realizado para o professor.
 
@@ -31,8 +31,8 @@ Exemplo de envio:
 
 <br/>
 ## Datas Importantes
-* **<s>06/05/2022</s> 10/05/2022 - Entrega 1ª AT**: Introdução.
-* **27/05/2022 - Entrega 2ª AT**: Final da Introdução. Inicio Justificativa e Motivação.
+* **<s>06/05/2022</s> <s>10/05/2022</s> - Entrega 1ª AT**: Introdução.
+* **<s>27/05/2022</s> 30/05/2022 - Entrega 2ª AT**: Final da Introdução. Inicio Justificativa e Motivação.
 * **23/06/2022 - Entrega 3ª AT**: Introdução, Justificativa e Objetivos.
 
 <br/>
