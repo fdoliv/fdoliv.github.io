@@ -24,7 +24,7 @@ Por exemplo, o grupo 8 do 3º ano C que está no segundo bimestre que fez a ativ
 
 **Assunto: Entrega AT1 2B #PI20223RC Grupo 8** 
 
-**Dica de segurança:** Ao realizar o envio da seu documento, realize também o envio para os demais participantes do seu grupo. Utilize o recurso **com cópia para (CC)** no mesmo envio que será realizado para o professor.
+**<span style="color:red">Dica de segurança:<span>** Ao realizar o envio da seu documento, realize também o envio para os demais participantes do seu grupo. Utilize o recurso **<span style="color:red">com cópia para (CC)</span>** no mesmo envio que será realizado para o professor.
 
 Exemplo de envio:
 ![]({{ site.url }}/assets/images/exemplo-envio.PNG)
