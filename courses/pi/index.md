@@ -36,7 +36,6 @@ Exemplo de envio:
 * **<span style="color:blue"><s>27/05/2022</s></span> <span style="color:red">30/05/2022</span> - Entrega 2ª AT**: Final da Introdução. Início Justificativa e Motivação.
 * **<span style="color:green">08/06/2022 à 10/06/2022</span> - Entrega 3ª AT**: Apresentações I Semana Dialogando com as Juventudes.
 * **<span style="color:green">23/06/2022</span> - Avaliação**: Introdução, Justificativa e Objetivos (Concluídos).
-#### Fim do 2º Bimestre
 
 
 <br/>
