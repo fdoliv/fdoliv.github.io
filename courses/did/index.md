@@ -19,3 +19,4 @@ excerpt: Disciplina Documentos e integração de Dados da Escola Técnica Estadu
 | 04 | Apresentação ao Microsoft Word | <a href="{{ site.url }}/assets/arquivos/did/aula04.pdf" target="blank" class="btn">aula 04</a> <a href="https://youtube.com/playlist?list=PLsJGhs3ZmfHIPnmWa_39ZjeM4YFS2LGcY" target="blank" class="btn">videos extras</a> |
 | 05 | Introdução ao Microsoft Excel | <a href="{{ site.url }}/assets/arquivos/did/aula05.pdf" target="blank" class="btn">aula 05</a> |
 | 06 | Excel Básico | <a href="{{ site.url }}/assets/arquivos/did/aula06.pdf" target="blank" class="btn">aula 06</a> |
+| 07 | Excel Básico | <a href="{{ site.url }}/assets/arquivos/did/aula07-did.pdf" target="blank" class="btn">aula 07</a> <a href="{{ site.url }}/assets/arquivos/did/atividade-did-2.pdf" target="blank" class="btn">atividade</a> |
