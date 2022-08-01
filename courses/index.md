@@ -69,7 +69,7 @@ comments: false
 </div>
 <br/>
 <div class="card 2021 mod-2 subsequente aso1">
-  <img src="/assets/images/aso1.jpg" alt="Course" style="width:50%">
+  <img src="/assets/images/ws.png" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Administração de Sistema Operacional 1</b></h4>
     <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
@@ -90,7 +90,7 @@ comments: false
 <br/>
 # Integrado 
 <br/>
-<div class="card 2022 integrado">
+<div class="card 2022 integrado dt">
   <img src="/assets/images/dt.jpg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Design Thinking</b></h4>
@@ -100,7 +100,7 @@ comments: false
     </div>
 </div>
 <br/>
-<div class="card 3r 2022 integrado">
+<div class="card 3r 2022 integrado per">
   <img src="/assets/images/per.png" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Projetos Estruturados de Redes</b></h4>
@@ -111,7 +111,7 @@ comments: false
 </div>
 
 <br/>
-<div class="card 3r 2022 2r integrado">
+<div class="card 3r 2022 2r integrado pi">
   <img src="/assets/images/pi.jpg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Projeto Integrador</b></h4>
