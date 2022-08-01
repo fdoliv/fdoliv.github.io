@@ -11,13 +11,15 @@ comments: false
 
 <div class="myBtnContainer" id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Mostrar tudo</button>
-  <button class="btn java" onclick="filterSelection('mod-i')"> Mod. I</button>
-  <button class="btn android" onclick="filterSelection('mod-ii')"> Mod. II</button>
-  <button class="btn bash" onclick="filterSelection('mod-iii')"> Mod. III</button>
-  <button class="btn c-language" onclick="filterSelection('3r')"> 3º Redes</button>
-  <button class="btn c-language" onclick="filterSelection('2r')"> 2º Redes</button>
-  <button class="btn php" onclick="filterSelection('2021')"> 2021</button>
-  <button class="btn c-language" onclick="filterSelection('2022')"> 2022</button>
+  <button class="btn mod-i" onclick="filterSelection('mod-i')"> Mod. I</button>
+  <button class="btn mod-ii" onclick="filterSelection('mod-ii')"> Mod. II</button>
+  <button class="btn mod-iii" onclick="filterSelection('mod-iii')"> Mod. III</button>
+  <button class="btn 3r" onclick="filterSelection('3r')"> 3º Redes</button>
+  <button class="btn 2r" onclick="filterSelection('2r')"> 2º Redes</button>
+  <button class="btn 2021" onclick="filterSelection('2021')"> 2021</button>
+  <button class="btn 2022" onclick="filterSelection('2022')"> 2022</button>
+  <button class="btn subsequente" onclick="filterSelection('subsequente')"> Subsequente</button>
+
 </div>
 
 
