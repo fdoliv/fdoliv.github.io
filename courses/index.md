@@ -74,7 +74,7 @@ comments: false
     <h4><b>Administração de Sistema Operacional 1</b></h4>
     <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
     <!-- <hr> -->
-    <a href="/courses/aso2 subsequente" class="btn" >Aulas</a>  
+    <a href="/courses/aso1" class="btn" >Aulas</a>  
     </div>
 </div>
 <br/>
@@ -84,7 +84,7 @@ comments: false
     <h4><b>Administração de Sistema Operacional 2</b></h4>
     <p>Módulo II do curso técnico em Redes de Computadores ETE-GEC, São Bento do Una-PE.</p>
     <!-- <hr> -->
-    <a href="/courses/aso2 subsequente" class="btn" >Aulas</a>  
+    <a href="/courses/aso2" class="btn" >Aulas</a>  
     </div>
 </div>
 <br/>
