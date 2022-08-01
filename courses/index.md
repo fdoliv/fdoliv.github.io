@@ -11,9 +11,9 @@ comments: false
 
 <div class="myBtnContainer" id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Mostrar tudo</button>
-  <button class="btn mod-i" onclick="filterSelection('mod-i')"> Mod. I</button>
-  <button class="btn mod-ii" onclick="filterSelection('mod-ii')"> Mod. II</button>
-  <button class="btn mod-iii" onclick="filterSelection('mod-iii')"> Mod. III</button>
+  <button class="btn mod-1" onclick="filterSelection('mod-1')"> Mod. I</button>
+  <button class="btn mod-2" onclick="filterSelection('mod-2')"> Mod. II</button>
+  <button class="btn mod-3" onclick="filterSelection('mod-3')"> Mod. III</button>
   <button class="btn 3r" onclick="filterSelection('3r')"> 3º Redes</button>
   <button class="btn 2r" onclick="filterSelection('2r')"> 2º Redes</button>
   <button class="btn 2021" onclick="filterSelection('2021')"> 2021</button>
@@ -27,7 +27,7 @@ comments: false
 
 # Subsequente (noite)
 <br/>
-<div class="card 2021 mod-i">
+<div class="card 2021 mod-1">
   <img src="/assets/images/dados.png" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Documentos e Integração de Dados</b></h4>
@@ -37,7 +37,7 @@ comments: false
     </div>
 </div>
 <br/>
-<div class="card 2021 mod-i">
+<div class="card 2021 mod-1">
   <img src="/assets/images/mmc.jpeg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Montagem e Manutenção de Computadores</b></h4>
@@ -48,7 +48,7 @@ comments: false
 </div>
 
 <br/>
-<div class="card 2021 2022 mod-ii">
+<div class="card 2021 2022 mod-2">
   <img src="/assets/images/sdi.jpg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Segurança de Dados e Informações</b></h4>
@@ -58,7 +58,7 @@ comments: false
     </div>
 </div>
 <br/>
-<div class="card 2021 mod-ii">
+<div class="card 2021 mod-2">
   <img src="/assets/images/aso2.jpg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Administração de Sistema Operacional 2</b></h4>
