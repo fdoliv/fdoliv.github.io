@@ -25,7 +25,7 @@ comments: false
 
 # Subsequente (noite)
 <br/>
-<div class="card">
+<div class="card 2021 mod-i">
   <img src="/assets/images/dados.png" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Documentos e Integração de Dados</b></h4>
@@ -35,7 +35,7 @@ comments: false
     </div>
 </div>
 <br/>
-<div class="card">
+<div class="card 2021 mod-i">
   <img src="/assets/images/mmc.jpeg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Montagem e Manutenção de Computadores</b></h4>
@@ -46,7 +46,7 @@ comments: false
 </div>
 
 <br/>
-<div class="card">
+<div class="card 2021 2022 mod-ii">
   <img src="/assets/images/sdi.jpg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Segurança de Dados e Informações</b></h4>
@@ -56,7 +56,7 @@ comments: false
     </div>
 </div>
 <br/>
-<div class="card">
+<div class="card 2021 mod-ii">
   <img src="/assets/images/aso2.jpg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Administração de Sistema Operacional 2</b></h4>
@@ -68,7 +68,7 @@ comments: false
 <br/>
 # Integrado 
 <br/>
-<div class="card">
+<div class="card 2022">
   <img src="/assets/images/dt.jpg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Design Thinking</b></h4>
@@ -78,7 +78,7 @@ comments: false
     </div>
 </div>
 <br/>
-<div class="card">
+<div class="card 3r 2022">
   <img src="/assets/images/per.png" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Projetos Estruturados de Redes</b></h4>
@@ -89,7 +89,7 @@ comments: false
 </div>
 
 <br/>
-<div class="card">
+<div class="card 3r 2022 2r">
   <img src="/assets/images/pi.jpg" alt="Course" style="width:50%">
   <div class="container">
     <h4><b>Projeto Integrador</b></h4>
