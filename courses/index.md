@@ -9,6 +9,18 @@ comments: false
 ---
 <br/>
 
+<div class="myBtnContainer" id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Mostrar tudo</button>
+  <button class="btn java" onclick="filterSelection('mod-i')"> Mod. I</button>
+  <button class="btn android" onclick="filterSelection('mod-ii')"> Mod. II</button>
+  <button class="btn bash" onclick="filterSelection('mod-iii')"> Mod. III</button>
+  <button class="btn c-language" onclick="filterSelection('3r')"> 3º Redes</button>
+  <button class="btn c-language" onclick="filterSelection('2r')"> 2º Redes</button>
+  <button class="btn php" onclick="filterSelection('2021')"> 2021</button>
+  <button class="btn c-language" onclick="filterSelection('2022')"> 2022</button>
+</div>
+
+
 <br/>
 
 # Subsequente (noite)
