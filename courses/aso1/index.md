@@ -14,4 +14,4 @@ comments: false
 | Data | Assunto | Aula |
 | -- | ------------ | --- |
 | 00 | Apresentação da disciplina |  <a href="{{ site.url }}/assets/arquivos/did/aula00-did.pdf" target="blank" class="btn">aula 00</a> |
-| 01 | Apresentação da disciplina |  <a href="{{ site.url }}/assets/arquivos/did/aso1-texto01.pdf" target="blank" class="btn">texto apoio</a> |
+| 01 | Apresentação da disciplina |  <a href="{{ site.url }}/assets/arquivos/aso1/aso1-texto01.pdf" target="blank" class="btn">texto apoio</a> |
