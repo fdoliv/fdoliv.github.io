@@ -15,3 +15,5 @@ comments: false
 | -- | ------------ | --- |
 | 00 | Apresentação da disciplina |  <a href="{{ site.url }}/assets/arquivos/did/aula00-did.pdf" target="blank" class="btn">aula 00</a> |
 | 01 | Visão geral de Sistemas Operacionais |  <a href="{{ site.url }}/assets/arquivos/aso1/aso1-texto01.pdf" target="blank" class="btn">texto apoio</a> |
+| 02 | Simulador windows 11 |  <a href="https://win11.blueedge.me/" target="blank" class="btn">acessar simulador</a> |
+
