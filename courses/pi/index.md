@@ -31,6 +31,7 @@ Exemplo de envio:
 
 <br/>
 ## Datas Importantes
+
 #### 2º Bimestre
 * **<span style="color:blue"><s>06/05/2022</s> <s>10/05/2022</s></span> - Entrega 1ª AT**: Introdução.
 * **<span style="color:blue"><s>27/05/2022</s></span> <span style="color:blue"><s>30/05/2022</s></span> <span style="color:blue"><s>31/05/2022</s></span> - Entrega 2ª AT**: Final da Introdução. Início Justificativa e Motivação.
@@ -39,10 +40,14 @@ Exemplo de envio:
 
 
 #### 3º Bimestre
+* **<span style="color:red"><s>31/08/2022</s> - Entrega 1ª AT**: Início do desenvolvimento
+* **<span style="color:green"><s>08/09/2022</s></span> - Entrega 2ª AT**: Materiais e Métodos.
+* **<span style="color:blue"><s>08/06/2022 à 10/06/2022</s></span> - Entrega 3ª AT**: Resultados e Considerações Finais.
+* **<span style="color:red">03/07/2022</span> - Avaliação**: Entrega final .
 
-As datas das entregas estão disponíveis no calendário da displina.
-
-<a href="https://calendar.google.com/calendar/u/1?cid=M2JlY3RudWpmajM0YWlmNmRubzdsdXE3NmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="blank" class="btn">Calendário</a> 
+As datas das entregas estão disponíveis no calendário da displina. Este calendário pode ser adicionado à agenda do seu smartphone pelo botão abaixo:
+<iframe src="https://calendar.google.com/calendar/embed?src=3bectnujfj34aif6dno7luq76g%40group.calendar.google.com&ctz=America%2FRecife" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<a href="https://calendar.google.com/calendar/embed?src=3bectnujfj34aif6dno7luq76g%40group.calendar.google.com&ctz=America%2FRecife" target="blank" class="btn">Calendário</a> 
 <br/>
 ## Documentos Importantes
 
