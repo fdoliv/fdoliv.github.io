@@ -38,6 +38,11 @@ Exemplo de envio:
 * **<span style="color:red">03/07/2022</span> - Avaliação**: Introdução, Justificativa e Objetivos (Concluídos).
 
 
+#### 3º Bimestre
+
+As datas das entregas estão disponíveis no calendário da displina.
+
+<a href="https://calendar.google.com/calendar/u/1?cid=M2JlY3RudWpmajM0YWlmNmRubzdsdXE3NmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="blank" class="btn">Calendário</a> 
 <br/>
 ## Documentos Importantes
 
