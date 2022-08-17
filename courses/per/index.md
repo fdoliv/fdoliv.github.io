@@ -15,18 +15,36 @@ A atividade da aula deverá ser desempenhada em grupos. Ela consiste na realiza�
 
 Essa atividade **vale nota** (3 pontos) e deverá ser enviada por e-mail para o endereço **fdoprof@gmail.com** até ao fim da aula. Coloque no assunto do e-mail o marcador **#AT13B3RB**
 
-###### Temas
+#### Temas
 
-| Grupo | Assunto | Direcionamentos
+| Grupo | Assunto | Alunos
 | -- | --- | ----------- |
-| 1 | História do cabeamento estruturado | Inicio do cabeamento estruturado: sistemas de telefonia até os dias atuais;  |
-| 2 | Conceitos: cabeamento estruturado e cabeamento backbone; cabeamento desbalanceado e cabeamento balanceado |
-| 3 | Categoria de cabo cat3 | |
+| 1 | História do cabeamento estruturado |   |
+| 2 | Conceitos: cabeamento estruturado e cabeamento backbone; cabeamento desbalanceado e cabeamento balanceado | |
+| 3 | Categoria de cabo cat3 | Allana Moraes, Andreane, Jamerson, Renato, Thiago, Fátima e Eduardo Henrique |
 | 4 | Categoria de cabo cat5 | | 
 | 5 | Categoria de cabo cat6 | |
 | 6 | Categoria de cabo cat7 | |
 
+#### Apresentação oral
 
+A apresentação oral será realizada no laboratório de informática da ETE-GEC no dia 24/08/2022. Dois alunos do grupo deverão realizar a apresentação. A ordem de apresentação seguirá a ordem dos grupos. Entretanto a escolha dos apresentadores será por sorteio. O desempenho dos apresentadores (ou seja a nota obtida por eles) será também aplicada aos demais integrantes do grupo.
+
+**A apresentação não deverá ter menos que 6 minutos e mais que 8 minutos**.
+
+#### Avaliação
+
+A avaliação será realizada por alunos avaliadores, que deverão exercer o papel de forma crítica e utilizando técnicas de avaliação (perguntas, anotações, sugestões e críticas). Os alunos avaliadores deverão atribuir nota de 0 a 10 tanto aos slides quanto ao desempenho da apresentação oral.
+
+Alunos avaliadores: Jamily, Alessandra, Yan e Ana.
+
+Os avaliadores terão até 5 minutos para fazer suas considerações.
+
+
+
+## Ponto extra
+
+Ganhará ponto adicional o grupo que realizar um reels sobre o assunto escolhido e que consiga transmitir as principais ideis sobre o tema. O reels poderá ter duração de até 90 segundos, e pode ser postado no perfil da turma no instagram.
 
 <br/>
 
