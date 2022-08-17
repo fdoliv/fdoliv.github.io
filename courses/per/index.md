@@ -9,6 +9,25 @@ comments: false
 ---
 <br/>
 
+#### Atividade do dia 17/08/2022
+
+A atividade da aula deverá ser desempenhada em grupos. Ela consiste na realização de uma pesquisa sobre o tópico descrito abaixo, e na elaboração de uma apresentação de slides de no **máximo 8 minutos**.
+
+Essa atividade **vale nota** (3 pontos) e deverá ser enviada por e-mail para o endereço **fdoprof@gmail.com** até ao fim da aula. Coloque no assunto do e-mail o marcador **#AT13B3RB**
+
+###### Temas
+
+| Grupo | Assunto | Direcionamentos
+| -- | --- | ----------- |
+| 1 | História do cabeamento estruturado | Inicio do cabeamento estruturado: sistemas de telefonia até os dias atuais;  |
+| 2 | Conceitos: cabeamento estruturado e cabeamento backbone; cabeamento desbalanceado e cabeamento balanceado |
+| 3 | Categoria de cabo cat3 | |
+| 4 | Categoria de cabo cat5 | | 
+| 5 | Categoria de cabo cat6 | |
+| 6 | Categoria de cabo cat7 | |
+
+
+
 <br/>
 
 | Aula | Assunto | Links |
