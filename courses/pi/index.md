@@ -46,7 +46,9 @@ Exemplo de envio:
 * **<span style="color:red">03/07/2022</span> - Avaliação**: Entrega final .
 
 As datas das entregas estão disponíveis no calendário da displina. Este calendário pode ser adicionado à agenda do seu smartphone pelo botão abaixo:
+<div class="responsiveCal">
 <iframe src="https://calendar.google.com/calendar/embed?src=3bectnujfj34aif6dno7luq76g%40group.calendar.google.com&ctz=America%2FRecife" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
 <a href="https://calendar.google.com/calendar/embed?src=3bectnujfj34aif6dno7luq76g%40group.calendar.google.com&ctz=America%2FRecife" target="blank" class="btn">Calendário</a> 
 <br/>
 ## Documentos Importantes
