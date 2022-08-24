@@ -47,7 +47,7 @@ Exemplo de envio:
 * **<span style="color:blue"><s>08/06/2022 à 10/06/2022</s></span> - Entrega 3ª AT**: Resultados e Considerações Finais.
 * **<span style="color:red">03/07/2022</span> - Avaliação**: Entrega final .
 -->
-As datas das entregas estão disponíveis no calendário da displina. Este calendário pode ser adicionado à agenda do seu smartphone pelo botão "+Google Agenda" abaixo no canto direito do calendário:
+As datas das entregas estão disponíveis no calendário da displina. **Este calendário pode ser adicionado à agenda do seu smartphone pelo botão "+Google Agenda" abaixo no canto direito do calendário**:
 
 <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23D50000&ctz=America%2FRecife&mode=AGENDA&showNav=0&showTabs=0&showCalendars=1&src=M2JlY3RudWpmajM0YWlmNmRubzdsdXE3NmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cHQtYnIuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4uYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00&color=%230B8043&color=%230B8043" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"></iframe>
 
