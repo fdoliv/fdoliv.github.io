@@ -13,6 +13,10 @@ comments: false
 
 Atenção para as informações que constam no roteiro simplificado (veja em **documentos importantes**).
 
+Utilize recursos gráficos (fotos, gráficos, tabelas, figuras, etc.) para ilustrar as ideias do seu projeto.
+
+As imagens, gráficos e figuras deverão seguir a norma da abnt de inserção de imagens.
+
 Os Resumos espandidos (2º anos) deverão conter o mínimo de 3 páginas e no máximo 8 páginas.
 
 ### Instruções de Envio
