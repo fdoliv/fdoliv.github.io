@@ -10,25 +10,27 @@ comments: false
 ---
 <br/>
 ![Avatar](http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4338903Z2){:class="img-profile"}
+# Felipe Oliveira
 
-Felipe Oliveira is a computer science student from Pernambuco - Brazil, and a computer programmer with 4 years of experience.  He is B.S. in Computer Science at Federal Rural University of Pernambuco ([UFRPE](http://www.ufrpe.br/){:target="_blank"}), and has experience in Computer Science with a focus on Distributed Systems, research in the field of high-performance computing, and performance evaluation at the [UNAME Research Group](http://ufape.edu.br/br/grupos-pesquisa){:target="_blank"}. He composed and published some papers in national and international conferences and journals in the 2014-2019 period. Also in this period, he has helped with the creation of a site for a social project that auxiliary local family farmers to sell your products to clients, [Vô na Feira](http://app.uag.ufrpe.br/vonafeira/){:target="_blank"}. 
+Felipe Oliveira is a seasoned computer science professional from Pernambuco, Brazil, with over 8 years of experience in software development. He holds a Master of Science degree in Computer Science, conferred in March 2023, from the Informatics Center of the Federal University of Pernambuco ([Cin UFPE](https://www.cin.ufpe.br)). He also earned his Bachelor of Science degree in Computer Science from the Federal Rural University of Pernambuco ([UFRPE](http://www.ufrpe.br/)).
 
-Now, he is M.Sc. candidate in Computer Science at Informatics Center of the Federal University of Pernambuco - ([Cin UFPE](https://www.cin.ufpe.br){:target="_blank"}) and member of group Modeling of Distributed and Concurrent Systems ([MoDCS](http://www.modcs.org/){:target="_blank"}). Also is developer and mantainer of the [Mercury Modeling Tool](http://www.modcs.org/?p=2264){:target="_blank"}.
+Throughout his career, Felipe has demonstrated expertise in various aspects of computer programming, specializing in Distributed Systems with a focus on Cloud, Fog, and Edge computing. He has been an integral part of the Modeling of Distributed and Concurrent Systems ([MoDCS](http://www.modcs.org/)) research group, contributing significantly to the development and maintenance of the [Mercury Modeling Tool](http://www.modcs.org/?p=2264).
 
-<!-- His skills include Linux systems administration, computer programming in C, R, Python, Java and PHP languages and development of applications to Android devices. -->
+During his academic journey, Felipe was actively engaged in research at the UNAME Research Group, where he delved into high-performance computing and performance evaluation. His research findings have been presented at prestigious national and international conferences and published in esteemed journals.
 
-His research interests are:
+Beyond academia, Felipe has made tangible contributions to practical projects like [Vô na Feira](http://app.uag.ufrpe.br/vonafeira/), a platform designed to support local family farmers in marketing their produce.
 
-- Cloud, Fog and Edge computing
-- Performance and [Dependability](https://en.wikipedia.org/wiki/Dependability){:target="_blank"} Evaluation
-- High Performance Computing
+With a solid foundation in computer science and a wealth of hands-on experience, Felipe possesses a comprehensive skill set that includes proficiency in Linux systems administration and programming languages such as C, R, Python, Java, and PHP. He excels in developing applications for Android devices and has a keen interest in exploring emerging technologies.
+
+Felipe's research interests encompass a wide range of topics, including:
+- Performance and Dependability Evaluation
+- High-Performance Computing
 - Virtualization techniques
 - Internet of Things
-- Stocastic Petri nets
+- Stochastic Petri nets
 - Analytical Modeling
 
-This blog is for documentation about his research journey,  programming, and related.
-
+Through his blog, Felipe documents his research journey, programming endeavors, and insights into related subjects, fostering knowledge-sharing and collaboration within the global tech community.
 
 <!--
 ##### May you need:
