@@ -25,7 +25,7 @@ comments: false
     <h4><b>General do Campo</b></h4>
     <p>We created the General do Campo application to assist the professional in dealing with agricultural equipment. It has a series of equations that helps farmers and agronomists in the processes of agricultural mechanization.</p>
     <!-- <hr> -->
-    <a href="https://play.google.com/store/apps/details?id=br.com.diasoliveira.generaldocampo" class="btn" target="blank">Read more</a>  
+    <a href="https://play.google.com/store" class="btn" target="blank">Read more</a>  
     </div>
 </div>
 <br/>
@@ -35,7 +35,7 @@ comments: false
     <h4><b>FaultSimM</b></h4>
     <p>FaultSimM is a software to modeling and simulate faults based in Reliability Blocks Diagrams (RBD). The application aims to assist professionals in planning and managing infrastructures, considering the fixed assets present in these activities. The software provides users with information on the availability of systems represented by blocks of reliability through failure fault simulations.</p>
     <!-- <hr> -->
-    <a href="https://github.com/flpdias14/" class="btn" target="blank">Read more</a>  
+    <a href="https://github.com/fdoliv/" class="btn" target="blank">Read more</a>  
     </div>
 </div>
 <br/>
@@ -67,7 +67,7 @@ comments: false
     <h4><b>Zoioz</b></h4>
     <p>An automatized bash script to monitor resources of services running inside Docker Containers.</p>
     <!-- <hr> -->
-    <a href="https://github.com/flpdias14/zoioz" class="btn" target="blank">Github</a>  
+    <a href="https://github.com/fdoliv/zoioz" class="btn" target="blank">Github</a>  
     </div>
 </div>
 
@@ -78,6 +78,6 @@ comments: false
     <h4><b>Memleak</b></h4>
     <p>A C-based program to simulate memory leaks. Useful to simulate and test strategies to mitigate this issue.</p>
     <!-- <hr> -->
-    <a href="https://github.com/flpdias14/memleak" class="btn" target="blank">Github</a>  
+    <a href="https://github.com/fdoliv/memleak" class="btn" target="blank">Github</a>  
     </div>
 </div>
