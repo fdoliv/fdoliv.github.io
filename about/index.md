@@ -31,10 +31,11 @@ Felipe's research interests encompass a wide range of topics, including:
 
 Through his blog, Felipe documents his research journey, programming endeavors, and insights into related subjects, fostering knowledge-sharing and collaboration within the global tech community.
 
-<!--
+
 ##### May you need:
 
 - [CV - portuguese](http://lattes.cnpq.br/5171703682108065){:target="_blank"}
 - [CV - english](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4338903Z2&idiomaExibicao=2){:target="_blank"}
 - [Publications](https://scholar.google.com/citations?user=HQJPq-8AAAAJ&hl=en){:target="_blank"}
--->
+- [ORCID](https://orcid.org/0000-0002-0282-6717)
+
