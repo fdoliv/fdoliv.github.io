@@ -86,7 +86,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Performance Evaluation, High Performance Computing"
+keywords: "Performance Evaluation, High Performance Computing, software engineer, Markov chain, DevOpsSec"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -163,8 +163,8 @@ menu_icons:
 
 # Schemes
 # scheme: Muse
-# scheme: Mist
-scheme: Pisces
+scheme: Mist
+# scheme: Pisces
 
 
 # ---------------------------------------------------------------
