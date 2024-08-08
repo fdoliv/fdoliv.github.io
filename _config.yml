@@ -623,7 +623,7 @@ use_motion: true
 fancybox: false
 
 # Progress bar in the top during page loading.
-pace: true
+pace: false
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
