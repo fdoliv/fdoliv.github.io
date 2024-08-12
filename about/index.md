@@ -13,7 +13,7 @@ comments: false
 
 ![Avatar](/assets/images/avatar.jpg){:class="img-profile"}
 
-{% assign start_year = 2014 %}
+{% assign start_year = 2016 %}
 {% assign current_year = site.time | date: '%Y' %}
 {% assign years_of_experience = current_year | minus: start_year %}
 
