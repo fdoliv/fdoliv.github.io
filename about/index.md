@@ -10,7 +10,9 @@ comments: false
 ---
 <br/>
 <div class="img-profile">
+
 ![Avatar](/assets/images/avatar.jpg)
+
 </div>
 Felipe Oliveira is a seasoned computer science professional from Pernambuco, Brazil, with over 8 years of experience in software development. He holds a Master of Science degree in Computer Science, conferred in March 2023, from the Informatics Center of the Federal University of Pernambuco ([Cin UFPE](https://www.cin.ufpe.br)). He also earned his Bachelor of Science degree in Computer Science from the Federal Rural University of Pernambuco ([UFRPE](http://www.ufrpe.br/)).
 
