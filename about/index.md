@@ -9,6 +9,8 @@ excerpt: Hello folks, I'm student of computer science from Pernambuco, Brazil. T
 comments: false
 ---
 <br/>
+
+![A pretty tiger](https://octodex.github.com/images/tiger.png)
 ![Avatar]([http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4338903Z2](https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1307968%2F4557456d-fc51-4701-bcb1-8b88a19d76be.png)){:class="img-profile"}
 
 Felipe Oliveira is a seasoned computer science professional from Pernambuco, Brazil, with over 8 years of experience in software development. He holds a Master of Science degree in Computer Science, conferred in March 2023, from the Informatics Center of the Federal University of Pernambuco ([Cin UFPE](https://www.cin.ufpe.br)). He also earned his Bachelor of Science degree in Computer Science from the Federal Rural University of Pernambuco ([UFRPE](http://www.ufrpe.br/)).
