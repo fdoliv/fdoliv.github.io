@@ -341,7 +341,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -474,7 +474,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: G-J5ZJYH3T3D
+google_analytics: G-48ZJXKX4CW
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
