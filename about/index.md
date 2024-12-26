@@ -41,9 +41,26 @@ Through his blog, Felipe documents his research journey, programming endeavors, 
 
 ##### May you need:
 
-- [Linkedin](https://www.linkedin.com/in/felipe-d-a79b542b3/){:target="_blank"}
 - [CV - portuguese](http://lattes.cnpq.br/5171703682108065){:target="_blank"}
 - [CV - english](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4338903Z2&idiomaExibicao=2){:target="_blank"}
 - [Publications](https://scholar.google.com/citations?user=HQJPq-8AAAAJ&hl=en){:target="_blank"}
 - [ORCID](https://orcid.org/0000-0002-0282-6717)
 
+      <style>
+        .libutton {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 7px;
+          text-align: center;
+          outline: none;
+          text-decoration: none !important;
+          color: #ffffff !important;
+          width: 200px;
+          height: 32px;
+          border-radius: 16px;
+          background-color: #0A66C2;
+          font-family: "SF Pro Text", Helvetica, sans-serif;
+        }
+      </style>
+<a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=fdoprof" target="_blank">Follow on LinkedIn</a>
