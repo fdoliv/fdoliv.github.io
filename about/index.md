@@ -18,7 +18,7 @@ comments: false
 {% assign years_of_experience = current_year | minus: start_year %}
 
 <!-- </div> -->
-Felipe Dias is a seasoned computer science professional from Pernambuco, Brazil, with over {{ years_of_experience }} years of experience in software development. He holds a Master of Science degree in Computer Science, conferred in March 2023, from the Informatics Center of the Federal University of Pernambuco ([Cin UFPE](https://www.cin.ufpe.br)). He also earned his Bachelor of Science degree in Computer Science from the Federal Rural University of Pernambuco ([UFRPE](http://www.ufrpe.br/)).
+Felipe Dias is a  seasoned computer science professional from Pernambuco, Brazil, with over {{ years_of_experience }} years of experience in software development. He holds a Master of Science degree in Computer Science, conferred in March 2023, from the Informatics Center of the Federal University of Pernambuco ([Cin UFPE](https://www.cin.ufpe.br)). He also earned his Bachelor of Science degree in Computer Science from the Federal Rural University of Pernambuco ([UFRPE](http://www.ufrpe.br/)).
 
 Throughout his career, Felipe has demonstrated expertise in various aspects of computer programming, specializing in Distributed Systems with a focus on Cloud, Fog, and Edge computing. He has been an integral part of the Modeling of Distributed and Concurrent Systems ([MoDCS](http://www.modcs.org/)) research group, contributing significantly to the development and maintenance of the [Mercury Modeling Tool](http://www.modcs.org/?p=2264).
 
