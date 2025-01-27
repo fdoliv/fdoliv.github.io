@@ -63,12 +63,6 @@ defaults:
       layout: "post"
       comments: true
 
-
-collections:
-  well-know:
-    output: false
-    permalink: /.well-know/:path/
-
 # Atom feed
 feed:
   path: atom.xml
