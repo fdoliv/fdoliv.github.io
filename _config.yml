@@ -55,7 +55,7 @@ kramdown:
 collections:
   archives:
     output: true
-    permalink: /.well-known/atproto-did
+    permalink: /.well-known/:path/
 
 # Default Attributes
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults
