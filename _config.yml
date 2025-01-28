@@ -53,7 +53,7 @@ kramdown:
     input: GFM
 
 collections:
-  well-known:
+  archives:
     output: true
     permalink: /.well-known/atproto-did
 
