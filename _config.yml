@@ -52,6 +52,11 @@ markdown: kramdown
 kramdown:
     input: GFM
 
+collections:
+  well-known:
+    output: true
+    permalink: /.well-known/atproto-did
+
 # Default Attributes
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
