@@ -53,7 +53,7 @@ kramdown:
     input: GFM
 
 collections:
-  archives:
+  well-known:
     output: true
     permalink: /.well-known/:path/
 
