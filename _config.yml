@@ -78,7 +78,7 @@ plugins:
  - jemoji
  - jekyll-sitemap
  - jekyll-feed
- - jekyll-twitter-plugin
+ - jekyll-bluesky
 
 
 
