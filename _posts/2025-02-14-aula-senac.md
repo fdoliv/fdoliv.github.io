@@ -12,6 +12,6 @@ Prezados, a aula introdutória da disciplina HighTech aplicada ao Mercado está 
 
 Abaixo está a Curva do Hype do Gartner, para o ano 2024.
 
-[Curva do Hype, 2024](https://emt.gartnerweb.com/ngw/globalassets/intl-br/information-technology/images/hype-cycle/hype-cycle-para-tecnologias-emergentes.png?_gl=1*1olqx13*_ga*NjU5ODQ4NzYwLjE3Mzk0NzQwMjU.*_ga_R1W5CE5FEV*MTc0MDA3OTc0Ni40LjAuMTc0MDA3OTc0Ni42MC4wLjA.)
+![Curva do Hype, 2024](https://emt.gartnerweb.com/ngw/globalassets/intl-br/information-technology/images/hype-cycle/hype-cycle-para-tecnologias-emergentes.png?_gl=1*1olqx13*_ga*NjU5ODQ4NzYwLjE3Mzk0NzQwMjU.*_ga_R1W5CE5FEV*MTc0MDA3OTc0Ni40LjAuMTc0MDA3OTc0Ni42MC4wLjA.)
  
 
