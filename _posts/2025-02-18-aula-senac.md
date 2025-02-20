@@ -10,6 +10,6 @@ categories:
 
 Prezados, a aula da segunda semana da disciplina banco de dados está disponível neste <a href="{{ site.url }}/assets/senac_bd_02.pdf" target="blank" class="btn">link</a>.
 
-Segue um vídeo de apoio para a instalação do mysql <a href="https://www.youtube.com/watch?v=IEUgVwjXF0o" target="blank"> Link para o vídeo</a>
+Segue um vídeo de apoio para a instalação do mysql <a href="https://www.youtube.com/watch?v=IEUgVwjXF0o" target="blank" class="btn"> Link para o vídeo</a>
  
 
