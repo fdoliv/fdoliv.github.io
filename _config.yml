@@ -18,7 +18,7 @@ date_format: '%d/%m/%Y'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: http://dias.dev.br
-baseurl: /about 
+baseurl:  
 permalink: pretty
 
 # Pagination
