@@ -1,79 +1,449 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-05T14:37:32-03:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">./Felipe Oliveira</title><subtitle>Hello folks, I'm a student of computer science from Pernambuco, Brazil. This blog is for documentation about my research journey,  programming, and related.</subtitle><author><name>Felipe Oliveira</name></author><entry><title type="html">The Mercury Environment: A Modeling Tool for Performance and Dependability Evaluation</title><link href="http://localhost:4000/papers/dependability/mercury/2021/07/07/mercury/" rel="alternate" type="text/html" title="The Mercury Environment: A Modeling Tool for Performance and Dependability Evaluation" /><published>2021-07-07T08:24:00-03:00</published><updated>2021-07-07T08:24:00-03:00</updated><id>http://localhost:4000/papers/dependability/mercury/2021/07/07/mercury</id><content type="html" xml:base="http://localhost:4000/papers/dependability/mercury/2021/07/07/mercury/">&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: It is important to be able to judge the performance or dependability metrics of a system and often we do so by using abstract models even when the system is in the conceptual phase. Evaluating a system by performing measurements can have a high temporal and/or financial cost, which may not be feasible. Mathematical models can provide estimates about system behavior and we need tools supporting different types of formalisms in order to compute desired metrics. The Mercury tool enables a range of models to be created and evaluated for supporting performance and dependability evaluations, such as reliability block diagrams (RBDs), dynamic RBDs (DRBDs), fault trees (FTs), stochastic Petri nets (SPNs), continuous and discrete-time Markov chains (CTMCs and DTMCs), as well as energy flow models (EFMs). In this paper, we introduce recent enhancements to Mercury, namely new SPN simulators, support to prioritized timed transitions, sensitivity analysis evaluation, several improvements to the usability of the tool, and support to DTMC and FT formalisms.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-10T16:41:19-03:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">./Felipe Dias</title><subtitle>Hello folks, I&apos;m a student of computer science from Pernambuco, Brazil. This blog is for documentation about my research journey,  programming, and related.</subtitle><author><name>Felipe Dias</name></author><entry><title type="html">Exemplos Básicos com SELECT no MySQL</title><link href="http://localhost:4000/tutorial/sql/mysql/2025/03/09/comandos-basicos-mysql/" rel="alternate" type="text/html" title="Exemplos Básicos com SELECT no MySQL" /><published>2025-03-09T00:00:00-03:00</published><updated>2025-03-09T00:00:00-03:00</updated><id>http://localhost:4000/tutorial/sql/mysql/2025/03/09/comandos-basicos-mysql</id><content type="html" xml:base="http://localhost:4000/tutorial/sql/mysql/2025/03/09/comandos-basicos-mysql/"><![CDATA[<p>O comando <code class="language-plaintext highlighter-rouge">SELECT</code> é utilizado para recuperar dados armazenados em tabelas no MySQL. Ele
+permite a realização de diversas operações, desde cálculos simples até consultas mais elaboradas
+em bases de dados.
+Nos primeiros exemplos, trabalharemos apenas com operações internas do MySQL, sem envolver
+tabelas. Posteriormente, exploraremos comandos aplicados a tabelas, que exigem adaptação dos
+nomes conforme o contexto do banco de dados utilizado.</p>
 
-&lt;p&gt;Details in this &lt;a href=&quot;https://doi.org/10.3233/AISE210075&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;</content><author><name>Felipe Oliveira</name></author><category term="Papers" /><category term="Dependability" /><category term="Mercury" /><summary type="html">Abstract: It is important to be able to judge the performance or dependability metrics of a system and often we do so by using abstract models even when the system is in the conceptual phase. Evaluating a system by performing measurements can have a high temporal and/or financial cost, which may not be feasible. Mathematical models can provide estimates about system behavior and we need tools supporting different types of formalisms in order to compute desired metrics. The Mercury tool enables a range of models to be created and evaluated for supporting performance and dependability evaluations, such as reliability block diagrams (RBDs), dynamic RBDs (DRBDs), fault trees (FTs), stochastic Petri nets (SPNs), continuous and discrete-time Markov chains (CTMCs and DTMCs), as well as energy flow models (EFMs). In this paper, we introduce recent enhancements to Mercury, namely new SPN simulators, support to prioritized timed transitions, sensitivity analysis evaluation, several improvements to the usability of the tool, and support to DTMC and FT formalisms.</summary></entry><entry><title type="html">Software Aging in Container-based Virtualization: An Experimental Analysis on Docker Platform</title><link href="http://localhost:4000/papers/aging/virtualization/docker/2021/06/26/swad-cisti2021/" rel="alternate" type="text/html" title="Software Aging in Container-based Virtualization: An Experimental Analysis on Docker Platform" /><published>2021-06-26T20:30:09-03:00</published><updated>2021-06-26T20:30:09-03:00</updated><id>http://localhost:4000/papers/aging/virtualization/docker/2021/06/26/swad-cisti2021</id><content type="html" xml:base="http://localhost:4000/papers/aging/virtualization/docker/2021/06/26/swad-cisti2021/">&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Lightweight virtualization, and specifically containers, has become widespread in the information technology industry to provide an efficient operational environment for the execution of scalable services on the Internet. Containers rely on a set of technologies different from the features that enable hardware virtualization (i.e., hypervisor-based virtual machines). However, both types of virtualized environments are employed to host applications that will be accessible anytime, anywhere. Thus, they are prone to software aging, which usually affects systems that run for long time intervals. Researchers have identified software aging effects in distinct types of cloud computing environments and hypervisors over recent years. However, a few works have dealt with this phenomenon in container-based platforms. This paper presents an experimental analysis of the software aging effects observed on Docker platforms while also evaluating the fitness of a time-series model to predict resource consumption’s progress caused by software aging. We employ a stress test workload tailored for the scenario of containers arranged in a cluster managed by Docker Swarm. The obtained results indicate an increasing usage of resident memory, virtual memory, and CPU usage, as the system undergoes subsequent scale-up and scale-down operations. The quadratic trend model was the best fitting approach for predicting resident and virtual memory usage, with less than 5% of prediction error. The experimental approach presented here may help systems administrators to detect evidence of software aging in container-based environments, and allowing then to choose a proper method and time for deploying rejuvenation actions to mitigate the dependability issues raised in similar scenarios described here.&lt;/p&gt;
+<h2 id="operações-aritméticas-simples">Operações Aritméticas Simples</h2>
 
-&lt;p&gt;Details in this &lt;a href=&quot;https://doi.org/10.23919/CISTI52073.2021.9476625&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;</content><author><name>Felipe Oliveira</name></author><category term="Papers" /><category term="Aging" /><category term="Virtualization" /><category term="Docker" /><summary type="html">Abstract: Lightweight virtualization, and specifically containers, has become widespread in the information technology industry to provide an efficient operational environment for the execution of scalable services on the Internet. Containers rely on a set of technologies different from the features that enable hardware virtualization (i.e., hypervisor-based virtual machines). However, both types of virtualized environments are employed to host applications that will be accessible anytime, anywhere. Thus, they are prone to software aging, which usually affects systems that run for long time intervals. Researchers have identified software aging effects in distinct types of cloud computing environments and hypervisors over recent years. However, a few works have dealt with this phenomenon in container-based platforms. This paper presents an experimental analysis of the software aging effects observed on Docker platforms while also evaluating the fitness of a time-series model to predict resource consumption’s progress caused by software aging. We employ a stress test workload tailored for the scenario of containers arranged in a cluster managed by Docker Swarm. The obtained results indicate an increasing usage of resident memory, virtual memory, and CPU usage, as the system undergoes subsequent scale-up and scale-down operations. The quadratic trend model was the best fitting approach for predicting resident and virtual memory usage, with less than 5% of prediction error. The experimental approach presented here may help systems administrators to detect evidence of software aging in container-based environments, and allowing then to choose a proper method and time for deploying rejuvenation actions to mitigate the dependability issues raised in similar scenarios described here.</summary></entry><entry><title type="html">A Software Maintenance Methodology: An Approach Applied to Software Aging</title><link href="http://localhost:4000/papers/aging/methodology/2021/05/15/swa-syscon21/" rel="alternate" type="text/html" title="A Software Maintenance Methodology: An Approach Applied to Software Aging" /><published>2021-05-15T20:30:09-03:00</published><updated>2021-05-15T20:30:09-03:00</updated><id>http://localhost:4000/papers/aging/methodology/2021/05/15/swa-syscon21</id><content type="html" xml:base="http://localhost:4000/papers/aging/methodology/2021/05/15/swa-syscon21/">&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The increasing use of computational systems has highlighted concerns about attributes that may influence the quality of service, such as performance, availability, reliability, and maintenance capacity. Failures in the software development process may impact these attributes. Flawed code and overall software misdesign may cause internal errors, leading to system malfunction. Some errors might be identified and fixed during the software testing process. However, other errors may manifest only during the production stage. This is the case of the software aging phenomenon, which is related to the progressive degradation that a software performance or reliability suffers during its operational life. This paper proposes a methodology for software maintenance that is tailored to identify, correct, and mitigate the software aging effects. If the source code can be modified and a new version deployed with minimal impact, thus data from aging detection is used for corrective maintenance, i.e., for fixing the bug the causes the aging effects. If the software cannot be fixed nor its version updated without long system interruption or other bad consequences, then our approach can mitigate the aging effects, in a preventive maintenance to avoid service outages. The proposed methodology is validated through both Stochastic Petri Net (SPN) models and experiments in a controlled environment. The model evaluation considering a hybrid maintenance routine (preventive and corrective) yielded an availability of 99.82%, representing an annual downtime of 15.9 hours. By contrast, the baseline scenario containing only reactive maintenance (i.e., repairing only after failure) had more than 1342 hours of annual downtime - 80 times higher than the proposed approach.&lt;/p&gt;
+<p>Essas operações utilizam o MySQL como uma calculadora, permitindo somas, multiplicações e
+outras funções matemáticas básicas.</p>
 
-&lt;p&gt;Details in this &lt;a href=&quot;https://doi.org/10.1109/SysCon48628.2021.9447082&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;</content><author><name>Felipe Oliveira</name></author><category term="Papers" /><category term="Aging" /><category term="Methodology" /><summary type="html">Abstract: The increasing use of computational systems has highlighted concerns about attributes that may influence the quality of service, such as performance, availability, reliability, and maintenance capacity. Failures in the software development process may impact these attributes. Flawed code and overall software misdesign may cause internal errors, leading to system malfunction. Some errors might be identified and fixed during the software testing process. However, other errors may manifest only during the production stage. This is the case of the software aging phenomenon, which is related to the progressive degradation that a software performance or reliability suffers during its operational life. This paper proposes a methodology for software maintenance that is tailored to identify, correct, and mitigate the software aging effects. If the source code can be modified and a new version deployed with minimal impact, thus data from aging detection is used for corrective maintenance, i.e., for fixing the bug the causes the aging effects. If the software cannot be fixed nor its version updated without long system interruption or other bad consequences, then our approach can mitigate the aging effects, in a preventive maintenance to avoid service outages. The proposed methodology is validated through both Stochastic Petri Net (SPN) models and experiments in a controlled environment. The model evaluation considering a hybrid maintenance routine (preventive and corrective) yielded an availability of 99.82%, representing an annual downtime of 15.9 hours. By contrast, the baseline scenario containing only reactive maintenance (i.e., repairing only after failure) had more than 1342 hours of annual downtime - 80 times higher than the proposed approach.</summary></entry><entry><title type="html">Experimental Evaluation of Software Aging Effects in a Container-Based Virtualization Platform</title><link href="http://localhost:4000/papers/aging/container/2020/10/14/experimental-smc/" rel="alternate" type="text/html" title="Experimental Evaluation of Software Aging Effects in a Container-Based Virtualization Platform" /><published>2020-10-14T20:30:09-03:00</published><updated>2020-10-14T20:30:09-03:00</updated><id>http://localhost:4000/papers/aging/container/2020/10/14/experimental-smc</id><content type="html" xml:base="http://localhost:4000/papers/aging/container/2020/10/14/experimental-smc/">&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Cloud-based architectures have grown in recent years, especially the interest in container-based solutions have sharply increased by enterprises worldwide. Containers are a form of lightweight virtualization that can be used to provide cloud services. Adopting this kind of technology in a bare- metal context is becoming strong because they can offer many benefits, like performance efficiency and costs reduction. Docker is a widespread platform for the creation and management of containers. As in any computational cloud service, Docker environments must deal with the intensive workload and may have a long-term life cycle, which might trigger some problems that compromise the system dependability. The software aging phenomenon is one of these likely problems. It is a process of cumulative errors or system misbehavior that leads to application failures and performance degradation throughout its runtime. This paper aims to monitor and evaluate software aging effects on the Docker platform in a cloud computing environment. We conducted two experimental studies with automated workloads to simulate containers’ life cycle and the intensive use of Docker features, while the system was monitored. The results show high resource consumption by the operating system’s network utility, in addition to memory fragmentation in the sub-processes of the Docker platform. Trends of increasing resident memory consumption were also observed in one of these scenarios.&lt;/p&gt;
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Operação de adição</span>
+<span class="k">SELECT</span> <span class="mi">2</span><span class="o">+</span><span class="mi">2</span><span class="p">;</span>
 
-&lt;p&gt;Details in this &lt;a href=&quot;https://doi.org/10.1109/SMC42975.2020.9283358&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;</content><author><name>Felipe Oliveira</name></author><category term="Papers" /><category term="Aging" /><category term="container" /><summary type="html">Abstract: Cloud-based architectures have grown in recent years, especially the interest in container-based solutions have sharply increased by enterprises worldwide. Containers are a form of lightweight virtualization that can be used to provide cloud services. Adopting this kind of technology in a bare- metal context is becoming strong because they can offer many benefits, like performance efficiency and costs reduction. Docker is a widespread platform for the creation and management of containers. As in any computational cloud service, Docker environments must deal with the intensive workload and may have a long-term life cycle, which might trigger some problems that compromise the system dependability. The software aging phenomenon is one of these likely problems. It is a process of cumulative errors or system misbehavior that leads to application failures and performance degradation throughout its runtime. This paper aims to monitor and evaluate software aging effects on the Docker platform in a cloud computing environment. We conducted two experimental studies with automated workloads to simulate containers’ life cycle and the intensive use of Docker features, while the system was monitored. The results show high resource consumption by the operating system’s network utility, in addition to memory fragmentation in the sub-processes of the Docker platform. Trends of increasing resident memory consumption were also observed in one of these scenarios.</summary></entry><entry><title type="html">How to download youtube live streams?</title><link href="http://localhost:4000/tutorial/youtube/2020/09/04/download-video-live/" rel="alternate" type="text/html" title="How to download youtube live streams?" /><published>2020-09-04T00:00:00-03:00</published><updated>2020-09-04T00:00:00-03:00</updated><id>http://localhost:4000/tutorial/youtube/2020/09/04/download-video-live</id><content type="html" xml:base="http://localhost:4000/tutorial/youtube/2020/09/04/download-video-live/">&lt;p&gt;Today I needed to download live stream videos from youtube (i.e., that are still live). To do this, I used the command-line utility &lt;a href=&quot;https://streamlink.github.io/&quot; target=&quot;_blank&quot;&gt;Streamlink&lt;/a&gt;, which extracts streams from various services and pipes them into a video player of choice or a file.&lt;/p&gt;
+<span class="k">SELECT</span> <span class="mi">2</span><span class="o">+</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="o">+</span><span class="mi">3</span><span class="p">;</span>
 
-&lt;h1 id=&quot;install-streamlink&quot;&gt;Install Streamlink&lt;/h1&gt;
+<span class="c1">-- Operação de subtração </span>
+<span class="k">SELECT</span> <span class="mi">2</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
 
-&lt;p&gt;To install Streamlink on Debian like systems, we need to execute on terminal:&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;streamlink
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h1 id=&quot;streamlink-usage&quot;&gt;Streamlink usage&lt;/h1&gt;
-&lt;p&gt;Now, to use the tool we need to run:&lt;/p&gt;
+<span class="c1">-- Operação de multiplicação</span>
+<span class="k">SELECT</span> <span class="mi">2</span><span class="o">*</span><span class="mi">2</span><span class="p">,</span> <span class="mi">9</span><span class="o">*</span><span class="p">(</span><span class="mi">2</span><span class="o">+</span><span class="mi">3</span><span class="p">);</span>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;streamlink &lt;span class=&quot;nt&quot;&gt;--hls-live-restart&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &amp;lt;output file name&amp;gt; &amp;lt;URL&amp;gt; best
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Here the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--hls-live-restart&lt;/code&gt; parameter is to skip to the beginning of a live stream, or as far back as possible. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-o&lt;/code&gt; parameter is to set the output file, were is indicate in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;output file name&amp;gt;&lt;/code&gt;. Replacing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;URL&amp;gt;&lt;/code&gt; with the video URL (e.g. from youtube),we indicate the source site of the video. Finally, the parameter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;best&lt;/code&gt; is to indicate the stream quality, it also can be 144p (worst), 240p, 360p, 480p, 720p (best).&lt;/p&gt;
+<span class="c1">-- Operação de divisão</span>
+<span class="k">SELECT</span> <span class="mi">10</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+<span class="k">SELECT</span> <span class="n">FORMAT</span><span class="p">(</span><span class="mi">4</span><span class="o">/</span><span class="mi">7</span><span class="p">,</span><span class="mi">12</span><span class="p">);</span>
+<span class="k">SELECT</span> <span class="mi">4</span><span class="o">*</span><span class="n">PI</span><span class="p">()</span><span class="o">/</span><span class="mi">3</span><span class="p">;</span>
 
-&lt;p&gt;For example, we can download the &lt;a href=&quot;https://youtu.be/21X5lGlDOfg&quot; target=&quot;_blank&quot;&gt;NASA TV video stream&lt;/a&gt; from youtube. To do this is enouth run in terminal:&lt;/p&gt;
+<span class="c1">-- Operação de potenciação</span>
+<span class="k">SELECT</span> <span class="n">FORMAT</span><span class="p">(</span><span class="n">POWER</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">64</span><span class="p">),</span><span class="mi">0</span><span class="p">);</span>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;streamlink &lt;span class=&quot;nt&quot;&gt;--hls-live-restart&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; nasa.mp4 https://youtu.be/21X5lGlDOfg best
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Felipe Oliveira</name></author><category term="Tutorial" /><category term="Youtube" /><summary type="html">Today I needed to download live stream videos from youtube (i.e., that are still live). To do this, I used the command-line utility Streamlink, which extracts streams from various services and pipes them into a video player of choice or a file.</summary></entry><entry><title type="html">Impactos da IoT na Avicultura: um Mapeamento Sistemático</title><link href="http://localhost:4000/iot/poultry/automation/papers/2019/11/14/iot-avicultura/" rel="alternate" type="text/html" title="Impactos da IoT na Avicultura: um Mapeamento Sistemático" /><published>2019-11-14T20:30:09-03:00</published><updated>2019-11-14T20:30:09-03:00</updated><id>http://localhost:4000/iot/poultry/automation/papers/2019/11/14/iot-avicultura</id><content type="html" xml:base="http://localhost:4000/iot/poultry/automation/papers/2019/11/14/iot-avicultura/">&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Brazil is today the largest exporter and the second largest producer worldwide of chicken meat. Despite such prominent position, the lack of data about the use of tools based on Internet of Things (IoT) at national poultry farming leads to the hypothesis that the most Brazilian poultry farmers still use conventional methods to the detriment of higher productivity. In this work, we mapped 17 publications from the international literature that show IoT-based solutions that pass through food safety, environmental production factors, traceability, and animal health. This way, we expect to contribute to a discussion between the computer and agribusiness scientific communities through a systematic review.&lt;/p&gt;
+<span class="c1">-- Operação de raiz quadrada</span>
+<span class="k">SELECT</span> <span class="n">SQRT</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
 
-&lt;p&gt;&lt;strong&gt;Resumo&lt;/strong&gt;: O Brasil é hoje o maior exportador e o segundo maior produtor mundial de carne de frango. Apesar dessa posição de destaque, a ausência de dados sobre a utilização de ferramentas baseadas em ​Internet of Things (IoT) na indústria de avicultura nacional reforça a hipótese de que a maior parte dos avicultores brasileiros ainda usam métodos convencionais de operação em detrimento de uma maior produtividade. Nesse estudo, foram mapeados 17 trabalhos da literatura internacional que apresentam soluções baseadas em IoT que perpassam desde a segurança alimentar, fatores ambientais de produção, rastreabilidade e saúde dos animais. Espera-se, portanto, contribuir para discussão entre a comunidade científica da computação e do agronegócio por meio de uma revisão sistemática.&lt;/p&gt;
+</code></pre></div></div>
+<p>A consulta <code class="language-plaintext highlighter-rouge">SELECT FORMAT(3/7,12)</code> faz a divisão de 3 por 7 e usa a função <code class="language-plaintext highlighter-rouge">FORMAT</code> para exibir o resultado com 12 casas decimais.</p>
 
-&lt;p&gt;Details in this &lt;a href=&quot;https://www.researchgate.net/publication/342349795_Impactos_da_IoT_na_Avicultura_um_Mapeamento_Sistematico&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;</content><author><name>Felipe Oliveira</name></author><category term="IoT" /><category term="Poultry" /><category term="Automation" /><category term="Papers" /><summary type="html">Abstract: Brazil is today the largest exporter and the second largest producer worldwide of chicken meat. Despite such prominent position, the lack of data about the use of tools based on Internet of Things (IoT) at national poultry farming leads to the hypothesis that the most Brazilian poultry farmers still use conventional methods to the detriment of higher productivity. In this work, we mapped 17 publications from the international literature that show IoT-based solutions that pass through food safety, environmental production factors, traceability, and animal health. This way, we expect to contribute to a discussion between the computer and agribusiness scientific communities through a systematic review.</summary></entry><entry><title type="html">Introdução ao GNU/Linux - Comandos e Scripts</title><link href="http://localhost:4000/linux/infrastructure/ti/opensource/course/2019/10/26/course-linux-copy/" rel="alternate" type="text/html" title="Introdução ao GNU/Linux - Comandos e Scripts" /><published>2019-10-26T19:46:49-03:00</published><updated>2019-10-26T19:46:49-03:00</updated><id>http://localhost:4000/linux/infrastructure/ti/opensource/course/2019/10/26/course-linux%20copy</id><content type="html" xml:base="http://localhost:4000/linux/infrastructure/ti/opensource/course/2019/10/26/course-linux-copy/">&lt;p&gt;On October 25, 2019:  I taught the Introduction to GNU / LINUX  - Commands and Scripts short course, offered by “&lt;a href=&quot;http://lmts.uag.ufrpe.br&quot; target=&quot;_blank&quot;&gt;Laboratório Multidisciplinar de Tecnologias Sociais (LMTS)&lt;/a&gt;” to students of computer science in Garanhuns-PE.&lt;/p&gt;
+<p>Já na consulta <code class="language-plaintext highlighter-rouge">SELECT FORMAT(POWER(2,64),0)</code>, a função <code class="language-plaintext highlighter-rouge">POWER</code> calcula 2 elevado à potência 64.
+Aqui, o <code class="language-plaintext highlighter-rouge">FORMAT</code> é usado para exibir o número sem nenhuma parte decimal, deixando o resultado mais organizado.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/EgiOUnOXcAIvNI-?format=jpg&amp;amp;name=large&quot; alt=&quot;Public call&quot; /&gt;&lt;/p&gt;
+<h2 id="operadores-lógicos-e-booleanos">Operadores Lógicos e Booleanos</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/EgiOUnaXkAQLNKn?format=jpg&amp;amp;name=large&quot; alt=&quot;Participants&quot; /&gt;&lt;/p&gt;
+<p>Os operadores lógicos, como <code class="language-plaintext highlighter-rouge">AND</code> (conjunção), <code class="language-plaintext highlighter-rouge">OR</code> (disjunção) e <code class="language-plaintext highlighter-rouge">NOT</code> (negação), são usados para combinar ou modificar condições. 
+Eles trabalham com valores booleanos, onde <code class="language-plaintext highlighter-rouge">1</code> representa verdadeiro e <code class="language-plaintext highlighter-rouge">0</code> representa falso.</p>
 
-&lt;p&gt;Details in this &lt;a href=&quot;http://lmts.uag.ufrpe.br/br/noticia/lmts-promove-mais-um-minicurso-de-tecnologia-nesse-m%C3%AAs-de-outubro&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;</content><author><name>Felipe Oliveira</name></author><category term="Linux" /><category term="Infrastructure" /><category term="TI" /><category term="OpenSource" /><category term="Course" /><summary type="html">On October 25, 2019: I taught the Introduction to GNU / LINUX - Commands and Scripts short course, offered by “Laboratório Multidisciplinar de Tecnologias Sociais (LMTS)” to students of computer science in Garanhuns-PE.</summary></entry><entry><title type="html">Referências sobre REST APIs</title><link href="http://localhost:4000/api/rest/2019/05/20/referencias-sobre-apis/" rel="alternate" type="text/html" title="Referências sobre REST APIs" /><published>2019-05-20T20:30:09-03:00</published><updated>2019-05-20T20:30:09-03:00</updated><id>http://localhost:4000/api/rest/2019/05/20/referencias-sobre-apis</id><content type="html" xml:base="http://localhost:4000/api/rest/2019/05/20/referencias-sobre-apis/">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api&quot;&gt;Best Practices for Designing a Pragmatic RESTful API (►)&lt;/a&gt; - Lista bem completa sobre boas práticas para a construção de APIs RESTful.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=psLrAsdHltQ&quot;&gt;Webinar Design de APIs RESTful (►)&lt;/a&gt; - Webinar sobre projeto de APIs.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3GAF2t5Qohc&quot;&gt;APIs do Jeito Certo (►)&lt;/a&gt; - Apresentação sobre boas práticas no desenvolvimento de APIs que aborda assuntos como documentação, autenticação e segurança.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=pYI-xievuOo&quot;&gt;Existe Vida Além do REST? (►)&lt;/a&gt; - Apresentação sobre APIs REST com discussão sobre a vantagem/desvantagem de se utilizar as diferentes abordagens na criação de APIs.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Felipe Oliveira</name></author><category term="API" /><category term="REST" /><summary type="html">Best Practices for Designing a Pragmatic RESTful API (►) - Lista bem completa sobre boas práticas para a construção de APIs RESTful. Webinar Design de APIs RESTful (►) - Webinar sobre projeto de APIs. APIs do Jeito Certo (►) - Apresentação sobre boas práticas no desenvolvimento de APIs que aborda assuntos como documentação, autenticação e segurança. Existe Vida Além do REST? (►) - Apresentação sobre APIs REST com discussão sobre a vantagem/desvantagem de se utilizar as diferentes abordagens na criação de APIs.</summary></entry><entry><title type="html">Como instalar o systemtap no debian</title><link href="http://localhost:4000/systemtap/instrumentation/infraestructure/ti/2019/03/07/systemtap-instalation/" rel="alternate" type="text/html" title="Como instalar o systemtap no debian" /><published>2019-03-07T20:30:09-03:00</published><updated>2019-03-07T20:30:09-03:00</updated><id>http://localhost:4000/systemtap/instrumentation/infraestructure/ti/2019/03/07/systemtap-instalation</id><content type="html" xml:base="http://localhost:4000/systemtap/instrumentation/infraestructure/ti/2019/03/07/systemtap-instalation/">&lt;p&gt;Os passos desta instalação do &lt;a href=&quot;https://sourceware.org/systemtap/&quot; target=&quot;_blank&quot;&gt;systemtap&lt;/a&gt; foram realizados no Debian 9, mas segundo a &lt;a href=&quot;https://sourceware.org/systemtap/documentation.html&quot; target=&quot;_blank&quot;&gt;documentação oficial&lt;/a&gt;:&lt;/p&gt;
+<p>Por exemplo, o <code class="language-plaintext highlighter-rouge">AND</code> retorna verdadeiro somente se todas as condições forem verdadeiras, enquanto o <code class="language-plaintext highlighter-rouge">OR</code> retorna verdadeiro se pelo menos uma condição for verdadeira.
+Já o <code class="language-plaintext highlighter-rouge">NOT</code> inverte o valor lógico, transformando verdadeiro em falso e vice-versa.</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;Systemtap works with official Debian kernel packages since the Squeeze release (with the exception of user space probes that are not supported yet, see Debian bug #691167). To use systemtap you need to manually install the linux-image-&lt;em&gt;-dbg and linux-header-&lt;/em&gt; packages that match your running kernel. To simplify this task you can use the stap-prep command. Please always run this before reporting a bug.&lt;/p&gt;
-&lt;/blockquote&gt;
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Operação de conjunção</span>
+<span class="k">SELECT</span> <span class="mi">1</span> <span class="k">AND</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">-- Ambos são verdadeiros, retorna 1</span>
+<span class="k">SELECT</span> <span class="mi">1</span> <span class="k">AND</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">-- Um dos valores é falso, retorna 0</span>
+<span class="k">SELECT</span> <span class="k">FALSE</span> <span class="o">&amp;&amp;</span> <span class="k">TRUE</span><span class="p">;</span> <span class="c1">-- `FALSE` equivale a 0 e `TRUE` a 1, então retorna 0</span>
 
-&lt;p&gt;&lt;strong&gt;Passos da instalação&lt;/strong&gt;&lt;/p&gt;
+<span class="c1">-- Operação de disjunção</span>
+<span class="k">SELECT</span> <span class="k">FALSE</span> <span class="k">OR</span> <span class="k">TRUE</span><span class="p">;</span> <span class="c1">-- Como há um verdadeiro, retorna 1</span>
+<span class="k">SELECT</span> <span class="k">FALSE</span> <span class="o">||</span> <span class="k">TRUE</span><span class="p">;</span> <span class="c1">-- Alternativa com `||`, também retorna 1</span>
 
-&lt;p&gt;Instalar o systemtap via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt install&lt;/code&gt;:&lt;/p&gt;
+<span class="c1">-- Operação de negação</span>
+<span class="k">SELECT</span> <span class="k">NOT</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">-- Como 1 é verdadeiro, retorna 0 (falso)</span>
+<span class="k">SELECT</span> <span class="k">NOT</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">-- Como 0 é falso, retorna 1 (verdadeiro)</span>
+</code></pre></div></div>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt install systemtap&lt;/code&gt;&lt;/p&gt;
+<p>O MySQL segue a precedência lógica onde <code class="language-plaintext highlighter-rouge">AND</code> é avaliado antes de <code class="language-plaintext highlighter-rouge">OR</code>, a menos que haja parênteses explicitando outra ordem.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt install linux-headers-$(uname -r) &amp;amp;&amp;amp; linux-image-$(uname -r)-dbg&lt;/code&gt;&lt;/p&gt;
+<h2 id="operações-bit-a-bit">Operações Bit a Bit</h2>
 
-&lt;p&gt;Verificando a instalação e executando um &lt;em&gt;Hello, World!&lt;/em&gt;:&lt;/p&gt;
+<p>As operações bit a bit permitem a manipulação direta dos bits de valores numéricos inteiros.
+Diferente dos operadores lógicos (<code class="language-plaintext highlighter-rouge">AND</code>, <code class="language-plaintext highlighter-rouge">OR</code>), que trabalham com valores booleanos (<code class="language-plaintext highlighter-rouge">0</code> ou <code class="language-plaintext highlighter-rouge">1</code>), os operadores bit a bit atuam sobre cada bit individualmente nos números binários.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stap -e 'probe begin { printf(&quot;Hello, World!\n&quot;); exit() }'&lt;/code&gt;&lt;/p&gt;
+<h6 id="operação-and-bit-a-bit">Operação AND Bit a Bit</h6>
+<p>O <strong>AND bit a bit</strong> é uma operação binária que utiliza duas representações binárias de mesmo comprimento e realiza a operação lógica AND em cada par de bits correspondentes. 
+Dessa forma, se ambos os bits na posição comparada forem <code class="language-plaintext highlighter-rouge">1</code>, o bit na representação binária resultante será <code class="language-plaintext highlighter-rouge">1</code> (1 × 1 = 1); caso contrário, o resultado será <code class="language-plaintext highlighter-rouge">0</code> (1 × 0 = 0 e 0 × 0 = 0).</p>
 
-&lt;p&gt;Se um usuário não administrador (não &lt;em&gt;root&lt;/em&gt;) for utilizar o systemtap, é necessário o adicionar nos grupos &lt;em&gt;stapusr, stapdev, stapsys&lt;/em&gt;:&lt;/p&gt;
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      0 1 0 1  (decimal 5)
+  AND 0 0 1 1  (decimal 3)
+<span class="p">  -------------</span>
+      0 0 0 1  (decimal 1)
+</code></pre></div></div>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;usermod -a -G grupo usuario&lt;/code&gt;&lt;/p&gt;
+<p>O MySQL permite que façamos esse tipo de operação abstraindo o processo de conversão de decimal para binário. 
+Abaixo o exemplo anterior feito no MySQL:</p>
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">SELECT</span> <span class="mi">5</span> <span class="o">&amp;</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span> <span class="o">&amp;</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">-- Ambos retornam 1</span>
+</code></pre></div></div>
+<h6 id="operação-or-bit-a-bit">Operação OR Bit a Bit</h6>
 
-&lt;p&gt;Após a reinicialização, será possível utilizar com o usuário.&lt;/p&gt;</content><author><name>Felipe Oliveira</name></author><category term="Systemtap" /><category term="Instrumentation" /><category term="Infraestructure" /><category term="TI" /><summary type="html">Os passos desta instalação do systemtap foram realizados no Debian 9, mas segundo a documentação oficial:</summary></entry><entry><title type="html">How to export a VM Virtualbox to a Xen virtual machine</title><link href="http://localhost:4000/virtualbox/xen/infraestructure/ti/2019/03/06/convert-vbox-xen/" rel="alternate" type="text/html" title="How to export a VM Virtualbox to a Xen virtual machine" /><published>2019-03-06T20:30:09-03:00</published><updated>2019-03-06T20:30:09-03:00</updated><id>http://localhost:4000/virtualbox/xen/infraestructure/ti/2019/03/06/convert-vbox-xen</id><content type="html" xml:base="http://localhost:4000/virtualbox/xen/infraestructure/ti/2019/03/06/convert-vbox-xen/">&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; can convert your VDI disk image to a RAW disk
-  VBoxManage clonehd centos6.vdi centos6.img -format RAW&lt;/p&gt;
+<p>O <strong>OR bit a bit</strong> é uma operação binária que utiliza dois padrões de bits de mesmo comprimento e realiza a operação lógica <strong>OR inclusivo</strong> em cada par de bits correspondentes. 
+O resultado em cada posição será <code class="language-plaintext highlighter-rouge">0</code> se ambos os bits forem <code class="language-plaintext highlighter-rouge">0</code>; caso contrário, o resultado será <code class="language-plaintext highlighter-rouge">1</code>.</p>
 
-&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Refer to the centos6.vbox file, and create the configuration file for Xen VM.  You can do this manually or create a shell script that would extract the necessary fields and parse them into Xen configuration file.&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  cat /etc/xen/centos6
-  name = &quot;centos6&quot;
-  uuid = &quot;f220932f-8750-4f5b-b220-8050210e9835&quot;
-  memory = 1024
-  vcpus = 1
-  bootloader = &quot;/usr/bin/pygrub&quot;
-  on_poweroff = &quot;destroy&quot;
-  on_reboot = &quot;restart&quot;
-  on_crash = &quot;restart&quot;
-  disk = [ &quot;file:/var/lib/xen/images/centos6.img,xvda,w&quot; ]
-  vif = [ &quot;mac=00:16:3e:46:e6:fb,bridge=xenbr0&quot; ]
-  extra=&quot;console=hvc0&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Felipe Oliveira</name></author><category term="VirtualBox" /><category term="Xen" /><category term="Infraestructure" /><category term="TI" /><summary type="html">Step 1: can convert your VDI disk image to a RAW disk VBoxManage clonehd centos6.vdi centos6.img -format RAW</summary></entry></feed>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      0 1 0 1  (decimal 5)
+  OR  0 0 1 1  (decimal 3)
+<span class="p">  -------------</span>
+      0 1 1 1  (decimal 7)
+</code></pre></div></div>
+<p>Abaixo é mostrado como essa operação ocorre no MySQL:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">SELECT</span> <span class="mi">5</span> <span class="o">|</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span> <span class="o">|</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">-- Ambos retornam 7 </span>
+</code></pre></div></div>
+
+<h2 id="selecinando-data-e-hora">Selecinando Data e Hora</h2>
+
+<p>O MySQL oferece diversas funções para retornar informações sobre data e hora no sistema. 
+Essas funções são úteis para capturar o horário atual, a data atual ou até mesmo <em>timestamps</em>. 
+Abaixo estão alguns exemplos:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna o horário atual</span>
+<span class="k">SELECT</span> <span class="k">CURRENT_TIME</span><span class="p">();</span>
+
+<span class="c1">-- Retorna a data atual</span>
+<span class="k">SELECT</span> <span class="k">CURRENT_DATE</span><span class="p">();</span>
+
+<span class="c1">-- Retorna a data e hora atuais</span>
+<span class="k">SELECT</span> <span class="n">NOW</span><span class="p">();</span>
+
+<span class="c1">-- Retorna o timestamp Unix (número de segundos desde 1º de janeiro de 1970)</span>
+<span class="k">SELECT</span> <span class="n">UNIX_TIMESTAMP</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Além das funções básicas para obter data e hora, o MySQL oferece diversas funções para manipular e extrair informações específicas de datas.
+Essas funções são úteis para análises temporais mais detalhadas.
+Abaixo estão alguns exemplos:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna a semana do ano da data atual</span>
+<span class="k">SELECT</span> <span class="n">WEEK</span><span class="p">(</span><span class="k">CURRENT_DATE</span><span class="p">());</span>
+
+<span class="c1">-- Retorna o dia da semana (0 = segunda-feira, 6 = domingo)</span>
+<span class="k">SELECT</span> <span class="n">WEEKDAY</span><span class="p">(</span><span class="k">CURRENT_DATE</span><span class="p">());</span>
+
+<span class="c1">-- Retorna o trimestre do ano da data atual</span>
+<span class="k">SELECT</span> <span class="n">QUARTER</span><span class="p">(</span><span class="k">CURRENT_DATE</span><span class="p">());</span>
+
+<span class="c1">-- Retorna o número do dia no ano da data atual</span>
+<span class="k">SELECT</span> <span class="n">DAYOFYEAR</span><span class="p">(</span><span class="k">CURRENT_DATE</span><span class="p">());</span>
+
+<span class="c1">-- Retorna o nome do mês da data atual</span>
+<span class="k">SELECT</span> <span class="n">MONTHNAME</span><span class="p">(</span><span class="k">CURRENT_DATE</span><span class="p">());</span>
+
+<span class="c1">-- Retorna a diferença em dias entre duas datas</span>
+<span class="k">SELECT</span> <span class="n">DATEDIFF</span><span class="p">(</span><span class="s1">'2025-12-31'</span><span class="p">,</span> <span class="k">CURRENT_DATE</span><span class="p">());</span>
+
+</code></pre></div></div>
+
+<h2 id="funções-matemáticas">Funções Matemáticas</h2>
+
+<p>O MySQL possui diversas funções matemáticas embutidas que podem ser usadas para realizar cálculos diretamente no banco de dados.
+Essas funções são úteis para operações como arredondamento, cálculo de potências, trigonometria, entre outras. 
+Abaixo estão vários exemplos:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna o valor absoluto de um número</span>
+<span class="k">SELECT</span> <span class="k">ABS</span><span class="p">(</span><span class="o">-</span><span class="mi">15</span><span class="p">);</span>
+
+<span class="c1">-- Arredonda um número para o inteiro mais próximo</span>
+<span class="k">SELECT</span> <span class="n">ROUND</span><span class="p">(</span><span class="mi">3</span><span class="p">.</span><span class="mi">75</span><span class="p">);</span>
+
+<span class="c1">-- Arredonda um número com precisão decimal especificada</span>
+<span class="k">SELECT</span> <span class="n">ROUND</span><span class="p">(</span><span class="mi">3</span><span class="p">.</span><span class="mi">14159</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span> <span class="c1">-- Resultado: 3.14</span>
+
+<span class="c1">-- Retorna o maior valor inteiro menor ou igual ao número (arredondamento para baixo)</span>
+<span class="k">SELECT</span> <span class="n">FLOOR</span><span class="p">(</span><span class="mi">4</span><span class="p">.</span><span class="mi">9</span><span class="p">);</span>
+
+<span class="c1">-- Retorna o menor valor inteiro maior ou igual ao número (arredondamento para cima)</span>
+<span class="k">SELECT</span> <span class="n">CEIL</span><span class="p">(</span><span class="mi">4</span><span class="p">.</span><span class="mi">1</span><span class="p">);</span>
+
+<span class="c1">-- Calcula a raiz quadrada de um número</span>
+<span class="k">SELECT</span> <span class="n">SQRT</span><span class="p">(</span><span class="mi">16</span><span class="p">);</span>
+
+<span class="c1">-- Retorna o valor de um número elevado à potência especificada</span>
+<span class="k">SELECT</span> <span class="n">POW</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">);</span> <span class="c1">-- Equivalente a 2^3</span>
+
+<span class="c1">-- Calcula o seno de um ângulo (em radianos)</span>
+<span class="k">SELECT</span> <span class="n">SIN</span><span class="p">(</span><span class="n">PI</span><span class="p">()</span><span class="o">/</span><span class="mi">2</span><span class="p">);</span>
+
+<span class="c1">-- Calcula o cosseno de um ângulo (em radianos)</span>
+<span class="k">SELECT</span> <span class="n">COS</span><span class="p">(</span><span class="n">PI</span><span class="p">());</span>
+
+<span class="c1">-- Calcula a tangente de um ângulo (em radianos)</span>
+<span class="k">SELECT</span> <span class="n">TAN</span><span class="p">(</span><span class="n">PI</span><span class="p">()</span><span class="o">/</span><span class="mi">4</span><span class="p">);</span>
+
+<span class="c1">-- Retorna o logaritmo natural de um número</span>
+<span class="k">SELECT</span> <span class="n">LOG</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+
+<span class="c1">-- Retorna o logaritmo de base 10 de um número</span>
+<span class="k">SELECT</span> <span class="n">LOG10</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+
+<span class="c1">-- Retorna o valor de Pi</span>
+<span class="k">SELECT</span> <span class="n">PI</span><span class="p">();</span>
+
+<span class="c1">-- Retorna o maior valor entre uma lista de números</span>
+<span class="k">SELECT</span> <span class="n">GREATEST</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span>
+
+<span class="c1">-- Retorna o menor valor entre uma lista de números</span>
+<span class="k">SELECT</span> <span class="n">LEAST</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span>
+
+<span class="c1">-- Retorna o resto da divisão de dois números</span>
+<span class="k">SELECT</span> <span class="k">MOD</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">3</span><span class="p">);</span> <span class="c1">-- Resultado: 1</span>
+
+<span class="c1">-- Converte graus em radianos</span>
+<span class="k">SELECT</span> <span class="n">RADIANS</span><span class="p">(</span><span class="mi">180</span><span class="p">);</span> <span class="c1">-- Resultado: PI</span>
+
+<span class="c1">-- Converte radianos em graus</span>
+<span class="k">SELECT</span> <span class="n">DEGREES</span><span class="p">(</span><span class="n">PI</span><span class="p">());</span> <span class="c1">-- Resultado: 180</span>
+
+<span class="c1">-- Gera um número aleatório entre 0 e 1</span>
+<span class="k">SELECT</span> <span class="n">RAND</span><span class="p">();</span>
+
+<span class="c1">-- Gera um número aleatório multiplicado por um intervalo</span>
+<span class="k">SELECT</span> <span class="n">RAND</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">;</span> <span class="c1">-- Número entre 0 e 100</span>
+</code></pre></div></div>
+
+<h2 id="trabalhando-com-variáveis-de-usuário">Trabalhando com Variáveis de Usuário</h2>
+
+<p>No MySQL é possível utilizar variáveis de usuário para armazenar valores temporários durante a execução de consultas. Essas variáveis são úteis para manipular dados, realizar cálculos intermediários ou compartilhar valores entre diferentes comandos SQL dentro de uma mesma sessão.</p>
+
+<p>As variáveis de usuário são identificadas pelo prefixo <code class="language-plaintext highlighter-rouge">@</code> e podem ser atribuídas e acessadas diretamente. Abaixo estão alguns exemplos de uso:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Define uma variável e atribui o valor 1</span>
+<span class="k">SELECT</span> <span class="o">@</span><span class="n">x</span> <span class="p">:</span><span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+
+<span class="c1">-- Retorna o valor da variável definida anteriormente</span>
+<span class="k">SELECT</span> <span class="o">@</span><span class="n">x</span><span class="p">;</span>
+
+<span class="c1">-- Atribui o valor da constante PI() à variável</span>
+<span class="k">SELECT</span> <span class="o">@</span><span class="n">x</span> <span class="p">:</span><span class="o">=</span> <span class="n">PI</span><span class="p">();</span>
+
+<span class="c1">-- Atribui o valor de PI() e exibe o resultado com um alias</span>
+<span class="k">SELECT</span> <span class="o">@</span><span class="n">x</span> <span class="p">:</span><span class="o">=</span> <span class="n">PI</span><span class="p">()</span> <span class="k">AS</span> <span class="n">pi</span><span class="p">;</span>
+
+<span class="c1">-- Utiliza uma variável em um cálculo</span>
+<span class="k">SELECT</span> <span class="o">@</span><span class="n">x</span> <span class="p">:</span><span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="o">@</span><span class="n">y</span> <span class="p">:</span><span class="o">=</span> <span class="mi">20</span><span class="p">,</span> <span class="o">@</span><span class="n">soma</span> <span class="p">:</span><span class="o">=</span> <span class="o">@</span><span class="n">x</span> <span class="o">+</span> <span class="o">@</span><span class="n">y</span><span class="p">;</span>
+
+<span class="c1">-- Define uma variável e utiliza em uma condição</span>
+<span class="k">SELECT</span> <span class="o">@</span><span class="n">limite</span> <span class="p">:</span><span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">produtos</span> <span class="k">WHERE</span> <span class="n">preco</span> <span class="o">&lt;</span> <span class="o">@</span><span class="n">limite</span><span class="p">;</span>
+
+<span class="c1">-- Reaproveita o valor de uma variável em múltiplas consultas</span>
+<span class="k">SELECT</span> <span class="o">@</span><span class="n">contador</span> <span class="p">:</span><span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="k">SELECT</span> <span class="o">@</span><span class="n">contador</span> <span class="p">:</span><span class="o">=</span> <span class="o">@</span><span class="n">contador</span> <span class="o">+</span> <span class="mi">1</span> <span class="k">AS</span> <span class="n">incremento</span><span class="p">;</span>
+
+</code></pre></div></div>
+<h1 id="operações-utilizando-tabelas">Operações utilizando tabelas</h1>
+
+<p>Agora, passamos a trabalhar com tabelas. Lembre-se de substituir os nomes das tabelas e colunas
+pelos correspondentes ao seu banco de dados.</p>
+
+<p>Abaixo, explicamos os principais usos do comando <code class="language-plaintext highlighter-rouge">SELECT</code> com exemplos práticos:</p>
+
+<h2 id="consultando-todos-os-registros-de-uma-tabela">Consultando todos os registros de uma tabela</h2>
+
+<p>Para recuperar todos os registros de uma tabela, utilize o caractere <code class="language-plaintext highlighter-rouge">*</code>:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="consultando-colunas-específicas">Consultando colunas específicas</h2>
+
+<p>Se você deseja retornar apenas algumas colunas da tabela, especifique os nomes das colunas:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="n">coluna1</span><span class="p">,</span> <span class="n">coluna2</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span><span class="p">;</span>
+</code></pre></div></div>
+<p>Por exemplo, se quisermos obter o <code class="language-plaintext highlighter-rouge">id</code> e o <code class="language-plaintext highlighter-rouge">nome</code> da tabela <code class="language-plaintext highlighter-rouge">clientes</code>:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="n">id</span><span class="p">,</span> <span class="n">nome</span> <span class="k">FROM</span> <span class="n">clientes</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="filtrando-registros-com-where">Filtrando registros com WHERE</h2>
+
+<p>O <code class="language-plaintext highlighter-rouge">WHERE</code> é usado para filtrar registros com base em condições específicas:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="o">=</span> <span class="s1">'valor'</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Por exemplo, se quisermos selecionar o registro na tabela <code class="language-plaintext highlighter-rouge">clientes</code> de <code class="language-plaintext highlighter-rouge">id = 1</code>:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">clientes</span> <span class="k">WHERE</span> <span class="n">id</span> <span class="o">=</span> <span class="s1">'1'</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="utilizando-operadores-de-comparação">Utilizando operadores de comparação</h2>
+
+<p>Os operadores de comparação no MySQL são ferramentas poderosas que permitem realizar consultas mais detalhadas e precisas. 
+Eles são utilizados para comparar valores em uma tabela, retornando apenas os registros que atendem às condições especificadas. 
+Abaixo estão os principais operadores:</p>
+
+<ul>
+  <li><strong>Igualdade (<code class="language-plaintext highlighter-rouge">=</code>)</strong>: Retorna registros onde os valores de um campo são exatamente iguais a determinado valor.
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna todos os registros que atendem a condição coluna1 iqual a 10</span>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Diferente (<code class="language-plaintext highlighter-rouge">!=</code> ou <code class="language-plaintext highlighter-rouge">&lt;&gt;</code>)</strong>: Retorna registros onde os valores são diferentes de um valor determinado.
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna todos os registros que atendem a condição coluna1 diferente de 10</span>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="o">!=</span> <span class="mi">10</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Maior que (<code class="language-plaintext highlighter-rouge">&gt;</code>)</strong>: Retorna registros onde os valores são maiores que determinado valor.
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna todos os registros que atendem a condição coluna1 maior que 10</span>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Menor que (<code class="language-plaintext highlighter-rouge">&lt;</code>)</strong>: Retorna registros onde os valores são menores que determinado valor.
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna todos os registros que atendem a condição coluna1 menor que 50</span>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="o">&lt;</span> <span class="mi">50</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Maior ou igual (<code class="language-plaintext highlighter-rouge">&gt;=</code>)</strong>: Retorna registros onde os valores são maiores ou iguais a determinado valor.
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna todos os registros que atendem a condição coluna1 maior ou igual a 20</span>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="o">&gt;=</span> <span class="mi">20</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Menor ou igual (<code class="language-plaintext highlighter-rouge">&lt;=</code>)</strong>: Retorna registros onde os valores são menores ou iguais a determinado valor.
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna todos os registros que atendem a condição coluna1 menor ou igual a 30</span>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="o">&lt;=</span> <span class="mi">30</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>Esses operadores tornam as consultas mais flexíveis e permitem extrair informações específicas, são muito úteis quando estamos trabalhando com  de grandes volumes de dados.</p>
+
+<h2 id="ordenando-consultas-com-order-by">Ordenando consultas com ORDER BY</h2>
+
+<p>O comando <code class="language-plaintext highlighter-rouge">ORDER BY</code> é utilizado para ordenar os resultados de uma consulta com base em uma ou mais colunas. 
+Ele permite organizar os dados em ordem crescente (padrão, usando <code class="language-plaintext highlighter-rouge">ASC</code>) ou em ordem decrescente (usando <code class="language-plaintext highlighter-rouge">DESC</code>). 
+Isso é especialmente útil para visualizar os registros de forma estruturada e hierárquica.</p>
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Ordena os registros com base na coluna1 de forma ascendente</span>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">ORDER</span> <span class="k">BY</span> <span class="n">coluna1</span> <span class="k">ASC</span><span class="p">;</span>
+
+<span class="c1">-- Ordena os registros com base na coluna1 de forma decrescente</span>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">ORDER</span> <span class="k">BY</span> <span class="n">coluna1</span> <span class="k">DESC</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="limitando-o-número-de-registros">Limitando o número de registros</h2>
+<p>O comando <code class="language-plaintext highlighter-rouge">LIMIT</code> é usado para restringir a quantidade de registros retornados por uma consulta. 
+Ele é especialmente útil quando você deseja visualizar apenas uma parte dos dados, como os primeiros resultados de uma tabela ou os registros mais relevantes.</p>
+
+<p>Por exemplo, para limitar a quantidade de resultados a 10 registros, use o <code class="language-plaintext highlighter-rouge">LIMIT 10</code>:</p>
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">LIMIT</span> <span class="mi">10</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Você também pode combinar o <code class="language-plaintext highlighter-rouge">LIMIT</code> com o <code class="language-plaintext highlighter-rouge">OFFSET</code> para especificar a partir de qual registro a consulta deve começar:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">LIMIT</span> <span class="mi">10</span> <span class="k">OFFSET</span> <span class="mi">5</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Essa funcionalidade é muito utilizada em paginação de resultados e consultas optimizadas.</p>
+
+<h2 id="consultando-registros-únicos-com-distinct">Consultando registros únicos com DISTINCT</h2>
+
+<p>O comando <code class="language-plaintext highlighter-rouge">DISTINCT</code> é utilizado para eliminar valores duplicados nos resultados de uma consulta. 
+Ele garante que apenas registros únicos sejam retornados, considerando os valores das colunas especificadas. 
+Isso é útil quando você precisa identificar valores distintos em uma tabela, como categorias, nomes ou outros atributos.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="k">DISTINCT</span> <span class="n">coluna1</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="usando-like-para-buscar-por-um-padrão">Usando LIKE para buscar por um padrão</h2>
+
+<p>O operador <code class="language-plaintext highlighter-rouge">LIKE</code> no MySQL é utilizado para realizar buscas por padrões em colunas de texto. 
+Ele é especialmente útil quando você precisa localizar registros que contenham, comecem ou terminem com determinados caracteres. 
+Para definir os padrões, utilizam-se os curingas <code class="language-plaintext highlighter-rouge">%</code> e <code class="language-plaintext highlighter-rouge">_</code>:</p>
+
+<p>Por exemplo, para buscar todos os registros que contenham strings que comecem com “A”:</p>
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="k">LIKE</span> <span class="s1">'A%'</span><span class="p">;</span>
+</code></pre></div></div>
+<p>Agora se quisermos buscar todos os registros que contenham strings na coluna1 que terminem com “B”:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="k">LIKE</span> <span class="s1">'%B'</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Todos os registros que contenham strings na coluna1 que possuam “C”:</p>
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="k">LIKE</span> <span class="s1">'%C%'</span><span class="p">;</span>
+</code></pre></div></div>
+<p>O caractere coringa <code class="language-plaintext highlighter-rouge">%</code> representa qualquer sequência de caracteres (incluindo nenhuma).</p>
+
+<p>Outro exemplo, digamos que precisamos dos registros que comecem com “A” e contenham exatamente 2 caracteres na sequência. 
+Para isso, será preciso utilizar o coringa <code class="language-plaintext highlighter-rouge">_</code>, que representa exatamente 1 caractere:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="k">LIKE</span> <span class="s1">'A__'</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Na instrução acima valores como <code class="language-plaintext highlighter-rouge">ANA</code>, <code class="language-plaintext highlighter-rouge">ABC</code> e <code class="language-plaintext highlighter-rouge">A23</code> atenderiam a condição. Mas valores como <code class="language-plaintext highlighter-rouge">ABCD</code> e <code class="language-plaintext highlighter-rouge">ANAS</code> não atenderiam, pois possuem mais do que 2 caracteres após o “A”.</p>
+
+<h2 id="contando-registros-com-count">Contando Registros com COUNT</h2>
+
+<p>O <code class="language-plaintext highlighter-rouge">COUNT</code> retorna o número total de registros na tabela ou em um subconjunto filtrado:</p>
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- Retorna o número de registros na tabela</span>
+<span class="k">SELECT</span> <span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span><span class="p">;</span>
+<span class="c1">-- Retorna o número de registros que atendam a condição</span>
+<span class="k">SELECT</span> <span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">WHERE</span> <span class="n">coluna1</span> <span class="o">=</span> <span class="s1">'valor'</span><span class="p">;</span>
+
+</code></pre></div></div>
+
+<h2 id="realizando-cálculos-com-funções-agregadas">Realizando Cálculos com Funções Agregadas</h2>
+
+<p>Além do <code class="language-plaintext highlighter-rouge">COUNT</code>, outras funções agregadas podem ser usadas para cálculos:</p>
+
+<ul>
+  <li><strong>Soma dos valores de uma coluna</strong>:
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="k">SUM</span><span class="p">(</span><span class="n">coluna1</span><span class="p">)</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Média dos valores de uma coluna</strong>:
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="k">AVG</span><span class="p">(</span><span class="n">coluna1</span><span class="p">)</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Valor máximo de uma coluna</strong>:
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="k">MAX</span><span class="p">(</span><span class="n">coluna1</span><span class="p">)</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Valor mínimo de uma coluna</strong>:
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="k">MIN</span><span class="p">(</span><span class="n">coluna1</span><span class="p">)</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="agrupando-resultados-com-group-by">Agrupando Resultados com GROUP BY</h2>
+
+<p>O GROUP BY é usado para agrupar registros com base em uma ou mais colunas:</p>
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="n">coluna1</span><span class="p">,</span> <span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">GROUP</span> <span class="k">BY</span> <span class="n">coluna1</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="filtrando-grupos-com-having">Filtrando Grupos com HAVING</h2>
+
+<p>O HAVING é utilizado para filtrar os resultados após o agrupamento:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="n">coluna1</span><span class="p">,</span> <span class="k">COUNT</span><span class="p">()</span> <span class="k">FROM</span> <span class="n">nome_da_tabela</span> <span class="k">GROUP</span> <span class="k">BY</span> <span class="n">coluna1</span> <span class="k">HAVING</span> <span class="k">COUNT</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">5</span>
+</code></pre></div></div>
+
+<p>Esse material foi criado a partir das fontes listadas abaixo:</p>
+
+<ul>
+  <li><strong>MySQL 8.4 Reference Manual:</strong> <a href="https://dev.mysql.com/doc/refman/8.4/en/non-typed-operators.html">https://dev.mysql.com/doc/refman/8.4/en/non-typed-operators.html</a></li>
+  <li><strong>Bitwise operation:</strong> <a href="https://en.wikipedia.org/wiki/Bitwise_operation">https://en.wikipedia.org/wiki/Bitwise_operation</a></li>
+</ul>]]></content><author><name>Felipe Dias</name></author><category term="tutorial" /><category term="sql" /><category term="mysql" /><summary type="html"><![CDATA[Aprenda como utilizar o comando SELECT no MySQL, realizar operações básicas e manipular dados.]]></summary></entry><entry><title type="html">[ADS] Material da Aula HighTech Aplicada ao Mercado 21/02/2025</title><link href="http://localhost:4000/hightech/ti/ads/2025/02/21/aula-senac/" rel="alternate" type="text/html" title="[ADS] Material da Aula HighTech Aplicada ao Mercado 21/02/2025" /><published>2025-02-21T15:00:49-03:00</published><updated>2025-02-21T15:00:49-03:00</updated><id>http://localhost:4000/hightech/ti/ads/2025/02/21/aula-senac</id><content type="html" xml:base="http://localhost:4000/hightech/ti/ads/2025/02/21/aula-senac/"><![CDATA[<p>Prezados, a aula da segunda semana da disciplina HighTech aplicada ao Mercado está disponível neste <a href="http://localhost:4000/assets/senac_htm_02.pdf" target="blank" class="btn">link</a>.</p>]]></content><author><name>Felipe Dias</name></author><category term="HighTech" /><category term="TI" /><category term="ADS" /><summary type="html"><![CDATA[Prezados, a aula da segunda semana da disciplina HighTech aplicada ao Mercado está disponível neste link.]]></summary></entry><entry><title type="html">[ADS] Material da Aula Banco de Dados 18/02/2025</title><link href="http://localhost:4000/banco%20de%20dados/ti/sql/2025/02/18/aula-senac/" rel="alternate" type="text/html" title="[ADS] Material da Aula Banco de Dados 18/02/2025" /><published>2025-02-18T17:33:49-03:00</published><updated>2025-02-18T17:33:49-03:00</updated><id>http://localhost:4000/banco%20de%20dados/ti/sql/2025/02/18/aula-senac</id><content type="html" xml:base="http://localhost:4000/banco%20de%20dados/ti/sql/2025/02/18/aula-senac/"><![CDATA[<p>Prezados, a aula da segunda semana da disciplina banco de dados está disponível neste <a href="http://localhost:4000/assets/senac_bd_02.pdf" target="blank" class="btn">link</a>.</p>
+
+<p>Segue um vídeo de apoio para a instalação do mysql <a href="https://www.youtube.com/watch?v=IEUgVwjXF0o" target="blank" class="btn"> Link para o vídeo</a></p>]]></content><author><name>Felipe Dias</name></author><category term="Banco de Dados" /><category term="TI" /><category term="SQL" /><summary type="html"><![CDATA[Prezados, a aula da segunda semana da disciplina banco de dados está disponível neste link.]]></summary></entry><entry><title type="html">[ADS] Material da Aula HighTech Aplicada ao Mercado 14/02/2025</title><link href="http://localhost:4000/hightech/ti/ads/2025/02/14/aula-senac/" rel="alternate" type="text/html" title="[ADS] Material da Aula HighTech Aplicada ao Mercado 14/02/2025" /><published>2025-02-14T17:33:49-03:00</published><updated>2025-02-14T17:33:49-03:00</updated><id>http://localhost:4000/hightech/ti/ads/2025/02/14/aula-senac</id><content type="html" xml:base="http://localhost:4000/hightech/ti/ads/2025/02/14/aula-senac/"><![CDATA[<p>Prezados, a aula introdutória da disciplina HighTech aplicada ao Mercado está disponível neste <a href="http://localhost:4000/assets/senac_htm_01.pdf" target="blank" class="btn">link</a>.</p>
+
+<p>Abaixo está a Curva do Hype do Gartner, para o ano 2024.</p>
+
+<p><img src="https://emt.gartnerweb.com/ngw/globalassets/intl-br/information-technology/images/hype-cycle/hype-cycle-para-tecnologias-emergentes.png?_gl=1*1olqx13*_ga*NjU5ODQ4NzYwLjE3Mzk0NzQwMjU.*_ga_R1W5CE5FEV*MTc0MDA3OTc0Ni40LjAuMTc0MDA3OTc0Ni42MC4wLjA." alt="Curva do Hype, 2024" /></p>]]></content><author><name>Felipe Dias</name></author><category term="HighTech" /><category term="TI" /><category term="ADS" /><summary type="html"><![CDATA[Prezados, a aula introdutória da disciplina HighTech aplicada ao Mercado está disponível neste link.]]></summary></entry><entry><title type="html">[ADS] Material da Aula Banco de Dados 11/02/2025</title><link href="http://localhost:4000/banco%20de%20dados/ti/sql/2025/02/11/aula-senac/" rel="alternate" type="text/html" title="[ADS] Material da Aula Banco de Dados 11/02/2025" /><published>2025-02-11T17:33:49-03:00</published><updated>2025-02-11T17:33:49-03:00</updated><id>http://localhost:4000/banco%20de%20dados/ti/sql/2025/02/11/aula-senac</id><content type="html" xml:base="http://localhost:4000/banco%20de%20dados/ti/sql/2025/02/11/aula-senac/"><![CDATA[<p>Prezados, a aula introdutória da disciplina banco de dados está disponível neste <a href="http://localhost:4000/assets/senac_bd_01.pdf" target="blank" class="btn">link</a>.</p>
+
+<p>Segue um texto de apoio  <a href="http://localhost:4000/assets/cap1.pdf" target="blank" class="btn">texto apoio</a></p>]]></content><author><name>Felipe Dias</name></author><category term="Banco de Dados" /><category term="TI" /><category term="SQL" /><summary type="html"><![CDATA[Prezados, a aula introdutória da disciplina banco de dados está disponível neste link.]]></summary></entry><entry><title type="html">Dependability Evaluation of a Smart Poultry House: Addressing Availability Issues Through the Edge, Fog, and Cloud Computing</title><link href="http://localhost:4000/papers/dependability/smart%20poultry%20house/availability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-smart-house/" rel="alternate" type="text/html" title="Dependability Evaluation of a Smart Poultry House: Addressing Availability Issues Through the Edge, Fog, and Cloud Computing" /><published>2024-03-29T12:30:00-03:00</published><updated>2024-03-29T12:30:00-03:00</updated><id>http://localhost:4000/papers/dependability/smart%20poultry%20house/availability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-smart-house</id><content type="html" xml:base="http://localhost:4000/papers/dependability/smart%20poultry%20house/availability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-smart-house/"><![CDATA[<p><strong>Abstract</strong>: Internet of Things (IoT) applications equip rural producers with decision support tools and automated solutions that boost agribusiness productivity, quality, and profit. However, most poultry farmers still use conventional methods of operation in which human workers carry out all routines for monitoring and controlling their farms at the expense of greater productivity. One of these human activities is manual weighing, which can be replaced by nonintrusive methods such as computational vision applications that estimate live poultry’s weight using video cameras. Since Internet of Things (IoT) devices may have low computing power limiting the ability to process the data locally, they can transfer it to a fog or cloud data center, where they are processed. This article aims to conduct a dependability study of a poultry house automated with a computer vision-based system for estimating poultry weight considering hierarchical models (e.g., Markov chain, reliability block diagram, and closed-form equation) to represent the whole system and obtain steady-state availability and annual downtime. In addition, our purpose is to consider and compare different architectural solutions, such as edge and fog computing-based solutions. The proposed solution verified that a cloud-based application with no redundancy has a downtime of 34.14% and 9.176% hours when considering a hot-standby redundancy strategy in the office node of a cloud solution.</p>
+
+<p>Details in this <a href="https://doi.org/10.1109/TII.2023.3275656" target="_blank">link</a>.</p>]]></content><author><name>Felipe Dias</name></author><category term="Papers" /><category term="Dependability" /><category term="Smart Poultry House" /><category term="Availability" /><category term="Edge computing" /><category term="Fog computing" /><category term="Cloud computing" /><summary type="html"><![CDATA[Abstract: Internet of Things (IoT) applications equip rural producers with decision support tools and automated solutions that boost agribusiness productivity, quality, and profit. However, most poultry farmers still use conventional methods of operation in which human workers carry out all routines for monitoring and controlling their farms at the expense of greater productivity. One of these human activities is manual weighing, which can be replaced by nonintrusive methods such as computational vision applications that estimate live poultry’s weight using video cameras. Since Internet of Things (IoT) devices may have low computing power limiting the ability to process the data locally, they can transfer it to a fog or cloud data center, where they are processed. This article aims to conduct a dependability study of a poultry house automated with a computer vision-based system for estimating poultry weight considering hierarchical models (e.g., Markov chain, reliability block diagram, and closed-form equation) to represent the whole system and obtain steady-state availability and annual downtime. In addition, our purpose is to consider and compare different architectural solutions, such as edge and fog computing-based solutions. The proposed solution verified that a cloud-based application with no redundancy has a downtime of 34.14% and 9.176% hours when considering a hot-standby redundancy strategy in the office node of a cloud solution.]]></summary></entry><entry><title type="html">A survey on reliability and availability modeling of edge, fog, and cloud computing</title><link href="http://localhost:4000/papers/reliability/dependability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-survey-fog-cloud-edge/" rel="alternate" type="text/html" title="A survey on reliability and availability modeling of edge, fog, and cloud computing" /><published>2024-03-29T12:25:00-03:00</published><updated>2024-03-29T12:25:00-03:00</updated><id>http://localhost:4000/papers/reliability/dependability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-survey-fog-cloud-edge</id><content type="html" xml:base="http://localhost:4000/papers/reliability/dependability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-survey-fog-cloud-edge/"><![CDATA[<p><strong>Abstract</strong>: During the past years, sending data to the cloud servers was a prominent trend, making the cloud computing paradigm dominate the technology landscape. However, the internet of things (IoT) is becoming a part of our daily environments, and it generates a large volume of data, which is creating uncontrollable delays. For the delay-sensitive and context-aware services, these uncontrollable delays may cause low reliability and availability for applications. To overcome these challenges, computing paradigms are moving from centralized cloud environments to the Edge of the networks. Several new computing paradigms, such as Edge and Fog computing, emerged to support delay-sensitive and context-aware services. By combining edge devices, fog servers, and cloud computing, companies can build a hierarchical IoT infrastructure, using Edge–Fog–Cloud orchestrated architecture to improve IoT environments’ performance, reliability, and availability. This paper presents a comprehensive survey on reliability and availability of Edge, Fog, and Cloud computing architectures. We first introduce and compare some related works about these paradigms and compare them to define the differences between Edge and Fog environments, since there is still some confusion about these terms. We also describe their taxonomy and how they link to each other. Finally, we draw some potential research directions that may help foster research efforts in this area.</p>
+
+<p>Details in this <a href="https://doi.org/10.1007/s40860-021-00154-1" target="_blank">link</a>.</p>]]></content><author><name>Felipe Dias</name></author><category term="Papers" /><category term="Reliability" /><category term="Dependability" /><category term="Edge computing" /><category term="Fog computing" /><category term="Cloud computing" /><summary type="html"><![CDATA[Abstract: During the past years, sending data to the cloud servers was a prominent trend, making the cloud computing paradigm dominate the technology landscape. However, the internet of things (IoT) is becoming a part of our daily environments, and it generates a large volume of data, which is creating uncontrollable delays. For the delay-sensitive and context-aware services, these uncontrollable delays may cause low reliability and availability for applications. To overcome these challenges, computing paradigms are moving from centralized cloud environments to the Edge of the networks. Several new computing paradigms, such as Edge and Fog computing, emerged to support delay-sensitive and context-aware services. By combining edge devices, fog servers, and cloud computing, companies can build a hierarchical IoT infrastructure, using Edge–Fog–Cloud orchestrated architecture to improve IoT environments’ performance, reliability, and availability. This paper presents a comprehensive survey on reliability and availability of Edge, Fog, and Cloud computing architectures. We first introduce and compare some related works about these paradigms and compare them to define the differences between Edge and Fog environments, since there is still some confusion about these terms. We also describe their taxonomy and how they link to each other. Finally, we draw some potential research directions that may help foster research efforts in this area.]]></summary></entry><entry><title type="html">Dependability Issues on an Internet Service Provider and availability study of autonomous systems</title><link href="http://localhost:4000/papers/dependability/internet%20service%20provider/ctmc/rbd/2024/03/29/dependability-isp/" rel="alternate" type="text/html" title="Dependability Issues on an Internet Service Provider and availability study of autonomous systems" /><published>2024-03-29T12:18:00-03:00</published><updated>2024-03-29T12:18:00-03:00</updated><id>http://localhost:4000/papers/dependability/internet%20service%20provider/ctmc/rbd/2024/03/29/dependability-isp-</id><content type="html" xml:base="http://localhost:4000/papers/dependability/internet%20service%20provider/ctmc/rbd/2024/03/29/dependability-isp/"><![CDATA[<p><strong>Abstract</strong>: The Internet is arguably the most important means of communication, as there is no business strategy without the Internet. The Internet Service Provider’s challenge is to ensure the high availability of services to meet customers’ expectations, guaranteeing that they will be available and ready for whatever may be the user’s interests may be. Every time the user tries to access the service or product, and it is unavailable, we have the characterization of the service as unavailability. In this article, we evaluate the ISP’s core availability, identify availability issues in the router component, and study CTMC and RBD models by performing a model validation experiment, executing a steady-state availability, and performing a sensitivity analysis. Hierarchical modeling strategies, (availability models combining reliability block diagrams (RBD) and continuous time Markov chain (CTMC)) were used, indicating the availability of the infrastructure. The critical component of the system was indicated through sensitivity analysis. We performed a model validation technique to demonstrate that the models represent the behavior of the real system. The results showed that the system availability is 0.99941, and the sensitive analysis indicated that if the system administrator optimized the ISP infrastructure in 50%, it would yield a yearly downtime reduction of 3.4 hours.</p>
+
+<p>Details in this <a href="10.1109/SysCon53073.2023.10131183" target="_blank">link</a>.</p>]]></content><author><name>Felipe Dias</name></author><category term="Papers" /><category term="Dependability" /><category term="Internet Service Provider" /><category term="CTMC" /><category term="RBD" /><summary type="html"><![CDATA[Abstract: The Internet is arguably the most important means of communication, as there is no business strategy without the Internet. The Internet Service Provider’s challenge is to ensure the high availability of services to meet customers’ expectations, guaranteeing that they will be available and ready for whatever may be the user’s interests may be. Every time the user tries to access the service or product, and it is unavailable, we have the characterization of the service as unavailability. In this article, we evaluate the ISP’s core availability, identify availability issues in the router component, and study CTMC and RBD models by performing a model validation experiment, executing a steady-state availability, and performing a sensitivity analysis. Hierarchical modeling strategies, (availability models combining reliability block diagrams (RBD) and continuous time Markov chain (CTMC)) were used, indicating the availability of the infrastructure. The critical component of the system was indicated through sensitivity analysis. We performed a model validation technique to demonstrate that the models represent the behavior of the real system. The results showed that the system availability is 0.99941, and the sensitive analysis indicated that if the system administrator optimized the ISP infrastructure in 50%, it would yield a yearly downtime reduction of 3.4 hours.]]></summary></entry><entry><title type="html">Performance and availability evaluation of the blockchain platform hyperledger fabric</title><link href="http://localhost:4000/papers/dependability/blockchain/2024/03/29/performance-availability-blockchain/" rel="alternate" type="text/html" title="Performance and availability evaluation of the blockchain platform hyperledger fabric" /><published>2024-03-29T12:11:00-03:00</published><updated>2024-03-29T12:11:00-03:00</updated><id>http://localhost:4000/papers/dependability/blockchain/2024/03/29/performance-availability-blockchain</id><content type="html" xml:base="http://localhost:4000/papers/dependability/blockchain/2024/03/29/performance-availability-blockchain/"><![CDATA[<p><strong>Abstract</strong>: Through the blockchain-as-a-service paradigm, one can provide the infrastructure required to host blockchain-based applications regarding performance and dependability-related attributes. Many works evaluated issues and mitigated them to reach a high throughput or better downtime and availability indexes. However, to the best of our acknowledgment, studies regarding both characteristics are yet to be performed. This paper presents a performance evaluation of a private infrastructure hosting a blockchain-based application. As we monitored the system, we noticed some increase in resource consumption that may be associated with software aging issues on the hyperledger fabric platform or its basic components. Also, the impact of this resource increment on the probability of the system being operational has been evaluated. When consumption issues were considered, one of the transaction types increased the RAM consumption by almost 80% in less than 3 h, reducing the system availability to 98.17%. For scenarios without resource increment issues on the infrastructure, the availability reached 99.35%, with an annual downtime of 56.43 h.</p>
+
+<p>Details in this <a href="https://doi.org/10.1007/s11227-022-04361-2" target="_blank">link</a>.</p>]]></content><author><name>Felipe Dias</name></author><category term="Papers" /><category term="Dependability" /><category term="blockchain" /><summary type="html"><![CDATA[Abstract: Through the blockchain-as-a-service paradigm, one can provide the infrastructure required to host blockchain-based applications regarding performance and dependability-related attributes. Many works evaluated issues and mitigated them to reach a high throughput or better downtime and availability indexes. However, to the best of our acknowledgment, studies regarding both characteristics are yet to be performed. This paper presents a performance evaluation of a private infrastructure hosting a blockchain-based application. As we monitored the system, we noticed some increase in resource consumption that may be associated with software aging issues on the hyperledger fabric platform or its basic components. Also, the impact of this resource increment on the probability of the system being operational has been evaluated. When consumption issues were considered, one of the transaction types increased the RAM consumption by almost 80% in less than 3 h, reducing the system availability to 98.17%. For scenarios without resource increment issues on the infrastructure, the availability reached 99.35%, with an annual downtime of 56.43 h.]]></summary></entry><entry><title type="html">The Mercury Environment: A Modeling Tool for Performance and Dependability Evaluation</title><link href="http://localhost:4000/papers/dependability/mercury/2021/07/07/mercury/" rel="alternate" type="text/html" title="The Mercury Environment: A Modeling Tool for Performance and Dependability Evaluation" /><published>2021-07-07T08:24:00-03:00</published><updated>2021-07-07T08:24:00-03:00</updated><id>http://localhost:4000/papers/dependability/mercury/2021/07/07/mercury</id><content type="html" xml:base="http://localhost:4000/papers/dependability/mercury/2021/07/07/mercury/"><![CDATA[<p><strong>Abstract</strong>: It is important to be able to judge the performance or dependability metrics of a system and often we do so by using abstract models even when the system is in the conceptual phase. Evaluating a system by performing measurements can have a high temporal and/or financial cost, which may not be feasible. Mathematical models can provide estimates about system behavior and we need tools supporting different types of formalisms in order to compute desired metrics. The Mercury tool enables a range of models to be created and evaluated for supporting performance and dependability evaluations, such as reliability block diagrams (RBDs), dynamic RBDs (DRBDs), fault trees (FTs), stochastic Petri nets (SPNs), continuous and discrete-time Markov chains (CTMCs and DTMCs), as well as energy flow models (EFMs). In this paper, we introduce recent enhancements to Mercury, namely new SPN simulators, support to prioritized timed transitions, sensitivity analysis evaluation, several improvements to the usability of the tool, and support to DTMC and FT formalisms.</p>
+
+<p>Details in this <a href="https://doi.org/10.3233/AISE210075" target="_blank">link</a>.</p>]]></content><author><name>Felipe Dias</name></author><category term="Papers" /><category term="Dependability" /><category term="Mercury" /><summary type="html"><![CDATA[Abstract: It is important to be able to judge the performance or dependability metrics of a system and often we do so by using abstract models even when the system is in the conceptual phase. Evaluating a system by performing measurements can have a high temporal and/or financial cost, which may not be feasible. Mathematical models can provide estimates about system behavior and we need tools supporting different types of formalisms in order to compute desired metrics. The Mercury tool enables a range of models to be created and evaluated for supporting performance and dependability evaluations, such as reliability block diagrams (RBDs), dynamic RBDs (DRBDs), fault trees (FTs), stochastic Petri nets (SPNs), continuous and discrete-time Markov chains (CTMCs and DTMCs), as well as energy flow models (EFMs). In this paper, we introduce recent enhancements to Mercury, namely new SPN simulators, support to prioritized timed transitions, sensitivity analysis evaluation, several improvements to the usability of the tool, and support to DTMC and FT formalisms.]]></summary></entry></feed>
