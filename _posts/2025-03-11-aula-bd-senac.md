@@ -1,14 +1,20 @@
 ---
-title: Exemplo de banco de dados utilizado na aula 11/03/2025
+title: [ADS][BD] Aula dia 11/03/2025
 description: 
 categories:
- - tutorial
+ - aula
  - sql
  - mysql
+ - bd
 tags:
 ---
 
-Exemplo utilizado na aula 11/03/2025:
+Prezados, 
+
+Prezados, a aula do dia 11/03/2025 está disponível neste <a href="{{ site.url }}/assets/senac_bd_03.pdf" target="blank" class="btn">link</a>.
+
+
+Exemplo utilizado na aula :
 
 ```sql
 
