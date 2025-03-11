@@ -1,5 +1,5 @@
 ---
-title: [ADS][BD] Aula dia 11/03/2025
+title: '[ADS][BD] Aula dia 11/03/2025'
 description: 
 categories:
  - aula
