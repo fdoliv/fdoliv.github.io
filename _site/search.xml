@@ -2,8 +2,29 @@
 <search>
   
     <entry>
+      <title><![CDATA[[ADS][BD] Aula dia 11/03/2025]]></title>
+      <url>/about/aula/sql/mysql/bd/2025/03/11/aula-bd-senac/</url>
+      <content type="text"><![CDATA[Prezados,Prezados, a aula do dia 11/03/2025 está disponível neste link.Exemplo utilizado na aula :CREATE DATABASE BIBLIOTECADB;USE BIBLIOTECADB;CREATE TABLE LIVROS (	ID INT AUTO_INCREMENT PRIMARY KEY,    TITULO VARCHAR(200) NOT NULL,    AUTOR VARCHAR(200) NOT NULL,    ANO_PUBLICACAO INT,    GENERO ENUM('Aventura', 'Ficção', 'Romance', 'Técnico'));INSERT INTO LIVROS (TITULO, AUTOR, GENERO, ANO_PUBLICACAO) VALUES 	('A ilha do medo', 'Desconhecido', 'Ficção', 2025),    ('O homem duplicado', 'José Saramago', 'Ficção', 1993),    ('Dom casmurro', 'Machado de Assis', 'Romance', 1890),    ('Introdução à Bancos de dados', 'C.J.Date', 'Técnico', 1980);    SELECT * FROM LIVROS;]]></content>
+      <categories>
+        
+          <category> aula </category>
+        
+          <category> sql </category>
+        
+          <category> mysql </category>
+        
+          <category> bd </category>
+        
+      </categories>
+      <tags>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
       <title><![CDATA[Exemplos Básicos com SELECT no MySQL]]></title>
-      <url>/tutorial/sql/mysql/2025/03/09/comandos-basicos-mysql/</url>
+      <url>/about/tutorial/sql/mysql/2025/03/09/comandos-basicos-mysql/</url>
       <content type="text"><![CDATA[O comando SELECT é utilizado para recuperar dados armazenados em tabelas no MySQL. Elepermite a realização de diversas operações, desde cálculos simples até consultas mais elaboradasem bases de dados.Nos primeiros exemplos, trabalharemos apenas com operações internas do MySQL, sem envolvertabelas. Posteriormente, exploraremos comandos aplicados a tabelas, que exigem adaptação dosnomes conforme o contexto do banco de dados utilizado.Operações Aritméticas SimplesEssas operações utilizam o MySQL como uma calculadora, permitindo somas, multiplicações eoutras funções matemáticas básicas.-- Operação de adiçãoSELECT 2+2;SELECT 2+2, 3+3;-- Operação de subtração SELECT 2-1;-- Operação de multiplicaçãoSELECT 2*2, 9*(2+3);-- Operação de divisãoSELECT 10/2;SELECT FORMAT(4/7,12);SELECT 4*PI()/3;-- Operação de potenciaçãoSELECT FORMAT(POWER(2,64),0);-- Operação de raiz quadradaSELECT SQRT(2);A consulta SELECT FORMAT(3/7,12) faz a divisão de 3 por 7 e usa a função FORMAT para exibir o resultado com 12 casas decimais.Já na consulta SELECT FORMAT(POWER(2,64),0), a função POWER calcula 2 elevado à potência 64.Aqui, o FORMAT é usado para exibir o número sem nenhuma parte decimal, deixando o resultado mais organizado.Operadores Lógicos e BooleanosOs operadores lógicos, como AND (conjunção), OR (disjunção) e NOT (negação), são usados para combinar ou modificar condições. Eles trabalham com valores booleanos, onde 1 representa verdadeiro e 0 representa falso.Por exemplo, o AND retorna verdadeiro somente se todas as condições forem verdadeiras, enquanto o OR retorna verdadeiro se pelo menos uma condição for verdadeira.Já o NOT inverte o valor lógico, transformando verdadeiro em falso e vice-versa.-- Operação de conjunçãoSELECT 1 AND 1; -- Ambos são verdadeiros, retorna 1SELECT 1 AND 0; -- Um dos valores é falso, retorna 0SELECT FALSE &amp;&amp; TRUE; -- `FALSE` equivale a 0 e `TRUE` a 1, então retorna 0-- Operação de disjunçãoSELECT FALSE OR TRUE; -- Como há um verdadeiro, retorna 1SELECT FALSE || TRUE; -- Alternativa com `||`, também retorna 1-- Operação de negaçãoSELECT NOT 1; -- Como 1 é verdadeiro, retorna 0 (falso)SELECT NOT 0; -- Como 0 é falso, retorna 1 (verdadeiro)O MySQL segue a precedência lógica onde AND é avaliado antes de OR, a menos que haja parênteses explicitando outra ordem.Operações Bit a BitAs operações bit a bit permitem a manipulação direta dos bits de valores numéricos inteiros.Diferente dos operadores lógicos (AND, OR), que trabalham com valores booleanos (0 ou 1), os operadores bit a bit atuam sobre cada bit individualmente nos números binários.Operação AND Bit a BitO AND bit a bit é uma operação binária que utiliza duas representações binárias de mesmo comprimento e realiza a operação lógica AND em cada par de bits correspondentes. Dessa forma, se ambos os bits na posição comparada forem 1, o bit na representação binária resultante será 1 (1 × 1 = 1); caso contrário, o resultado será 0 (1 × 0 = 0 e 0 × 0 = 0).      0 1 0 1  (decimal 5)  AND 0 0 1 1  (decimal 3)  -------------      0 0 0 1  (decimal 1)O MySQL permite que façamos esse tipo de operação abstraindo o processo de conversão de decimal para binário. Abaixo o exemplo anterior feito no MySQL:  SELECT 5 &amp; 3, 3 &amp; 5; -- Ambos retornam 1Operação OR Bit a BitO OR bit a bit é uma operação binária que utiliza dois padrões de bits de mesmo comprimento e realiza a operação lógica OR inclusivo em cada par de bits correspondentes. O resultado em cada posição será 0 se ambos os bits forem 0; caso contrário, o resultado será 1.      0 1 0 1  (decimal 5)  OR  0 0 1 1  (decimal 3)  -------------      0 1 1 1  (decimal 7)Abaixo é mostrado como essa operação ocorre no MySQL:  SELECT 5 | 3, 3 | 5; -- Ambos retornam 7 Selecinando Data e HoraO MySQL oferece diversas funções para retornar informações sobre data e hora no sistema. Essas funções são úteis para capturar o horário atual, a data atual ou até mesmo timestamps. Abaixo estão alguns exemplos:-- Retorna o horário atualSELECT CURRENT_TIME();-- Retorna a data atualSELECT CURRENT_DATE();-- Retorna a data e hora atuaisSELECT NOW();-- Retorna o timestamp Unix (número de segundos desde 1º de janeiro de 1970)SELECT UNIX_TIMESTAMP();Além das funções básicas para obter data e hora, o MySQL oferece diversas funções para manipular e extrair informações específicas de datas.Essas funções são úteis para análises temporais mais detalhadas.Abaixo estão alguns exemplos:-- Retorna a semana do ano da data atualSELECT WEEK(CURRENT_DATE());-- Retorna o dia da semana (0 = segunda-feira, 6 = domingo)SELECT WEEKDAY(CURRENT_DATE());-- Retorna o trimestre do ano da data atualSELECT QUARTER(CURRENT_DATE());-- Retorna o número do dia no ano da data atualSELECT DAYOFYEAR(CURRENT_DATE());-- Retorna o nome do mês da data atualSELECT MONTHNAME(CURRENT_DATE());-- Retorna a diferença em dias entre duas datasSELECT DATEDIFF('2025-12-31', CURRENT_DATE());Funções MatemáticasO MySQL possui diversas funções matemáticas embutidas que podem ser usadas para realizar cálculos diretamente no banco de dados.Essas funções são úteis para operações como arredondamento, cálculo de potências, trigonometria, entre outras. Abaixo estão vários exemplos:-- Retorna o valor absoluto de um númeroSELECT ABS(-15);-- Arredonda um número para o inteiro mais próximoSELECT ROUND(3.75);-- Arredonda um número com precisão decimal especificadaSELECT ROUND(3.14159, 2); -- Resultado: 3.14-- Retorna o maior valor inteiro menor ou igual ao número (arredondamento para baixo)SELECT FLOOR(4.9);-- Retorna o menor valor inteiro maior ou igual ao número (arredondamento para cima)SELECT CEIL(4.1);-- Calcula a raiz quadrada de um númeroSELECT SQRT(16);-- Retorna o valor de um número elevado à potência especificadaSELECT POW(2, 3); -- Equivalente a 2^3-- Calcula o seno de um ângulo (em radianos)SELECT SIN(PI()/2);-- Calcula o cosseno de um ângulo (em radianos)SELECT COS(PI());-- Calcula a tangente de um ângulo (em radianos)SELECT TAN(PI()/4);-- Retorna o logaritmo natural de um númeroSELECT LOG(10);-- Retorna o logaritmo de base 10 de um númeroSELECT LOG10(100);-- Retorna o valor de PiSELECT PI();-- Retorna o maior valor entre uma lista de númerosSELECT GREATEST(10, 20, 30, 5);-- Retorna o menor valor entre uma lista de númerosSELECT LEAST(10, 20, 30, 5);-- Retorna o resto da divisão de dois númerosSELECT MOD(10, 3); -- Resultado: 1-- Converte graus em radianosSELECT RADIANS(180); -- Resultado: PI-- Converte radianos em grausSELECT DEGREES(PI()); -- Resultado: 180-- Gera um número aleatório entre 0 e 1SELECT RAND();-- Gera um número aleatório multiplicado por um intervaloSELECT RAND() * 100; -- Número entre 0 e 100Trabalhando com Variáveis de UsuárioNo MySQL é possível utilizar variáveis de usuário para armazenar valores temporários durante a execução de consultas. Essas variáveis são úteis para manipular dados, realizar cálculos intermediários ou compartilhar valores entre diferentes comandos SQL dentro de uma mesma sessão.As variáveis de usuário são identificadas pelo prefixo @ e podem ser atribuídas e acessadas diretamente. Abaixo estão alguns exemplos de uso:-- Define uma variável e atribui o valor 1SELECT @x := 1;-- Retorna o valor da variável definida anteriormenteSELECT @x;-- Atribui o valor da constante PI() à variávelSELECT @x := PI();-- Atribui o valor de PI() e exibe o resultado com um aliasSELECT @x := PI() AS pi;-- Utiliza uma variável em um cálculoSELECT @x := 10, @y := 20, @soma := @x + @y;-- Define uma variável e utiliza em uma condiçãoSELECT @limite := 100;SELECT * FROM produtos WHERE preco &lt; @limite;-- Reaproveita o valor de uma variável em múltiplas consultasSELECT @contador := 0;SELECT @contador := @contador + 1 AS incremento;Operações utilizando tabelasAgora, passamos a trabalhar com tabelas. Lembre-se de substituir os nomes das tabelas e colunaspelos correspondentes ao seu banco de dados.Abaixo, explicamos os principais usos do comando SELECT com exemplos práticos:Consultando todos os registros de uma tabelaPara recuperar todos os registros de uma tabela, utilize o caractere *:SELECT * FROM nome_da_tabela;Consultando colunas específicasSe você deseja retornar apenas algumas colunas da tabela, especifique os nomes das colunas:SELECT coluna1, coluna2 FROM nome_da_tabela;Por exemplo, se quisermos obter o id e o nome da tabela clientes:SELECT id, nome FROM clientes;Filtrando registros com WHEREO WHERE é usado para filtrar registros com base em condições específicas:SELECT * FROM nome_da_tabela WHERE coluna1 = 'valor';Por exemplo, se quisermos selecionar o registro na tabela clientes de id = 1:SELECT * FROM clientes WHERE id = '1';Utilizando operadores de comparaçãoOs operadores de comparação no MySQL são ferramentas poderosas que permitem realizar consultas mais detalhadas e precisas. Eles são utilizados para comparar valores em uma tabela, retornando apenas os registros que atendem às condições especificadas. Abaixo estão os principais operadores:  Igualdade (=): Retorna registros onde os valores de um campo são exatamente iguais a determinado valor.    -- Retorna todos os registros que atendem a condição coluna1 iqual a 10SELECT * FROM nome_da_tabela WHERE coluna1 = 10;        Diferente (!= ou &lt;&gt;): Retorna registros onde os valores são diferentes de um valor determinado.    -- Retorna todos os registros que atendem a condição coluna1 diferente de 10SELECT * FROM nome_da_tabela WHERE coluna1 != 10;        Maior que (&gt;): Retorna registros onde os valores são maiores que determinado valor.    -- Retorna todos os registros que atendem a condição coluna1 maior que 10SELECT * FROM nome_da_tabela WHERE coluna1 &gt; 10;        Menor que (&lt;): Retorna registros onde os valores são menores que determinado valor.    -- Retorna todos os registros que atendem a condição coluna1 menor que 50SELECT * FROM nome_da_tabela WHERE coluna1 &lt; 50;        Maior ou igual (&gt;=): Retorna registros onde os valores são maiores ou iguais a determinado valor.    -- Retorna todos os registros que atendem a condição coluna1 maior ou igual a 20SELECT * FROM nome_da_tabela WHERE coluna1 &gt;= 20;        Menor ou igual (&lt;=): Retorna registros onde os valores são menores ou iguais a determinado valor.    -- Retorna todos os registros que atendem a condição coluna1 menor ou igual a 30SELECT * FROM nome_da_tabela WHERE coluna1 &lt;= 30;      Esses operadores tornam as consultas mais flexíveis e permitem extrair informações específicas, são muito úteis quando estamos trabalhando com  de grandes volumes de dados.Ordenando consultas com ORDER BYO comando ORDER BY é utilizado para ordenar os resultados de uma consulta com base em uma ou mais colunas. Ele permite organizar os dados em ordem crescente (padrão, usando ASC) ou em ordem decrescente (usando DESC). Isso é especialmente útil para visualizar os registros de forma estruturada e hierárquica.-- Ordena os registros com base na coluna1 de forma ascendenteSELECT * FROM nome_da_tabela ORDER BY coluna1 ASC;-- Ordena os registros com base na coluna1 de forma decrescenteSELECT * FROM nome_da_tabela ORDER BY coluna1 DESC;Limitando o número de registrosO comando LIMIT é usado para restringir a quantidade de registros retornados por uma consulta. Ele é especialmente útil quando você deseja visualizar apenas uma parte dos dados, como os primeiros resultados de uma tabela ou os registros mais relevantes.Por exemplo, para limitar a quantidade de resultados a 10 registros, use o LIMIT 10:    SELECT * FROM nome_da_tabela LIMIT 10;Você também pode combinar o LIMIT com o OFFSET para especificar a partir de qual registro a consulta deve começar:SELECT * FROM nome_da_tabela LIMIT 10 OFFSET 5;Essa funcionalidade é muito utilizada em paginação de resultados e consultas optimizadas.Consultando registros únicos com DISTINCTO comando DISTINCT é utilizado para eliminar valores duplicados nos resultados de uma consulta. Ele garante que apenas registros únicos sejam retornados, considerando os valores das colunas especificadas. Isso é útil quando você precisa identificar valores distintos em uma tabela, como categorias, nomes ou outros atributos.SELECT DISTINCT coluna1 FROM nome_da_tabela;Usando LIKE para buscar por um padrãoO operador LIKE no MySQL é utilizado para realizar buscas por padrões em colunas de texto. Ele é especialmente útil quando você precisa localizar registros que contenham, comecem ou terminem com determinados caracteres. Para definir os padrões, utilizam-se os curingas % e _:Por exemplo, para buscar todos os registros que contenham strings que comecem com “A”:SELECT * FROM nome_da_tabela WHERE coluna1 LIKE 'A%';Agora se quisermos buscar todos os registros que contenham strings na coluna1 que terminem com “B”:SELECT * FROM nome_da_tabela WHERE coluna1 LIKE '%B';Todos os registros que contenham strings na coluna1 que possuam “C”:SELECT * FROM nome_da_tabela WHERE coluna1 LIKE '%C%';O caractere coringa % representa qualquer sequência de caracteres (incluindo nenhuma).Outro exemplo, digamos que precisamos dos registros que comecem com “A” e contenham exatamente 2 caracteres na sequência. Para isso, será preciso utilizar o coringa _, que representa exatamente 1 caractere:SELECT * FROM nome_da_tabela WHERE coluna1 LIKE 'A__';Na instrução acima valores como ANA, ABC e A23 atenderiam a condição. Mas valores como ABCD e ANAS não atenderiam, pois possuem mais do que 2 caracteres após o “A”.Contando Registros com COUNTO COUNT retorna o número total de registros na tabela ou em um subconjunto filtrado:-- Retorna o número de registros na tabelaSELECT COUNT(*) FROM nome_da_tabela;-- Retorna o número de registros que atendam a condiçãoSELECT COUNT(*) FROM nome_da_tabela WHERE coluna1 = 'valor';Realizando Cálculos com Funções AgregadasAlém do COUNT, outras funções agregadas podem ser usadas para cálculos:  Soma dos valores de uma coluna:    SELECT SUM(coluna1) FROM nome_da_tabela;        Média dos valores de uma coluna:    SELECT AVG(coluna1) FROM nome_da_tabela;        Valor máximo de uma coluna:    SELECT MAX(coluna1) FROM nome_da_tabela;        Valor mínimo de uma coluna:    SELECT MIN(coluna1) FROM nome_da_tabela;      Agrupando Resultados com GROUP BYO GROUP BY é usado para agrupar registros com base em uma ou mais colunas:SELECT coluna1, COUNT(*) FROM nome_da_tabela GROUP BY coluna1;Filtrando Grupos com HAVINGO HAVING é utilizado para filtrar os resultados após o agrupamento:SELECT coluna1, COUNT() FROM nome_da_tabela GROUP BY coluna1 HAVING COUNT() &gt; 5Esse material foi criado a partir das fontes listadas abaixo:  MySQL 8.4 Reference Manual: https://dev.mysql.com/doc/refman/8.4/en/non-typed-operators.html  Bitwise operation: https://en.wikipedia.org/wiki/Bitwise_operation]]></content>
       <categories>
         
@@ -22,7 +43,7 @@
   
     <entry>
       <title><![CDATA[[ADS] Material da Aula HighTech Aplicada ao Mercado 21/02/2025]]></title>
-      <url>/hightech/ti/ads/2025/02/21/aula-senac/</url>
+      <url>/about/hightech/ti/ads/2025/02/21/aula-senac/</url>
       <content type="text"><![CDATA[Prezados, a aula da segunda semana da disciplina HighTech aplicada ao Mercado está disponível neste link.]]></content>
       <categories>
         
@@ -41,7 +62,7 @@
   
     <entry>
       <title><![CDATA[[ADS] Material da Aula Banco de Dados 18/02/2025]]></title>
-      <url>/banco%20de%20dados/ti/sql/2025/02/18/aula-senac/</url>
+      <url>/about/banco%20de%20dados/ti/sql/2025/02/18/aula-senac/</url>
       <content type="text"><![CDATA[Prezados, a aula da segunda semana da disciplina banco de dados está disponível neste link.Segue um vídeo de apoio para a instalação do mysql  Link para o vídeo]]></content>
       <categories>
         
@@ -60,7 +81,7 @@
   
     <entry>
       <title><![CDATA[[ADS] Material da Aula HighTech Aplicada ao Mercado 14/02/2025]]></title>
-      <url>/hightech/ti/ads/2025/02/14/aula-senac/</url>
+      <url>/about/hightech/ti/ads/2025/02/14/aula-senac/</url>
       <content type="text"><![CDATA[Prezados, a aula introdutória da disciplina HighTech aplicada ao Mercado está disponível neste link.Abaixo está a Curva do Hype do Gartner, para o ano 2024.]]></content>
       <categories>
         
@@ -79,7 +100,7 @@
   
     <entry>
       <title><![CDATA[[ADS] Material da Aula Banco de Dados 11/02/2025]]></title>
-      <url>/banco%20de%20dados/ti/sql/2025/02/11/aula-senac/</url>
+      <url>/about/banco%20de%20dados/ti/sql/2025/02/11/aula-senac/</url>
       <content type="text"><![CDATA[Prezados, a aula introdutória da disciplina banco de dados está disponível neste link.Segue um texto de apoio  texto apoio]]></content>
       <categories>
         
@@ -98,7 +119,7 @@
   
     <entry>
       <title><![CDATA[Dependability Evaluation of a Smart Poultry House: Addressing Availability Issues Through the Edge, Fog, and Cloud Computing]]></title>
-      <url>/papers/dependability/smart%20poultry%20house/availability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-smart-house/</url>
+      <url>/about/papers/dependability/smart%20poultry%20house/availability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-smart-house/</url>
       <content type="text"><![CDATA[Abstract: Internet of Things (IoT) applications equip rural producers with decision support tools and automated solutions that boost agribusiness productivity, quality, and profit. However, most poultry farmers still use conventional methods of operation in which human workers carry out all routines for monitoring and controlling their farms at the expense of greater productivity. One of these human activities is manual weighing, which can be replaced by nonintrusive methods such as computational vision applications that estimate live poultry’s weight using video cameras. Since Internet of Things (IoT) devices may have low computing power limiting the ability to process the data locally, they can transfer it to a fog or cloud data center, where they are processed. This article aims to conduct a dependability study of a poultry house automated with a computer vision-based system for estimating poultry weight considering hierarchical models (e.g., Markov chain, reliability block diagram, and closed-form equation) to represent the whole system and obtain steady-state availability and annual downtime. In addition, our purpose is to consider and compare different architectural solutions, such as edge and fog computing-based solutions. The proposed solution verified that a cloud-based application with no redundancy has a downtime of 34.14% and 9.176% hours when considering a hot-standby redundancy strategy in the office node of a cloud solution.Details in this link.]]></content>
       <categories>
         
@@ -125,7 +146,7 @@
   
     <entry>
       <title><![CDATA[A survey on reliability and availability modeling of edge, fog, and cloud computing]]></title>
-      <url>/papers/reliability/dependability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-survey-fog-cloud-edge/</url>
+      <url>/about/papers/reliability/dependability/edge%20computing/fog%20computing/cloud%20computing/2024/03/29/dependability-survey-fog-cloud-edge/</url>
       <content type="text"><![CDATA[Abstract: During the past years, sending data to the cloud servers was a prominent trend, making the cloud computing paradigm dominate the technology landscape. However, the internet of things (IoT) is becoming a part of our daily environments, and it generates a large volume of data, which is creating uncontrollable delays. For the delay-sensitive and context-aware services, these uncontrollable delays may cause low reliability and availability for applications. To overcome these challenges, computing paradigms are moving from centralized cloud environments to the Edge of the networks. Several new computing paradigms, such as Edge and Fog computing, emerged to support delay-sensitive and context-aware services. By combining edge devices, fog servers, and cloud computing, companies can build a hierarchical IoT infrastructure, using Edge–Fog–Cloud orchestrated architecture to improve IoT environments’ performance, reliability, and availability. This paper presents a comprehensive survey on reliability and availability of Edge, Fog, and Cloud computing architectures. We first introduce and compare some related works about these paradigms and compare them to define the differences between Edge and Fog environments, since there is still some confusion about these terms. We also describe their taxonomy and how they link to each other. Finally, we draw some potential research directions that may help foster research efforts in this area.Details in this link.]]></content>
       <categories>
         
@@ -150,7 +171,7 @@
   
     <entry>
       <title><![CDATA[Dependability Issues on an Internet Service Provider and availability study of autonomous systems]]></title>
-      <url>/papers/dependability/internet%20service%20provider/ctmc/rbd/2024/03/29/dependability-isp/</url>
+      <url>/about/papers/dependability/internet%20service%20provider/ctmc/rbd/2024/03/29/dependability-isp/</url>
       <content type="text"><![CDATA[Abstract: The Internet is arguably the most important means of communication, as there is no business strategy without the Internet. The Internet Service Provider’s challenge is to ensure the high availability of services to meet customers’ expectations, guaranteeing that they will be available and ready for whatever may be the user’s interests may be. Every time the user tries to access the service or product, and it is unavailable, we have the characterization of the service as unavailability. In this article, we evaluate the ISP’s core availability, identify availability issues in the router component, and study CTMC and RBD models by performing a model validation experiment, executing a steady-state availability, and performing a sensitivity analysis. Hierarchical modeling strategies, (availability models combining reliability block diagrams (RBD) and continuous time Markov chain (CTMC)) were used, indicating the availability of the infrastructure. The critical component of the system was indicated through sensitivity analysis. We performed a model validation technique to demonstrate that the models represent the behavior of the real system. The results showed that the system availability is 0.99941, and the sensitive analysis indicated that if the system administrator optimized the ISP infrastructure in 50%, it would yield a yearly downtime reduction of 3.4 hours.Details in this link.]]></content>
       <categories>
         
@@ -173,7 +194,7 @@
   
     <entry>
       <title><![CDATA[Performance and availability evaluation of the blockchain platform hyperledger fabric]]></title>
-      <url>/papers/dependability/blockchain/2024/03/29/performance-availability-blockchain/</url>
+      <url>/about/papers/dependability/blockchain/2024/03/29/performance-availability-blockchain/</url>
       <content type="text"><![CDATA[Abstract: Through the blockchain-as-a-service paradigm, one can provide the infrastructure required to host blockchain-based applications regarding performance and dependability-related attributes. Many works evaluated issues and mitigated them to reach a high throughput or better downtime and availability indexes. However, to the best of our acknowledgment, studies regarding both characteristics are yet to be performed. This paper presents a performance evaluation of a private infrastructure hosting a blockchain-based application. As we monitored the system, we noticed some increase in resource consumption that may be associated with software aging issues on the hyperledger fabric platform or its basic components. Also, the impact of this resource increment on the probability of the system being operational has been evaluated. When consumption issues were considered, one of the transaction types increased the RAM consumption by almost 80% in less than 3 h, reducing the system availability to 98.17%. For scenarios without resource increment issues on the infrastructure, the availability reached 99.35%, with an annual downtime of 56.43 h.Details in this link.]]></content>
       <categories>
         
@@ -192,7 +213,7 @@
   
     <entry>
       <title><![CDATA[The Mercury Environment: A Modeling Tool for Performance and Dependability Evaluation]]></title>
-      <url>/papers/dependability/mercury/2021/07/07/mercury/</url>
+      <url>/about/papers/dependability/mercury/2021/07/07/mercury/</url>
       <content type="text"><![CDATA[Abstract: It is important to be able to judge the performance or dependability metrics of a system and often we do so by using abstract models even when the system is in the conceptual phase. Evaluating a system by performing measurements can have a high temporal and/or financial cost, which may not be feasible. Mathematical models can provide estimates about system behavior and we need tools supporting different types of formalisms in order to compute desired metrics. The Mercury tool enables a range of models to be created and evaluated for supporting performance and dependability evaluations, such as reliability block diagrams (RBDs), dynamic RBDs (DRBDs), fault trees (FTs), stochastic Petri nets (SPNs), continuous and discrete-time Markov chains (CTMCs and DTMCs), as well as energy flow models (EFMs). In this paper, we introduce recent enhancements to Mercury, namely new SPN simulators, support to prioritized timed transitions, sensitivity analysis evaluation, several improvements to the usability of the tool, and support to DTMC and FT formalisms.Details in this link.]]></content>
       <categories>
         
@@ -211,7 +232,7 @@
   
     <entry>
       <title><![CDATA[Software Aging in Container-based Virtualization: An Experimental Analysis on Docker Platform]]></title>
-      <url>/papers/aging/virtualization/docker/2021/06/26/swad-cisti2021/</url>
+      <url>/about/papers/aging/virtualization/docker/2021/06/26/swad-cisti2021/</url>
       <content type="text"><![CDATA[Abstract: Lightweight virtualization, and specifically containers, has become widespread in the information technology industry to provide an efficient operational environment for the execution of scalable services on the Internet. Containers rely on a set of technologies different from the features that enable hardware virtualization (i.e., hypervisor-based virtual machines). However, both types of virtualized environments are employed to host applications that will be accessible anytime, anywhere. Thus, they are prone to software aging, which usually affects systems that run for long time intervals. Researchers have identified software aging effects in distinct types of cloud computing environments and hypervisors over recent years. However, a few works have dealt with this phenomenon in container-based platforms. This paper presents an experimental analysis of the software aging effects observed on Docker platforms while also evaluating the fitness of a time-series model to predict resource consumption’s progress caused by software aging. We employ a stress test workload tailored for the scenario of containers arranged in a cluster managed by Docker Swarm. The obtained results indicate an increasing usage of resident memory, virtual memory, and CPU usage, as the system undergoes subsequent scale-up and scale-down operations. The quadratic trend model was the best fitting approach for predicting resident and virtual memory usage, with less than 5% of prediction error. The experimental approach presented here may help systems administrators to detect evidence of software aging in container-based environments, and allowing then to choose a proper method and time for deploying rejuvenation actions to mitigate the dependability issues raised in similar scenarios described here.Details in this link.]]></content>
       <categories>
         
@@ -232,7 +253,7 @@
   
     <entry>
       <title><![CDATA[A Software Maintenance Methodology: An Approach Applied to Software Aging]]></title>
-      <url>/papers/aging/methodology/2021/05/15/swa-syscon21/</url>
+      <url>/about/papers/aging/methodology/2021/05/15/swa-syscon21/</url>
       <content type="text"><![CDATA[Abstract: The increasing use of computational systems has highlighted concerns about attributes that may influence the quality of service, such as performance, availability, reliability, and maintenance capacity. Failures in the software development process may impact these attributes. Flawed code and overall software misdesign may cause internal errors, leading to system malfunction. Some errors might be identified and fixed during the software testing process. However, other errors may manifest only during the production stage. This is the case of the software aging phenomenon, which is related to the progressive degradation that a software performance or reliability suffers during its operational life. This paper proposes a methodology for software maintenance that is tailored to identify, correct, and mitigate the software aging effects. If the source code can be modified and a new version deployed with minimal impact, thus data from aging detection is used for corrective maintenance, i.e., for fixing the bug the causes the aging effects. If the software cannot be fixed nor its version updated without long system interruption or other bad consequences, then our approach can mitigate the aging effects, in a preventive maintenance to avoid service outages. The proposed methodology is validated through both Stochastic Petri Net (SPN) models and experiments in a controlled environment. The model evaluation considering a hybrid maintenance routine (preventive and corrective) yielded an availability of 99.82%, representing an annual downtime of 15.9 hours. By contrast, the baseline scenario containing only reactive maintenance (i.e., repairing only after failure) had more than 1342 hours of annual downtime - 80 times higher than the proposed approach.Details in this link.]]></content>
       <categories>
         
@@ -251,7 +272,7 @@
   
     <entry>
       <title><![CDATA[Experimental Evaluation of Software Aging Effects in a Container-Based Virtualization Platform]]></title>
-      <url>/papers/aging/container/2020/10/14/experimental-smc/</url>
+      <url>/about/papers/aging/container/2020/10/14/experimental-smc/</url>
       <content type="text"><![CDATA[Abstract: Cloud-based architectures have grown in recent years, especially the interest in container-based solutions have sharply increased by enterprises worldwide. Containers are a form of lightweight virtualization that can be used to provide cloud services. Adopting this kind of technology in a bare- metal context is becoming strong because they can offer many benefits, like performance efficiency and costs reduction. Docker is a widespread platform for the creation and management of containers. As in any computational cloud service, Docker environments must deal with the intensive workload and may have a long-term life cycle, which might trigger some problems that compromise the system dependability. The software aging phenomenon is one of these likely problems. It is a process of cumulative errors or system misbehavior that leads to application failures and performance degradation throughout its runtime. This paper aims to monitor and evaluate software aging effects on the Docker platform in a cloud computing environment. We conducted two experimental studies with automated workloads to simulate containers’ life cycle and the intensive use of Docker features, while the system was monitored. The results show high resource consumption by the operating system’s network utility, in addition to memory fragmentation in the sub-processes of the Docker platform. Trends of increasing resident memory consumption were also observed in one of these scenarios.Details in this link.]]></content>
       <categories>
         
@@ -270,7 +291,7 @@
   
     <entry>
       <title><![CDATA[How to download youtube live streams?]]></title>
-      <url>/tutorial/youtube/2020/09/04/download-video-live/</url>
+      <url>/about/tutorial/youtube/2020/09/04/download-video-live/</url>
       <content type="text"><![CDATA[Today I needed to download live stream videos from youtube (i.e., that are still live). To do this, I used the command-line utility Streamlink, which extracts streams from various services and pipes them into a video player of choice or a file.Install StreamlinkTo install Streamlink on Debian like systems, we need to execute on terminal:sudo apt install streamlinkStreamlink usageNow, to use the tool we need to run:streamlink --hls-live-restart -o &lt;output file name&gt; &lt;URL&gt; bestHere the --hls-live-restart parameter is to skip to the beginning of a live stream, or as far back as possible. The -o parameter is to set the output file, were is indicate in &lt;output file name&gt;. Replacing the &lt;URL&gt; with the video URL (e.g. from youtube),we indicate the source site of the video. Finally, the parameter best is to indicate the stream quality, it also can be 144p (worst), 240p, 360p, 480p, 720p (best).For example, we can download the NASA TV video stream from youtube. To do this is enouth run in terminal:streamlink --hls-live-restart -o nasa.mp4 https://youtu.be/21X5lGlDOfg best]]></content>
       <categories>
         
@@ -287,7 +308,7 @@
   
     <entry>
       <title><![CDATA[Impactos da IoT na Avicultura: um Mapeamento Sistemático]]></title>
-      <url>/iot/poultry/automation/papers/2019/11/14/iot-avicultura/</url>
+      <url>/about/iot/poultry/automation/papers/2019/11/14/iot-avicultura/</url>
       <content type="text"><![CDATA[Abstract: Brazil is today the largest exporter and the second largest producer worldwide of chicken meat. Despite such prominent position, the lack of data about the use of tools based on Internet of Things (IoT) at national poultry farming leads to the hypothesis that the most Brazilian poultry farmers still use conventional methods to the detriment of higher productivity. In this work, we mapped 17 publications from the international literature that show IoT-based solutions that pass through food safety, environmental production factors, traceability, and animal health. This way, we expect to contribute to a discussion between the computer and agribusiness scientific communities through a systematic review.Resumo: O Brasil é hoje o maior exportador e o segundo maior produtor mundial de carne de frango. Apesar dessa posição de destaque, a ausência de dados sobre a utilização de ferramentas baseadas em ​Internet of Things (IoT) na indústria de avicultura nacional reforça a hipótese de que a maior parte dos avicultores brasileiros ainda usam métodos convencionais de operação em detrimento de uma maior produtividade. Nesse estudo, foram mapeados 17 trabalhos da literatura internacional que apresentam soluções baseadas em IoT que perpassam desde a segurança alimentar, fatores ambientais de produção, rastreabilidade e saúde dos animais. Espera-se, portanto, contribuir para discussão entre a comunidade científica da computação e do agronegócio por meio de uma revisão sistemática.Details in this link.]]></content>
       <categories>
         
@@ -308,7 +329,7 @@
   
     <entry>
       <title><![CDATA[Introdução ao GNU/Linux - Comandos e Scripts]]></title>
-      <url>/linux/infrastructure/ti/opensource/course/2019/10/26/course-linux/</url>
+      <url>/about/linux/infrastructure/ti/opensource/course/2019/10/26/course-linux/</url>
       <content type="text"><![CDATA[On October 25, 2019:  I taught the Introduction to GNU / LINUX  - Commands and Scripts short course, offered by “Laboratório Multidisciplinar de Tecnologias Sociais (LMTS)” to students of computer science in Garanhuns-PE.Details in this link.]]></content>
       <categories>
         
@@ -331,7 +352,7 @@
   
     <entry>
       <title><![CDATA[Referências sobre REST APIs]]></title>
-      <url>/api/rest/2019/05/20/referencias-sobre-apis/</url>
+      <url>/about/api/rest/2019/05/20/referencias-sobre-apis/</url>
       <content type="text"><![CDATA[  Best Practices for Designing a Pragmatic RESTful API (►) - Lista bem completa sobre boas práticas para a construção de APIs RESTful.  Webinar Design de APIs RESTful (►) - Webinar sobre projeto de APIs.  APIs do Jeito Certo (►) - Apresentação sobre boas práticas no desenvolvimento de APIs que aborda assuntos como documentação, autenticação e segurança.  Existe Vida Além do REST? (►) - Apresentação sobre APIs REST com discussão sobre a vantagem/desvantagem de se utilizar as diferentes abordagens na criação de APIs.]]></content>
       <categories>
         
@@ -348,7 +369,7 @@
   
     <entry>
       <title><![CDATA[Como instalar o systemtap no debian]]></title>
-      <url>/systemtap/instrumentation/infraestructure/ti/2019/03/07/systemtap-instalation/</url>
+      <url>/about/systemtap/instrumentation/infraestructure/ti/2019/03/07/systemtap-instalation/</url>
       <content type="text"><![CDATA[Os passos desta instalação do systemtap foram realizados no Debian 9, mas segundo a documentação oficial:  Systemtap works with official Debian kernel packages since the Squeeze release (with the exception of user space probes that are not supported yet, see Debian bug #691167). To use systemtap you need to manually install the linux-image--dbg and linux-header- packages that match your running kernel. To simplify this task you can use the stap-prep command. Please always run this before reporting a bug.Passos da instalaçãoInstalar o systemtap via apt install:apt install systemtapapt install linux-headers-$(uname -r) &amp;&amp; linux-image-$(uname -r)-dbgVerificando a instalação e executando um Hello, World!:stap -e 'probe begin { printf("Hello, World!\n"); exit() }'Se um usuário não administrador (não root) for utilizar o systemtap, é necessário o adicionar nos grupos stapusr, stapdev, stapsys:usermod -a -G grupo usuarioApós a reinicialização, será possível utilizar com o usuário.]]></content>
       <categories>
         
@@ -369,7 +390,7 @@
   
     <entry>
       <title><![CDATA[How to export a VM Virtualbox to a Xen virtual machine]]></title>
-      <url>/virtualbox/xen/infraestructure/ti/2019/03/06/convert-vbox-xen/</url>
+      <url>/about/virtualbox/xen/infraestructure/ti/2019/03/06/convert-vbox-xen/</url>
       <content type="text"><![CDATA[Step 1: can convert your VDI disk image to a RAW disk  VBoxManage clonehd centos6.vdi centos6.img -format RAWStep 2: Refer to the centos6.vbox file, and create the configuration file for Xen VM.  You can do this manually or create a shell script that would extract the necessary fields and parse them into Xen configuration file.  cat /etc/xen/centos6  name = "centos6"  uuid = "f220932f-8750-4f5b-b220-8050210e9835"  memory = 1024  vcpus = 1  bootloader = "/usr/bin/pygrub"  on_poweroff = "destroy"  on_reboot = "restart"  on_crash = "restart"  disk = [ "file:/var/lib/xen/images/centos6.img,xvda,w" ]  vif = [ "mac=00:16:3e:46:e6:fb,bridge=xenbr0" ]  extra="console=hvc0"]]></content>
       <categories>
         
@@ -390,7 +411,7 @@
   
     <entry>
       <title><![CDATA[Software Aging Issues in Streaming Video Player]]></title>
-      <url>/client-side/dependability/qos/papers/aging/2016/04/05/software-aging-video/</url>
+      <url>/about/client-side/dependability/qos/papers/aging/2016/04/05/software-aging-video/</url>
       <content type="text"><![CDATA[Abstract: Many researchers around the world are working hard to improve cloud-based services focusing on server-side and communication aspects. This is especially true for services which demand high processing power and storage space on their server’s infrastructure, such as live video streaming on the web and video on demand. However, issues on client-side applications are often neglected or studied to a lower extent. In this context, this paper evaluates the occurrence of software aging in a web browser plug-in for video streaming. The case study is carried out by using an automated workload that simulates the user behavior accessing videos on YouTube. Time series were used to predict the resources utilization ahead of time, enabling the prevention of performance degradation and unexpected crashes. Finally, the prediction-based strategy is compared to the time-based strategy, showing the impact of both on system’s availability.Details in this link.]]></content>
       <categories>
         
@@ -413,7 +434,7 @@
   
     <entry>
       <title><![CDATA[Performance Evaluation of Hypervisors for HPC Applications]]></title>
-      <url>/hpc/kvm/virtualbox/virtualization/papers/2015/10/01/hpc-smc/</url>
+      <url>/about/hpc/kvm/virtualbox/virtualization/papers/2015/10/01/hpc-smc/</url>
       <content type="text"><![CDATA[Abstract: High Performance Computing (HPC) aggregates computing power in order to solve large and complex problems in different knowledge areas. Nowadays, HPC users can utilize virtualized infrastructures as a low-cost alternative to deploy their applications. However, virtualization brings some challenges for HPC, specially in regard to overhead caused by hypervisors. In this work, our main goal is to analyze the performance of two hypervisors (KVM and VirtualBox) under HPC activities, considering full virtualization, and paravirtualization approaches. We used the HPC Challenge Benchmark (HPCC) to evaluate processor, RAM, inter-process communication and network communication performance. Our results show KVM in paravirtualization mode has a similar performance of a native cluster.Details in this link.]]></content>
       <categories>
         
@@ -436,7 +457,7 @@
   
     <entry>
       <title><![CDATA[PocketStack: Uma Plataforma de Alta Disponibilidade para Nuvens Privadas]]></title>
-      <url>/infrastructure/ti/opensource/cloud%20computing/2015/04/08/pocketstack/</url>
+      <url>/about/infrastructure/ti/opensource/cloud%20computing/2015/04/08/pocketstack/</url>
       <content type="text"><![CDATA[On April 08, 2015:  I participated in the WMoDCS 2015.1 with the presentation PocketStack: Uma Plataforma de Alta Disponibilidade para Nuvens Privadas, at Recife-PE, Brazil.]]></content>
       <categories>
         
@@ -457,7 +478,7 @@
   
     <entry>
       <title><![CDATA[Utilização de hardware legado para o ensino de CAD]]></title>
-      <url>/cad/virtualbox/infrastructure/ti/papers/2014/12/01/ensino-cad/</url>
+      <url>/about/cad/virtualbox/infrastructure/ti/papers/2014/12/01/ensino-cad/</url>
       <content type="text"><![CDATA[Resumo: Computação de Alto Desempenho (CAD) é um tema atual e que demanda por uma infraestrutura adequada para seu ensino em cursos de graduação. Entretanto, nem todas as instituições de ensino têm recursos financeiros para proporcionar estruturas computacionais dedicadas exclusivamente ao ensino de tópicos de CAD. Neste trabalho, é apresentada uma infraestrutura para o auxílio no ensino de CAD construída com a utilização de computadores destinados ao descarte. O uso de tais computadores destinados originalmente ao descarte colaborou também na transmissão de princípios de TI Verde.Details in this link.]]></content>
       <categories>
         

@@ -1,42 +1,44 @@
 ---
 layout: page
 type: about
-title: "About"
+title: "Hi, I'm Felipe Dias."
 ref: about
 permalink: /about/
 layout: page
-excerpt: Hello folks, I'm student of computer science from Pernambuco, Brazil. This blog is for documentation about my research journey,  programming and related.
+excerpt: Hello folks, I'm student of computer science from Pernambuco, Brazil. This blog is for documentation about my research journey, programming and related.
 comments: false
 ---
 <br/>
 <!-- <div class="img-profile"> -->
 
-![Avatar](/assets/images/avatar.jpg){:class="img-profile"}
+
 
 {% assign start_year = 2016 %}
 {% assign current_year = site.time | date: '%Y' %}
 {% assign years_of_experience = current_year | minus: start_year %}
 
 <!-- </div> -->
-Hi, I'm Felipe Dias, a computer science professional from Pernambuco, Brazil, with over {{ years_of_experience }} years of experience in software development. I earned my Master of Science in Computer Science in March 2023 from the Informatics Center at the Federal University of Pernambuco ([Cin UFPE](https://www.cin.ufpe.br)). I also hold a Bachelor of Science in Computer Science from the Federal Rural University of Pernambuco ([UFRPE](http://www.ufrpe.br/)).
+![Avatar](/assets/images/avatar.jpg){:class="img-profile" style="float: left"}
+I am a Senior Software Engineer and Computer Scientist with over {{ years_of_experience }} years of hands-on experience architecting and developing robust software solutions. My academic foundation, a Master of Science from the prestigious Informatics Center at the Federal University of Pernambuco (CIn-UFPE), is rooted in a deep exploration of distributed systems, which I apply daily to solve real-world engineering challenges.
 
-My work focuses on distributed systems, particularly in cloud, fog, and edge computing. I’ve been a member of the Modeling of Distributed and Concurrent Systems ([MoDCS](http://www.modcs.org/)) research group, where I contributed to the development and maintenance of the [Mercury Modeling Tool](http://www.modcs.org/?p=2264).
+My professional focus lies at the intersection of theory and practice in distributed systems, specifically across cloud, fog, and edge computing. As a contributor to the Modeling of Distributed and Concurrent Systems (MoDCS) research group, I didn't just study systems; I helped maintain the Mercury Modeling Tool, a platform that puts complex performance and dependability theories into practice.
 
-During my academic journey, I was part of the UNAME Research Group, where I explored high-performance computing and performance evaluation. I’ve shared my findings at national and international conferences and published in recognized journals.
+This passion for performance was ignited during my time with the UNAME Research Group, where I delved into High-Performance Computing (HPC) and performance evaluation. My research has been shared at international conferences and published in respected journals, always with the goal of bridging the gap between academic discovery and industrial application.
 
-Outside academia, I’ve worked on practical projects like [Vô na Feira](http://app.uag.ufrpe.br/vonafeira/), a platform that helps local family farmers market their produce.
+Beyond formal research, I apply my skills to projects with tangible community impact, such as "Vô na Feira", a platform I helped develop to empower local family farmers by connecting them directly with their market.
 
-I have experience in Linux systems administration and programming in C, R, Python, Java, and PHP. I also develop Android applications and enjoy exploring emerging technologies.
+My technical toolkit is broad, with deep expertise in Linux systems administration and proficiency across languages including Java, Python, Go, and C. I also develop high-quality Android applications and am constantly exploring emerging technologies to stay at the forefront of the industry.
 
-My research interests include:
-- Performance and dependability evaluation
-- High-performance computing
-- Virtualization techniques
-- Internet of Things
-- Stochastic Petri nets
-- Analytical modeling
+My core research and professional interests remain centered on the challenges of modern computing:
 
-I use my blog to share my research, programming experiences, and thoughts on related topics. It’s a space for collaboration and exchanging ideas with the tech community.
+- Performance and Dependability Evaluation
+- High-Performance Computing & Cloud-Native Systems
+- Virtualization and Containerization (Docker, Kubernetes)
+- Internet of Things (IoT) Architecture
+- Stochastic Petri Nets & Analytical Modeling
+- Data Intensive applications
+
+This blog is where I share insights from my research, solutions to complex programming problems, and my perspective on the ever-evolving world of technology. It is my space to collaborate with and contribute to our global tech community.
 
 #### Useful Links
 

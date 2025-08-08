@@ -10,7 +10,7 @@ $shadow: 0 13px 26px rgba(#000, .2), 0 3px 6px rgba(#000, .2);
 .img-profile {
     float: none;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 5%;
     margin-bottom: 1.5em;
     display: block;
     border-radius: 5%;
@@ -23,6 +23,7 @@ $shadow: 0 13px 26px rgba(#000, .2), 0 3px 6px rgba(#000, .2);
    
     .img-profile {
         margin: auto;
+        margin-right: 5%;
         float: none;
         display: block;
     }
