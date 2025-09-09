@@ -15,7 +15,7 @@
   box-sizing: border-box;
   width: 240px;
   color: $text-color;
-  background: white;
+  background: $black-deep;
   box-shadow: $box-shadow;
   border-radius: $border-radius;
 
@@ -35,9 +35,9 @@
 }
 
 .sidebar a {
-  color: $black-light;
+  color: $whitesmoke;
 
-  &:hover { color: $black-deep; }
+  &:hover { color: $grey; }
 }
 
 .links-of-author-item {
@@ -79,7 +79,7 @@
 
     &:hover {
       border-radius: 4px;
-      background: $gainsboro;
+      background: $grey-light;
     }
   }
 

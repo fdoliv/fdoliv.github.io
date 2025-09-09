@@ -1,6 +1,6 @@
 // Header
 // --------------------------------------------------
-.header { background: $whitesmoke; }
+.header { background: $black-deep; }
 .header-inner {
   padding: 25px 0 20px;
   @include clearfix();
@@ -33,6 +33,7 @@
   .site-title {
     font-size: 22px;
     font-weight: bolder;
+    color: $whitesmoke;
 
     @include mobile() { line-height: 34px; }
   }

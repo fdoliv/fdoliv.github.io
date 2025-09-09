@@ -24,10 +24,14 @@
     line-height: inherit;
     transition-property: background-color;
     @include the-transition();
+    color: #E0E0E0;
+    background: #121212;
+    border-bottom: 1px solid #444444;
 
     @at-root %menu-a-hover1 {
-      background: #f9f9f9;
-      border-bottom-color: white;
+      background: #888888;
+      border-bottom-color: #444444;
+      color: #121212;
     }
     &:hover {
       @extend %menu-a-hover1;
@@ -40,6 +44,8 @@
 .menu-item-active a {
   @extend %menu-a-hover;
   @extend %menu-a-hover1;
+  font-weight: bold;
+  color: #E0E0E0;
 
   &:after {
     content: " ";
@@ -50,12 +56,12 @@
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background-color: $grey;
+    background-color: #888888;
   }
 }
 
 .btn-bar {
-  background-color: white;
+  background-color: #444444;
 }
 
 .site-nav-toggle {
