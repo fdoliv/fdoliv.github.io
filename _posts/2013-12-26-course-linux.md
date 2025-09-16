@@ -5,8 +5,6 @@ date: 2019-10-26 22:46:49
 categories:
 - Linux
 - Infrastructure
-- TI
-- OpenSource
 - Course
 ---
 

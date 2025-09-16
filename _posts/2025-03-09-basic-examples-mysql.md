@@ -1,6 +1,6 @@
 ---
 title: Basic Examples with SELECT in MySQL
-description: Learn how to use the SELECT command in MySQL, perform basic operations, and manipulate data.
+
 categories:
  - tutorial
  - sql

@@ -5,7 +5,7 @@ title: "Impactos da IoT na Avicultura: um Mapeamento Sistemático"
 date: 2019-11-14 23:30:09
 categories:
 -  IoT
--  Poultry
+-  Dependability
 -  Automation
 -  Papers 
 ---

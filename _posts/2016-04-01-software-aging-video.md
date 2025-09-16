@@ -4,8 +4,7 @@ title: Software Aging Issues in Streaming Video Player
 
 date: 2016-04-05 23:30:09
 categories:
--  client-side
--  dependability
+-  Dependability
 -  QoS 
 -  Papers
 -  Aging

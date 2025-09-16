@@ -3,10 +3,8 @@ title: Utilização de hardware legado para o ensino de CAD
 
 date: 2014-12-01 23:30:09
 categories:
-- CAD
-- VirtualBox
+- HPC
 - Infrastructure
-- TI
 - Papers
 ---
 

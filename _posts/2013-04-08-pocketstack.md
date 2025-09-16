@@ -4,7 +4,6 @@ title: "PocketStack: Uma Plataforma de Alta Disponibilidade para Nuvens Privadas
 date: 2015-04-08 22:46:49
 categories:
 - Infrastructure
-- TI
 - OpenSource
 - Cloud computing
 ---
