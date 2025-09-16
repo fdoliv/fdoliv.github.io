@@ -19,7 +19,7 @@ comments: false
 
 <!-- </div> -->
 ![Avatar](/assets/images/avatar.jpg){:class="img-profile" style="float: left"}
-I am a Senior Software Engineer and Computer Scientist with over {{ years_of_experience }} years of hands-on experience architecting and developing robust software solutions. My academic foundation, a Master of Science from the prestigious Informatics Center at the Federal University of Pernambuco (CIn-UFPE), is rooted in a deep exploration of distributed systems, which I apply daily to solve real-world engineering challenges.
+I am a Software Developer and Computer Scientist with over {{ years_of_experience }} years of hands-on experience architecting and developing robust software solutions. My academic foundation, a Master of Science from the prestigious Informatics Center at the Federal University of Pernambuco (CIn-UFPE), is rooted in a deep exploration of distributed systems, which I apply daily to solve real-world engineering challenges.
 
 My professional focus lies at the intersection of theory and practice in distributed systems, specifically across cloud, fog, and edge computing. As a contributor to the Modeling of Distributed and Concurrent Systems ([MoDCS](https://www.modcs.org/){:target="_blank"}) research group, I didn't just study systems; I helped maintain the [Mercury Modeling Tool](https://www.modcs.org/?page_id=2392){:target="_blank"}, a platform that puts complex performance and dependability theories into practice.
 
