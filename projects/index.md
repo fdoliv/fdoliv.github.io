@@ -81,3 +81,13 @@ comments: false
     <a href="https://github.com/fdoliv/memleak" class="btn" target="blank">Github</a>  
     </div>
 </div>
+<br/>
+<div class="card java">
+  <img src="/assets/images/crawler.png" alt="Project" style="width:100%">
+  <div class="container">
+    <h4><b>Web Crawler API</b></h4>
+    <p>Web Crawler API is a Java-based HTTP service that searches for a given term across multiple pages of a website. It returns a list of URLs where the term appears.</p>
+    <!-- <hr> -->
+    <a href="https://github.com/fdoliv/web-crawler-api" class="btn" target="blank">Read more</a>  
+    </div>
+</div>
